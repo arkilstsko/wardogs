@@ -261,23 +261,63 @@
     "buttons": [
       {
         "id": "7:28",
-        "name": "State=Default"
+        "tone": "Primary",
+        "state": "Default"
       },
       {
         "id": "7:30",
-        "name": "State=Hover"
+        "tone": "Primary",
+        "state": "Hover"
       },
       {
         "id": "7:32",
-        "name": "State=Focus"
+        "tone": "Primary",
+        "state": "Focus"
+      },
+      {
+        "id": "43:6",
+        "tone": "Primary",
+        "state": "Pressed"
       },
       {
         "id": "7:34",
-        "name": "State=Disabled"
+        "tone": "Primary",
+        "state": "Disabled"
       },
       {
         "id": "7:36",
-        "name": "State=Loading"
+        "tone": "Primary",
+        "state": "Loading"
+      },
+      {
+        "id": "43:8",
+        "tone": "Secondary",
+        "state": "Default"
+      },
+      {
+        "id": "43:10",
+        "tone": "Secondary",
+        "state": "Hover"
+      },
+      {
+        "id": "43:12",
+        "tone": "Secondary",
+        "state": "Focus"
+      },
+      {
+        "id": "43:14",
+        "tone": "Secondary",
+        "state": "Pressed"
+      },
+      {
+        "id": "43:16",
+        "tone": "Secondary",
+        "state": "Disabled"
+      },
+      {
+        "id": "43:18",
+        "tone": "Secondary",
+        "state": "Loading"
       }
     ],
     "houses": [
@@ -421,6 +461,96 @@
       "7:59",
       "7:78",
       "7:106"
+    ],
+    "phosphorIcons": [
+      {
+        "name": "globe-hemisphere-west",
+        "id": "42:2"
+      },
+      {
+        "name": "user-rectangle",
+        "id": "42:6"
+      },
+      {
+        "name": "buildings",
+        "id": "42:10"
+      },
+      {
+        "name": "package",
+        "id": "42:14"
+      },
+      {
+        "name": "boat",
+        "id": "42:18"
+      },
+      {
+        "name": "handshake",
+        "id": "42:22"
+      },
+      {
+        "name": "scroll",
+        "id": "42:26"
+      },
+      {
+        "name": "newspaper",
+        "id": "42:30"
+      },
+      {
+        "name": "fire",
+        "id": "42:34"
+      },
+      {
+        "name": "detective",
+        "id": "42:38"
+      },
+      {
+        "name": "target",
+        "id": "42:42"
+      },
+      {
+        "name": "seal-check",
+        "id": "42:46"
+      },
+      {
+        "name": "first-aid-kit",
+        "id": "42:50"
+      },
+      {
+        "name": "radio",
+        "id": "42:54"
+      },
+      {
+        "name": "truck",
+        "id": "42:58"
+      },
+      {
+        "name": "arrow-right",
+        "id": "42:62"
+      },
+      {
+        "name": "gear-six",
+        "id": "42:66"
+      },
+      {
+        "name": "floppy-disk",
+        "id": "42:70"
+      },
+      {
+        "name": "book-open",
+        "id": "42:74"
+      },
+      {
+        "name": "x",
+        "id": "42:78"
+      },
+      {
+        "name": "magnifying-glass",
+        "id": "42:82"
+      },
+      {
+        "name": "coins",
+        "id": "42:86"
+      }
     ]
   },
   "screenStates": [
@@ -725,5 +855,49 @@
   ],
   "equipmentAnnex": "27:185",
   "cardOverview": "29:517",
-  "handoff": "31:2"
+  "handoff": "31:2",
+  "review": {
+    "page": "44:310",
+    "notes": "57:2",
+    "iconProof": "57:17"
+  },
+  "icons": {
+    "active": "phosphor-symbols.svg",
+    "license": "LICENSE-Phosphor.txt",
+    "legacy": "dogs-of-war-symbols.svg"
+  },
+  "archivePreviewNodes": [
+    {
+      "replaces": "11:432",
+      "id": "53:1087"
+    },
+    {
+      "replaces": "11:457",
+      "id": "53:1114"
+    },
+    {
+      "replaces": "11:482",
+      "id": "53:1140"
+    },
+    {
+      "replaces": "11:507",
+      "id": "53:1166"
+    },
+    {
+      "replaces": "18:274",
+      "id": "53:1192"
+    },
+    {
+      "replaces": "18:275",
+      "id": "53:1219"
+    },
+    {
+      "replaces": "18:276",
+      "id": "53:1245"
+    },
+    {
+      "replaces": "18:277",
+      "id": "53:1271"
+    }
+  ]
 }
