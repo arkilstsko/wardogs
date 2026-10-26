@@ -2,12 +2,17 @@ name: CI
 on: [push, pull_request]
 permissions:
   contents: read
+concurrency:
+  group: ci-${{ github.event.pull_request.head.sha || github.sha }}
+  cancel-in-progress: true
 jobs:
   checks:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+      - name: Start fresh run evidence
+        run: rm -f docs/production/unit-results.json docs/production/e2e-results.json
       - uses: actions/setup-node@v4
         with:
           node-version: 24
@@ -15,15 +20,23 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
-      - run: npm test
+      - run: npm test -- --reporter=default --reporter=json --outputFile=docs/production/unit-results.json
       - run: npm audit --audit-level=moderate
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - run: npm run e2e
-      - uses: actions/upload-artifact@v4
+      - name: Publish verification summary without artifact storage
         if: always()
+        run: node tools/ci-summary.mjs >> "$GITHUB_STEP_SUMMARY"
+        env:
+          UPLOAD_VERIFICATION_ARTIFACTS: ${{ vars.UPLOAD_VERIFICATION_ARTIFACTS }}
+      - uses: actions/upload-artifact@v4
+        name: Upload debug archive (opt-in)
+        if: always() && vars.UPLOAD_VERIFICATION_ARTIFACTS == 'true'
         with:
           name: verification-evidence
+          retention-days: 1
           path: |
             docs/production/*results.json
             docs/production/*.png
+            docs/audits/evidence/current-*.png

@@ -49,6 +49,10 @@ Portrait/equipment image upload to Figma is blocked by proxy403 at `mcp.figma.co
 
 Actual current screenshots: [1440 table](../audits/evidence/current-table-1440.png), [1920 table](../audits/evidence/current-table-1920.png), [1366 table](../audits/evidence/current-table-1366.png), [equipment inspection](../audits/evidence/current-equipment-1440.png), [country dossier](../audits/evidence/current-country-1440.png). Baseline images remain separately preserved.
 
+## Remote engineering run
+
+The initial PR3 head `b091a985b80bc232c84423a37ced5608f96f0848` also passed install, lint, typecheck,155 tests, dependency audit, build and all5 Chromium flows on GitHub. Workflow40310214117 failed only when the account artifact-storage quota rejected its evidence archive. See [the precise cause and reporting correction](PR3-CI-STORAGE.md). Functional test gates remain hard failures; a text job summary avoids paid storage, and optional ZIP uploads require an explicit repository variable. This does not clear the separate commercial-release gates.
+
 ## Downloadable local game
 
 `tools/export-standalone.mjs` now embeds all five portrait sheets, equipment art and local fonts in a single~33.6MB HTML file. The exact export was opened over localHTTP in Chromium: title→setup→table→country selection→portrait decode succeeded, with no page errors and no external requests. See `offline-export-evidence.json`. The managed browser blocks the file scheme, so direct file:// operation is not claimed verified. This export is a local review build, not public hosting or a commercial release.
