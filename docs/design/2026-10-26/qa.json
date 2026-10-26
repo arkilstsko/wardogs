@@ -1,0 +1,114 @@
+{
+  "pages": [
+    {
+      "id": "5:2",
+      "roots": 17
+    },
+    {
+      "id": "5:3",
+      "roots": 44
+    },
+    {
+      "id": "5:4",
+      "roots": 2
+    },
+    {
+      "id": "5:5",
+      "roots": 34
+    },
+    {
+      "id": "5:6",
+      "roots": 9
+    },
+    {
+      "id": "5:7",
+      "roots": 1
+    }
+  ],
+  "overflow": [],
+  "textLayers": 1070,
+  "components": 96,
+  "instances": 166,
+  "mapVectors": 200,
+  "variables": 14,
+  "styles": 13,
+  "date": "2026-10-26",
+  "viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "screenCount": 36,
+  "cardFamilies": 12,
+  "leaderPortraits": 15,
+  "originalNewIllustrations": 26,
+  "contrasts": [
+    {
+      "foreground": "paper",
+      "background": "ink",
+      "ratio": 13.38
+    },
+    {
+      "foreground": "gold",
+      "background": "ink",
+      "ratio": 7.39
+    },
+    {
+      "foreground": "paper",
+      "background": "felt",
+      "ratio": 10.72
+    },
+    {
+      "foreground": "muted",
+      "background": "felt",
+      "ratio": 7.13
+    },
+    {
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 13.38
+    },
+    {
+      "foreground": "ink",
+      "background": "gold",
+      "ratio": 7.39
+    },
+    {
+      "foreground": "red",
+      "background": "paper",
+      "ratio": 4.89
+    },
+    {
+      "foreground": "green",
+      "background": "felt",
+      "ratio": 5.45
+    }
+  ],
+  "method": "Figma auto-layout visible child sum plus padding and gap; primary and cross axis tolerance 1px. Does not prove absence of every absolute-position overlap.",
+  "visualReview": [
+    "World tables 1920 and 1440",
+    "Card family overview and supply front",
+    "All 15 portraits in combined overview",
+    "Box cover",
+    "Consortium five-party sheet",
+    "Rulebook page 2"
+  ],
+  "notVerified": [
+    "All static screen content against every engine branch",
+    "Runtime keyboard and screen reader access",
+    "Responsive behavior between reference viewports",
+    "Printer proof, CMYK conversion and die lines",
+    "Authoritative political boundary policy and original map license"
+  ],
+  "rulebookTextPreserved": true,
+  "rulebookLastPage": {
+    "id": "35:224",
+    "used": 1207,
+    "available": 1210
+  }
+}
