@@ -12,7 +12,7 @@
 Før: dominerende flade paneler, brede liggende varefelter og kun bogstavkoder i Europa. Det lignede en browsergrænseflade med kort i midten.
 Nu: stående håndkort, afdæmpede materialelag, papirkort for husene og markedet, genkendelige varesymboler, fulde europæiske landenavne og 52×44 landevalg uden ændring af geografiens vektorer.
 
-Et centralt problem står tilbage: referencepladen viser ikke en komplet, verificeret session i gang. Modstanderes offentlige penge, gæld, prestige, efterforskning, reservationer og relevante relationer skal kunne findes uden at spilleren mister overblikket. De viste starttal skal ikke læses som en deterministisk engine-snapshot efter indkomstfasen. Der mangler også et gennemprøvet flow mellem plade, udbud, reservation og levering.
+Et centralt problem står tilbage: referencepladen viser ikke en komplet, verificeret session i gang. Modstanderes offentlige penge, gæld, prestige, efterforskning, reservationer og relevante relationer skal kunne findes uden at spilleren mister overblikket. Den seneste systemsrunde har rettet eget lager, kasse og Italien-udbud til en navngivet deterministisk reference. En separat rundebog viser fem huses offentlige kildeværdier. Ikke alle ældre skærme er konverteret til samme øjeblik. Der mangler også et gennemprøvet flow mellem plade, udbud, reservation og levering.
 
 *Screenshot i den lokale review-pakke: Pladen før.*
 *Screenshot i den lokale review-pakke: Pladen efter, 1440×900.*
@@ -89,3 +89,12 @@ Deres grafik er ikke kopieret eller inkluderet i assetpakken.
 - Der er ikke gennemført et kørende spil, brugertest, fuld tilgængelighedstest eller trykprøve.
 
 Prioritet før endelig implementering: sammenhængende art direction → gennemarbejdet session i gang og offentligt overblik → kortfamiliernes særskilte hierarki → hele forhandlings-/leveringsflowet → endelig navne- og illustrationsredaktion.
+
+
+## Opdatering: fragt, runder og scenarier
+
+Side 08 tilføjer 14 viewport-rammer, 16 komponenter og en kildeafstemt oversigt over 36 spilområder. Fragtens klar/blokeret/leveret/frist-overskredet visninger bygger på faktiske engine-kommandoer med seed 20261031. Fem tilstande bestod invariants og identisk replay; afvist transport ændrede ikke staten.
+
+Otte rundereferencer og seks begivenhedskort følger de eksisterende faser og effekter. Begivenheder kan gentages. Grundspillet har for- og bagside, og scenarievalget markerer manglende scenarieregler. Fragt udføres som handling; fase 05 er frister og kontrol. Ruter, rejsetid, forsikring og flere scenarier er fortsat uafklarede mekanikker.
+
+Layout og nærmeste ensfarvede tekstbaggrund bestod den målte kontrol efter rettelser. Der er otte nye navigationsforbindelser; prototypen er stadig begrænset. SYSTEMS-COVERAGE.md og 72:411 viser både leverancer og mangler. Den samlede kommercielle kvalitetsvurdering er fortsat ikke godkendt.

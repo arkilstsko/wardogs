@@ -1,33 +1,57 @@
 {
   "pages": [
     {
-      "id": "5:2",
-      "roots": 17
+      "page": "5:2",
+      "roots": 39,
+      "components": 66,
+      "instances": 12
     },
     {
-      "id": "5:3",
-      "roots": 44
+      "page": "5:3",
+      "roots": 44,
+      "components": 54,
+      "instances": 63
     },
     {
-      "id": "5:4",
-      "roots": 2
+      "page": "5:4",
+      "roots": 2,
+      "components": 0,
+      "instances": 24
     },
     {
-      "id": "5:5",
-      "roots": 34
+      "page": "5:5",
+      "roots": 34,
+      "components": 0,
+      "instances": 78
     },
     {
-      "id": "5:6",
-      "roots": 9
+      "page": "5:6",
+      "roots": 14,
+      "components": 5,
+      "instances": 69
     },
     {
-      "id": "5:7",
-      "roots": 1
+      "page": "5:7",
+      "roots": 1,
+      "components": 0,
+      "instances": 0
+    },
+    {
+      "page": "44:310",
+      "roots": 4,
+      "components": 0,
+      "instances": 66
+    },
+    {
+      "page": "64:2",
+      "roots": 20,
+      "components": 16,
+      "instances": 73
     }
   ],
   "overflow": [],
   "mapVectors": 200,
-  "variables": 14,
+  "variables": 19,
   "styles": 13,
   "date": "2026-10-26",
   "viewports": [
@@ -40,7 +64,7 @@
       900
     ]
   ],
-  "screenCount": 36,
+  "screenCount": 50,
   "cardFamilies": 12,
   "leaderPortraits": 15,
   "originalNewIllustrations": 26,
@@ -352,8 +376,8 @@
       }
     ],
     "styles": 13,
-    "components": 125,
-    "instances": 308,
+    "components": 141,
+    "instances": 385,
     "issues": [],
     "materialPlacementIssues": [],
     "pixelPerfectClaim": false,
@@ -367,6 +391,126 @@
       "04-portraits-before.png",
       "05-consortium-before.png",
       "07-icon-proof.png"
+    ]
+  },
+  "systems": {
+    "date": "2026-10-26",
+    "page": "64:2",
+    "coverageAspects": 36,
+    "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449",
+    "components": 16,
+    "instances": 73,
+    "viewportFrames": 14,
+    "viewports": [
+      [
+        1920,
+        1080
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "overflow": [],
+    "nearestSolidBackgroundContrastFailures": [],
+    "contrastMethod": "Nearest solid parent; 4.5 normal / 3 large. Does not evaluate every image overlay or absolute overlap.",
+    "invariantAndReplayChecks": {
+      "invariantsPassed": true,
+      "replayExact": true,
+      "blockedAttemptPreservesState": true
+    },
+    "prototypeNavigationLinks": 8,
+    "hoverReactionsPreserved": true,
+    "prototypeRuntimeVerified": false,
+    "mainTablesChangedToNamedNegotiationFixture": true,
+    "captures": [
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "67:1406",
+        "name": "freight-ready-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "67:1484",
+        "name": "freight-blocked-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "68:155",
+        "name": "round-overview-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "68:226",
+        "name": "scenario-selection-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "69:125",
+        "name": "round-event-1440.png"
+      },
+      {
+        "width": 2380,
+        "height": 1120,
+        "format": "png",
+        "original_width": 2380,
+        "original_height": 1120,
+        "nodeId": "69:169",
+        "name": "events-round-cards.png"
+      },
+      {
+        "width": 1500,
+        "height": 2570,
+        "format": "png",
+        "original_width": 1500,
+        "original_height": 2570,
+        "nodeId": "72:411",
+        "name": "whole-game-coverage.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "format": "png",
+        "original_width": 1920,
+        "original_height": 1080,
+        "nodeId": "8:2",
+        "name": "board-1920-preview.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "8:512",
+        "name": "board-1440-preview.png"
+      }
+    ],
+    "notVerified": [
+      "All 14 new frames individually pixel-inspected",
+      "All older screen data against this fixture",
+      "Full multiplayer and runtime accessibility",
+      "Additional scenario rules, travel routes and freight rates"
     ]
   }
 }

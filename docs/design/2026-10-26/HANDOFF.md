@@ -5,7 +5,7 @@ Status: substantial editable design delivery, not an approved production release
 ## Open the actual design
 
 [Existing Figma file](https://www.figma.com/design/xt8J8b4flEVpe1tAX36I6w/Dogs-of-War?node-id=31-2).
-Original World map and Stitch pages are preserved. New pages 01–06 contain the authored system.
+Original World map and Stitch pages are preserved. New pages 01–08 contain the authored system and its quality/source coverage reviews.
 
 | Area | Figma nodes |
 |---|---|
@@ -31,7 +31,7 @@ No game code is changed by this handoff. All changes in this branch relative to 
 
 Keep the engine's IDs, values and validation authoritative. Do not extract numerical game rules from screenshots.
 The three implemented goods are medical, communications and vehicles. Phases are world, income, negotiation, actions, delivery and scoring. Fictional leaders are visual identities with no invented personal abilities.
-Start displays use the source's sample setup; actual values must come from session state.
+The current main tables use the named negotiation reference fixture; actual values must still come from session state. The new round ledger uses its ready continuation. See SYSTEMS-COVERAGE.md and ENGINE-REFERENCE-FIXTURE.json.
 
 Consortium design represents draft, awaiting signatures and signed states, including two and five parties. Revenue shares and liability shares each total 100%. A draft reserves nothing. Final signature must revalidate and reserve/charge atomically according to the existing engine; a visual signature is not a successful transaction.
 Sealed bid, reservation conflict, sanctions and investigation restrictions must keep their existing validation.
@@ -39,7 +39,7 @@ Sealed bid, reservation conflict, sanctions and investigation restrictions must 
 ## Art direction and reusable system
 
 Deep teal felt, warm parchment, brass edges, engraved symbols and painted cabinet/harbor imagery. Typography: Barlow Condensed Bold for display, Inter for operational labels, Source Serif 4 for editorial card prose. Use the Figma variables/styles and `design-tokens.json`.
-125 components, 308 instances, 15 color variables, 4 dimension variables and 13 text styles were counted at verification. 12 families have editable fronts and backs. Text remains real text. Country borders and the symbol set remain vectors. Paintings remain raster image layers.
+141 components, 385 instances, 15 color variables, 4 dimension variables and 13 text styles were counted at verification. 12 families have editable fronts and backs. Text remains real text. Country borders and the symbol set remain vectors. Paintings remain raster image layers.
 
 26 newly generated original illustrations: 15 fictional portraits, ten card scenes and the box cover. This is not artwork copied from the reference games.
 The source Stitch art is retained only in the source page and explicitly unresolved equipment annex. Verify its rights before external release.
@@ -62,7 +62,7 @@ Natural Earth is an independently researched valid fallback: [admin-0 countries]
 7. Verify keyboard flow, hidden-information privacy, reduced motion, contrast, image delivery and save/load behavior.
 8. Run the existing repo tests and compare visual screenshots at both reference viewports. Test 2 and 5 players, full/empty inventories, long localized labels, blocked delivery, failed last signature, and loading/error recovery.
 
-The 36 screens include the two main tables and 34 supporting state frames. Twelve prototype links demonstrate selected navigation only. This is not a fully interactive game.
+The 50 viewport frames include two main tables, 34 earlier supporting states and 14 systems frames. Twenty selected navigation links are configured across the original and systems pages. This is not a fully interactive game.
 The final-scoring screen specifies the source scoring formula; a complete populated results table still requires implementation design refinement.
 
 ## Asset delivery
@@ -105,8 +105,19 @@ Use a printer's actual templates before describing exports as print ready. The c
 
 ## Critical visual review and quality pass
 
-See `VISUAL-REVIEW.md` and Figma review nodes 57:2 / 57:17. The review explicitly does not sign off the complete premium game. The portrait series repeats poses and settings; final art direction, distinctive house identities and a complete authoritative in-progress state remain open.
+See `VISUAL-REVIEW.md` and Figma review nodes 57:2 / 57:17. The review explicitly does not sign off the complete premium game. The portrait series repeats poses and settings; final art direction, distinctive house identities and a binding every view to one authoritative session state remain open.
 
 The current board has portrait-shaped hand cards, restrained material layers, full European country names and clearer commodity icons. Actions now have Primary/Secondary tones × six states including Pressed and explicit Focus. Body copy on full 315×440 card masters is 16px. Upstream SVG paths and license are supplied. Two additional generated material textures are documented in `asset-provenance.json`; original prompts are in the local review package.
 
 Do not treat static Figma button states or configured prototype reactions as tested runtime behavior. Do not carry the displayed initial reference values directly into an in-progress game. Bind actual engine state and preserve all existing command validation.
+
+
+## Whole-game systems coverage update
+
+See SYSTEMS-COVERAGE.md / .json and ENGINE-REFERENCE-FIXTURE.json. Page 08 (64:2) adds four source-verified freight states at both sizes, eight round-reference variants, six source event fronts, standard-game front/back, a gated scenario selector, public five-player ledger and event receipts. Coverage frame 72:411 records 36 areas and remaining gaps. Full node IDs are in the systems section of the manifest.
+
+Actual delivery uses an action in phase `actions`; code phase `delivery` is visually labeled Frister & kontrol and handles deadlines/investigation. Event effects may repeat. Further scenarios, routes, journey time, freight tariffs, customs and insurance have no approved rules in PR #2. Do not invent them in implementation.
+
+The five stored states passed engine invariants and exact replay. A sanctioned transport rejection preserved state. New-page auto-layout and nearest-solid-background text contrast checks passed after fixes. This is bounded design verification; full multiplayer, accessibility, all older screen data, complete card decks, house/portrait direction and print production remain open.
+
+Implementation sequence addition: after bidding/consortia, bind reserved/free resources and freight settlement; then round/event history, deadlines and full scoring; then setup/scenario gates, recovery and online/privacy QA. See the systems document for details.

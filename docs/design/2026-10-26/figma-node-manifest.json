@@ -7,7 +7,9 @@
     "table": "5:4",
     "screens": "5:5",
     "physical": "5:6",
-    "handoff": "5:7"
+    "handoff": "5:7",
+    "review": "44:310",
+    "systems": "64:2"
   },
   "table": [
     "8:2",
@@ -795,6 +797,46 @@
       "from": "11:97",
       "to": "11:102",
       "label": "Accepter aftale"
+    },
+    {
+      "from": "68:124",
+      "to": "67:1367",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "68:222",
+      "to": "67:1406",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "67:1401",
+      "to": "67:1523",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "67:1440",
+      "to": "67:1562",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "68:126",
+      "to": "69:81",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "68:224",
+      "to": "69:125",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "69:123",
+      "to": "68:57",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "69:167",
+      "to": "68:155",
+      "label": "Systems navigation; see source and target"
     }
   ],
   "fiveParty": [
@@ -899,5 +941,470 @@
       "replaces": "18:277",
       "id": "53:1271"
     }
-  ]
+  ],
+  "systems": {
+    "page": "64:2",
+    "scope": "65:2",
+    "coverage": "72:411",
+    "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449",
+    "cards": {
+      "events": [
+        {
+          "event": "open-ports",
+          "id": "66:2"
+        },
+        {
+          "event": "supply-shock",
+          "id": "66:36"
+        },
+        {
+          "event": "public-scrutiny",
+          "id": "66:70"
+        },
+        {
+          "event": "relief-window",
+          "id": "66:104"
+        },
+        {
+          "event": "quiet-diplomacy",
+          "id": "66:138"
+        },
+        {
+          "event": "credit-tightens",
+          "id": "66:172"
+        }
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "id": "66:206"
+        },
+        {
+          "round": 2,
+          "id": "66:218"
+        },
+        {
+          "round": 3,
+          "id": "66:230"
+        },
+        {
+          "round": 4,
+          "id": "66:242"
+        },
+        {
+          "round": 5,
+          "id": "66:254"
+        },
+        {
+          "round": 6,
+          "id": "66:266"
+        },
+        {
+          "round": 7,
+          "id": "66:278"
+        },
+        {
+          "round": 8,
+          "id": "66:290"
+        }
+      ],
+      "scenario": [
+        {
+          "side": "Front",
+          "id": "66:302"
+        },
+        {
+          "side": "Back",
+          "id": "66:312"
+        }
+      ]
+    },
+    "sets": [
+      {
+        "id": "67:41",
+        "name": "DOW / World event reference"
+      },
+      {
+        "id": "67:42",
+        "name": "DOW / Round reference"
+      },
+      {
+        "id": "67:43",
+        "name": "DOW / Standard scenario"
+      }
+    ],
+    "freight": [
+      {
+        "state": "ready",
+        "w": 1920,
+        "h": 1080,
+        "id": "67:1367",
+        "primary": "67:1401",
+        "secondary": "67:1403"
+      },
+      {
+        "state": "ready",
+        "w": 1440,
+        "h": 900,
+        "id": "67:1406",
+        "primary": "67:1440",
+        "secondary": "67:1442"
+      },
+      {
+        "state": "blocked",
+        "w": 1920,
+        "h": 1080,
+        "id": "67:1445",
+        "primary": "67:1479",
+        "secondary": "67:1481"
+      },
+      {
+        "state": "blocked",
+        "w": 1440,
+        "h": 900,
+        "id": "67:1484",
+        "primary": "67:1518",
+        "secondary": "67:1520"
+      },
+      {
+        "state": "delivered",
+        "w": 1920,
+        "h": 1080,
+        "id": "67:1523",
+        "primary": "67:1557",
+        "secondary": "67:1559"
+      },
+      {
+        "state": "delivered",
+        "w": 1440,
+        "h": 900,
+        "id": "67:1562",
+        "primary": "67:1596",
+        "secondary": "67:1598"
+      },
+      {
+        "state": "failed",
+        "w": 1920,
+        "h": 1080,
+        "id": "67:1601",
+        "primary": "67:1635",
+        "secondary": "67:1637"
+      },
+      {
+        "state": "failed",
+        "w": 1440,
+        "h": 900,
+        "id": "67:1640",
+        "primary": "67:1674",
+        "secondary": "67:1676"
+      }
+    ],
+    "roundAndScenario": [
+      {
+        "type": "round",
+        "w": 1920,
+        "h": 1080,
+        "id": "68:57",
+        "primary": "68:124",
+        "event": "68:126"
+      },
+      {
+        "type": "scenario",
+        "w": 1920,
+        "h": 1080,
+        "id": "68:128",
+        "primary": "68:152"
+      },
+      {
+        "type": "round",
+        "w": 1440,
+        "h": 900,
+        "id": "68:155",
+        "primary": "68:222",
+        "event": "68:224"
+      },
+      {
+        "type": "scenario",
+        "w": 1440,
+        "h": 900,
+        "id": "68:226",
+        "primary": "68:250"
+      }
+    ],
+    "events": [
+      {
+        "id": "69:81",
+        "w": 1920,
+        "h": 1080,
+        "back": "69:123"
+      },
+      {
+        "id": "69:125",
+        "w": 1440,
+        "h": 900,
+        "back": "69:167"
+      }
+    ],
+    "cardProof": "69:169",
+    "prototype": [
+      [
+        "68:124",
+        "67:1367"
+      ],
+      [
+        "68:222",
+        "67:1406"
+      ],
+      [
+        "67:1401",
+        "67:1523"
+      ],
+      [
+        "67:1440",
+        "67:1562"
+      ],
+      [
+        "68:126",
+        "69:81"
+      ],
+      [
+        "68:224",
+        "69:125"
+      ],
+      [
+        "69:123",
+        "68:57"
+      ],
+      [
+        "69:167",
+        "68:155"
+      ]
+    ],
+    "qa": {
+      "page": "64:2",
+      "issues": [],
+      "contrastIssues": [],
+      "components": 16,
+      "instances": 73
+    },
+    "views": [
+      {
+        "id": "67:1367",
+        "name": "Freight / ready / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "67:1406",
+        "name": "Freight / ready / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "67:1445",
+        "name": "Freight / blocked / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "67:1484",
+        "name": "Freight / blocked / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "67:1523",
+        "name": "Freight / delivered / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "67:1562",
+        "name": "Freight / delivered / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "67:1601",
+        "name": "Freight / failed / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "67:1640",
+        "name": "Freight / failed / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "68:57",
+        "name": "Round overview / engine reference / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "68:128",
+        "name": "Scenario selection / current rules and gated content / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "68:155",
+        "name": "Round overview / engine reference / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "68:226",
+        "name": "Scenario selection / current rules and gated content / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "69:81",
+        "name": "Round event / quiet diplomacy / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "69:125",
+        "name": "Round event / quiet diplomacy / 1440×900",
+        "w": 1440,
+        "h": 900
+      }
+    ],
+    "counts": [
+      {
+        "page": "5:2",
+        "roots": 39,
+        "components": 66,
+        "instances": 12
+      },
+      {
+        "page": "5:3",
+        "roots": 44,
+        "components": 54,
+        "instances": 63
+      },
+      {
+        "page": "5:4",
+        "roots": 2,
+        "components": 0,
+        "instances": 24
+      },
+      {
+        "page": "5:5",
+        "roots": 34,
+        "components": 0,
+        "instances": 78
+      },
+      {
+        "page": "5:6",
+        "roots": 14,
+        "components": 5,
+        "instances": 69
+      },
+      {
+        "page": "5:7",
+        "roots": 1,
+        "components": 0,
+        "instances": 0
+      },
+      {
+        "page": "44:310",
+        "roots": 4,
+        "components": 0,
+        "instances": 66
+      },
+      {
+        "page": "64:2",
+        "roots": 20,
+        "components": 16,
+        "instances": 73
+      }
+    ],
+    "captureMetadata": [
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "67:1406",
+        "name": "freight-ready-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "67:1484",
+        "name": "freight-blocked-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "68:155",
+        "name": "round-overview-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "68:226",
+        "name": "scenario-selection-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "69:125",
+        "name": "round-event-1440.png"
+      },
+      {
+        "width": 2380,
+        "height": 1120,
+        "format": "png",
+        "original_width": 2380,
+        "original_height": 1120,
+        "nodeId": "69:169",
+        "name": "events-round-cards.png"
+      },
+      {
+        "width": 1500,
+        "height": 2570,
+        "format": "png",
+        "original_width": 1500,
+        "original_height": 2570,
+        "nodeId": "72:411",
+        "name": "whole-game-coverage.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "format": "png",
+        "original_width": 1920,
+        "original_height": 1080,
+        "nodeId": "8:2",
+        "name": "board-1920-preview.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "8:512",
+        "name": "board-1440-preview.png"
+      }
+    ]
+  }
 }

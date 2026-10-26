@@ -1,0 +1,3617 @@
+{
+  "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449",
+  "note": "Local deterministic design fixture. Generated through actual engine commands, not approved gameplay balance or a live user session.",
+  "seed": 20261031,
+  "count": 5,
+  "tender": "r1-t0",
+  "rejection": "Sanctions block transport until the next unsanctioned round.",
+  "checks": {
+    "invariantsPassed": true,
+    "replayExact": true,
+    "blockedAttemptPreservesState": true
+  },
+  "summaries": {
+    "negotiation": {
+      "round": 1,
+      "phase": "negotiation",
+      "active": "p0",
+      "event": "quiet-diplomacy",
+      "tender": {
+        "id": "r1-t0",
+        "country": "IT",
+        "good": "medical",
+        "quantity": 1,
+        "logistics": 1,
+        "relationship": 0,
+        "payout": 7,
+        "deadline": 2,
+        "legal": "legal",
+        "risk": 0,
+        "penalty": 3,
+        "prestige": 1,
+        "status": "open"
+      },
+      "player": {
+        "id": "p0",
+        "name": "Meridian & Co.",
+        "cash": 12,
+        "debt": 0,
+        "investigation": 0,
+        "reputation": 1,
+        "prestige": 0,
+        "actions": 3,
+        "inventory": {
+          "medical": 2,
+          "communications": 0,
+          "vehicles": 0
+        },
+        "logistics": 2,
+        "reservedCargo": 0,
+        "reservedLogistics": 0,
+        "freeCargo": 2
+      },
+      "country": {
+        "id": "IT",
+        "name": "Italy",
+        "stability": 3,
+        "demand": 2,
+        "leader": 0,
+        "sanctions": false,
+        "stance": "open"
+      },
+      "winner": null,
+      "commandCount": 2
+    },
+    "ready": {
+      "round": 1,
+      "phase": "actions",
+      "active": "p0",
+      "event": "quiet-diplomacy",
+      "tender": {
+        "id": "r1-t0",
+        "country": "IT",
+        "good": "medical",
+        "quantity": 1,
+        "logistics": 1,
+        "relationship": 0,
+        "payout": 7,
+        "deadline": 2,
+        "legal": "legal",
+        "risk": 0,
+        "penalty": 3,
+        "prestige": 1,
+        "status": "awarded",
+        "winner": "bid-2"
+      },
+      "player": {
+        "id": "p0",
+        "name": "Meridian & Co.",
+        "cash": 11,
+        "debt": 0,
+        "investigation": 0,
+        "reputation": 1,
+        "prestige": 0,
+        "actions": 2,
+        "inventory": {
+          "medical": 2,
+          "communications": 0,
+          "vehicles": 0
+        },
+        "logistics": 2,
+        "reservedCargo": 1,
+        "reservedLogistics": 1,
+        "freeCargo": 1
+      },
+      "country": {
+        "id": "IT",
+        "name": "Italy",
+        "stability": 3,
+        "demand": 2,
+        "leader": 0,
+        "sanctions": false,
+        "stance": "open"
+      },
+      "winner": {
+        "id": "bid-2",
+        "player": "p0",
+        "tender": "r1-t0",
+        "offer": 6,
+        "sequence": 2,
+        "pledges": [
+          {
+            "player": "p0",
+            "quantity": 1,
+            "logistics": 1,
+            "revenue": 100,
+            "liability": 100
+          }
+        ],
+        "escrow": 1
+      },
+      "commandCount": 9
+    },
+    "blocked": {
+      "round": 1,
+      "phase": "actions",
+      "active": "p0",
+      "event": "quiet-diplomacy",
+      "tender": {
+        "id": "r1-t0",
+        "country": "IT",
+        "good": "medical",
+        "quantity": 1,
+        "logistics": 1,
+        "relationship": 0,
+        "payout": 7,
+        "deadline": 2,
+        "legal": "legal",
+        "risk": 0,
+        "penalty": 3,
+        "prestige": 1,
+        "status": "awarded",
+        "winner": "bid-2"
+      },
+      "player": {
+        "id": "p0",
+        "name": "Meridian & Co.",
+        "cash": 8,
+        "debt": 0,
+        "investigation": 2,
+        "reputation": 0,
+        "prestige": 0,
+        "actions": 1,
+        "inventory": {
+          "medical": 2,
+          "communications": 0,
+          "vehicles": 0
+        },
+        "logistics": 2,
+        "reservedCargo": 1,
+        "reservedLogistics": 1,
+        "freeCargo": 1
+      },
+      "country": {
+        "id": "IT",
+        "name": "Italy",
+        "stability": 1,
+        "demand": 3,
+        "leader": 0,
+        "sanctions": true,
+        "stance": "open"
+      },
+      "winner": {
+        "id": "bid-2",
+        "player": "p0",
+        "tender": "r1-t0",
+        "offer": 6,
+        "sequence": 2,
+        "pledges": [
+          {
+            "player": "p0",
+            "quantity": 1,
+            "logistics": 1,
+            "revenue": 100,
+            "liability": 100
+          }
+        ],
+        "escrow": 1
+      },
+      "commandCount": 14
+    },
+    "delivered": {
+      "round": 1,
+      "phase": "actions",
+      "active": "p1",
+      "event": "quiet-diplomacy",
+      "tender": {
+        "id": "r1-t0",
+        "country": "IT",
+        "good": "medical",
+        "quantity": 1,
+        "logistics": 1,
+        "relationship": 0,
+        "payout": 7,
+        "deadline": 2,
+        "legal": "legal",
+        "risk": 0,
+        "penalty": 3,
+        "prestige": 1,
+        "status": "delivered",
+        "winner": "bid-2"
+      },
+      "player": {
+        "id": "p0",
+        "name": "Meridian & Co.",
+        "cash": 18,
+        "debt": 0,
+        "investigation": 0,
+        "reputation": 1,
+        "prestige": 1,
+        "actions": 1,
+        "inventory": {
+          "medical": 1,
+          "communications": 0,
+          "vehicles": 0
+        },
+        "logistics": 2,
+        "reservedCargo": 0,
+        "reservedLogistics": 0,
+        "freeCargo": 1
+      },
+      "country": {
+        "id": "IT",
+        "name": "Italy",
+        "stability": 3,
+        "demand": 2,
+        "leader": 0,
+        "sanctions": false,
+        "stance": "open"
+      },
+      "winner": {
+        "id": "bid-2",
+        "player": "p0",
+        "tender": "r1-t0",
+        "offer": 6,
+        "sequence": 2,
+        "pledges": [
+          {
+            "player": "p0",
+            "quantity": 1,
+            "logistics": 1,
+            "revenue": 100,
+            "liability": 100
+          }
+        ],
+        "escrow": 1
+      },
+      "commandCount": 10
+    },
+    "failed": {
+      "round": 2,
+      "phase": "scoring",
+      "active": "p0",
+      "event": "open-ports",
+      "tender": {
+        "id": "r1-t0",
+        "country": "IT",
+        "good": "medical",
+        "quantity": 1,
+        "logistics": 1,
+        "relationship": 0,
+        "payout": 7,
+        "deadline": 2,
+        "legal": "legal",
+        "risk": 0,
+        "penalty": 3,
+        "prestige": 1,
+        "status": "failed",
+        "winner": "bid-2"
+      },
+      "player": {
+        "id": "p0",
+        "name": "Meridian & Co.",
+        "cash": 5,
+        "debt": 0,
+        "investigation": 2,
+        "reputation": 0,
+        "prestige": 0,
+        "actions": 0,
+        "inventory": {
+          "medical": 1,
+          "communications": 0,
+          "vehicles": 0
+        },
+        "logistics": 2,
+        "reservedCargo": 0,
+        "reservedLogistics": 0,
+        "freeCargo": 1
+      },
+      "country": {
+        "id": "IT",
+        "name": "Italy",
+        "stability": 2,
+        "demand": 3,
+        "leader": 0,
+        "sanctions": true,
+        "stance": "open"
+      },
+      "winner": {
+        "id": "bid-2",
+        "player": "p0",
+        "tender": "r1-t0",
+        "offer": 6,
+        "sequence": 2,
+        "pledges": [
+          {
+            "player": "p0",
+            "quantity": 1,
+            "logistics": 1,
+            "revenue": 100,
+            "liability": 100
+          }
+        ],
+        "escrow": 1
+      },
+      "commandCount": 51
+    }
+  },
+  "states": {
+    "negotiation": {
+      "version": 1,
+      "humanFirm": 0,
+      "seed": 20261031,
+      "rng": 3224855904,
+      "round": 1,
+      "phase": "negotiation",
+      "first": 0,
+      "active": 0,
+      "finished": false,
+      "players": [
+        {
+          "id": "p0",
+          "name": "Meridian & Co.",
+          "firm": 0,
+          "cash": 12,
+          "debt": 0,
+          "inventory": {
+            "medical": 2,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 2,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p1",
+          "name": "Northstar Union",
+          "firm": 1,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 2,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p2",
+          "name": "Vesper Exchange",
+          "firm": 2,
+          "cash": 15,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 0,
+            "vehicles": 2
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "consortium",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p3",
+          "name": "Atlas Cooperative",
+          "firm": 3,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 2,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 2,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p4",
+          "name": "Redwood Trading",
+          "firm": 4,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        }
+      ],
+      "countries": [
+        {
+          "id": "DK",
+          "name": "Denmark",
+          "stability": 5,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "GB",
+          "name": "United Kingdom",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "FR",
+          "name": "France",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "DE",
+          "name": "Germany",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "PL",
+          "name": "Poland",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ES",
+          "name": "Spain",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "IT",
+          "name": "Italy",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "TR",
+          "name": "Türkiye",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "EG",
+          "name": "Egypt",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "NG",
+          "name": "Nigeria",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "IN",
+          "name": "India",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "BR",
+          "name": "Brazil",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "US",
+          "name": "United States",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "JP",
+          "name": "Japan",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ZA",
+          "name": "South Africa",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        }
+      ],
+      "tenders": [
+        {
+          "id": "r1-t0",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t1",
+          "country": "IT",
+          "good": "vehicles",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 13,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t2",
+          "country": "DK",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t3",
+          "country": "PL",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t4",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t5",
+          "country": "PL",
+          "good": "vehicles",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t6",
+          "country": "ES",
+          "good": "communications",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        }
+      ],
+      "bids": [],
+      "agreements": [],
+      "prices": {
+        "medical": 2,
+        "communications": 3,
+        "vehicles": 4
+      },
+      "stock": {
+        "medical": 8,
+        "communications": 8,
+        "vehicles": 8
+      },
+      "ready": [],
+      "event": 4,
+      "log": [
+        {
+          "seq": 0,
+          "round": 1,
+          "phase": "world",
+          "text": "The table is open. Every promise has a price.",
+          "kind": "setup"
+        },
+        {
+          "seq": 1,
+          "round": 1,
+          "phase": "world",
+          "text": "Quiet diplomacy",
+          "kind": "event"
+        },
+        {
+          "seq": 2,
+          "round": 1,
+          "phase": "income",
+          "text": "Income paid. Debt and extra logistics upkeep settled.",
+          "kind": "income"
+        }
+      ],
+      "commands": [
+        {
+          "id": "design-13",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-14",
+          "player": "p0",
+          "type": "advance"
+        }
+      ],
+      "ids": [
+        "design-13",
+        "design-14"
+      ]
+    },
+    "ready": {
+      "version": 1,
+      "humanFirm": 0,
+      "seed": 20261031,
+      "rng": 4160969023,
+      "round": 1,
+      "phase": "actions",
+      "first": 0,
+      "active": 0,
+      "finished": false,
+      "players": [
+        {
+          "id": "p0",
+          "name": "Meridian & Co.",
+          "firm": 0,
+          "cash": 11,
+          "debt": 0,
+          "inventory": {
+            "medical": 2,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 2,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 2,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p1",
+          "name": "Northstar Union",
+          "firm": 1,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 2,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p2",
+          "name": "Vesper Exchange",
+          "firm": 2,
+          "cash": 15,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 0,
+            "vehicles": 2
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "consortium",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p3",
+          "name": "Atlas Cooperative",
+          "firm": 3,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 2,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 2,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p4",
+          "name": "Redwood Trading",
+          "firm": 4,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        }
+      ],
+      "countries": [
+        {
+          "id": "DK",
+          "name": "Denmark",
+          "stability": 5,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "GB",
+          "name": "United Kingdom",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "FR",
+          "name": "France",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "DE",
+          "name": "Germany",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "PL",
+          "name": "Poland",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ES",
+          "name": "Spain",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "IT",
+          "name": "Italy",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "TR",
+          "name": "Türkiye",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "EG",
+          "name": "Egypt",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "NG",
+          "name": "Nigeria",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "IN",
+          "name": "India",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "BR",
+          "name": "Brazil",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "US",
+          "name": "United States",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "JP",
+          "name": "Japan",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ZA",
+          "name": "South Africa",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        }
+      ],
+      "tenders": [
+        {
+          "id": "r1-t0",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "awarded",
+          "winner": "bid-2"
+        },
+        {
+          "id": "r1-t1",
+          "country": "IT",
+          "good": "vehicles",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 13,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t2",
+          "country": "DK",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t3",
+          "country": "PL",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t4",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t5",
+          "country": "PL",
+          "good": "vehicles",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t6",
+          "country": "ES",
+          "good": "communications",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        }
+      ],
+      "bids": [
+        {
+          "id": "bid-2",
+          "player": "p0",
+          "tender": "r1-t0",
+          "offer": 6,
+          "sequence": 2,
+          "pledges": [
+            {
+              "player": "p0",
+              "quantity": 1,
+              "logistics": 1,
+              "revenue": 100,
+              "liability": 100
+            }
+          ],
+          "escrow": 1
+        }
+      ],
+      "agreements": [],
+      "prices": {
+        "medical": 2,
+        "communications": 3,
+        "vehicles": 4
+      },
+      "stock": {
+        "medical": 8,
+        "communications": 8,
+        "vehicles": 8
+      },
+      "ready": [],
+      "event": 4,
+      "log": [
+        {
+          "seq": 0,
+          "round": 1,
+          "phase": "world",
+          "text": "The table is open. Every promise has a price.",
+          "kind": "setup"
+        },
+        {
+          "seq": 1,
+          "round": 1,
+          "phase": "world",
+          "text": "Quiet diplomacy",
+          "kind": "event"
+        },
+        {
+          "seq": 2,
+          "round": 1,
+          "phase": "income",
+          "text": "Income paid. Debt and extra logistics upkeep settled.",
+          "kind": "income"
+        },
+        {
+          "seq": 3,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. submits a sealed offer.",
+          "kind": "bid"
+        },
+        {
+          "seq": 4,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 5,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Northstar Union seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 6,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Vesper Exchange seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 7,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Atlas Cooperative seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 8,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Redwood Trading seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 9,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. wins IT at 6.",
+          "kind": "award"
+        }
+      ],
+      "commands": [
+        {
+          "id": "design-13",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-14",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-15",
+          "player": "p0",
+          "type": "bid",
+          "tender": "r1-t0",
+          "offer": 6
+        },
+        {
+          "id": "design-16",
+          "player": "p0",
+          "type": "ready"
+        },
+        {
+          "id": "design-17",
+          "player": "p1",
+          "type": "ready"
+        },
+        {
+          "id": "design-18",
+          "player": "p2",
+          "type": "ready"
+        },
+        {
+          "id": "design-19",
+          "player": "p3",
+          "type": "ready"
+        },
+        {
+          "id": "design-20",
+          "player": "p4",
+          "type": "ready"
+        },
+        {
+          "id": "design-21",
+          "player": "p0",
+          "type": "advance"
+        }
+      ],
+      "ids": [
+        "design-13",
+        "design-14",
+        "design-15",
+        "design-16",
+        "design-17",
+        "design-18",
+        "design-19",
+        "design-20",
+        "design-21"
+      ]
+    },
+    "blocked": {
+      "version": 1,
+      "humanFirm": 0,
+      "seed": 20261031,
+      "rng": 4160969023,
+      "round": 1,
+      "phase": "actions",
+      "first": 0,
+      "active": 0,
+      "finished": false,
+      "players": [
+        {
+          "id": "p0",
+          "name": "Meridian & Co.",
+          "firm": 0,
+          "cash": 8,
+          "debt": 0,
+          "inventory": {
+            "medical": 2,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 2,
+          "contacts": 1,
+          "investigation": 2,
+          "reputation": 0,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 1,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p1",
+          "name": "Northstar Union",
+          "firm": 1,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 2,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 2,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p2",
+          "name": "Vesper Exchange",
+          "firm": 2,
+          "cash": 15,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 0,
+            "vehicles": 2
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 2,
+          "relationships": {},
+          "objective": "consortium",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p3",
+          "name": "Atlas Cooperative",
+          "firm": 3,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 2,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 2,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 2,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p4",
+          "name": "Redwood Trading",
+          "firm": 4,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 2,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        }
+      ],
+      "countries": [
+        {
+          "id": "DK",
+          "name": "Denmark",
+          "stability": 5,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "GB",
+          "name": "United Kingdom",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "FR",
+          "name": "France",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "DE",
+          "name": "Germany",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "PL",
+          "name": "Poland",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ES",
+          "name": "Spain",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "IT",
+          "name": "Italy",
+          "stability": 1,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": true,
+          "stance": "open"
+        },
+        {
+          "id": "TR",
+          "name": "Türkiye",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "EG",
+          "name": "Egypt",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "NG",
+          "name": "Nigeria",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "IN",
+          "name": "India",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "BR",
+          "name": "Brazil",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "US",
+          "name": "United States",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "JP",
+          "name": "Japan",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ZA",
+          "name": "South Africa",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        }
+      ],
+      "tenders": [
+        {
+          "id": "r1-t0",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "awarded",
+          "winner": "bid-2"
+        },
+        {
+          "id": "r1-t1",
+          "country": "IT",
+          "good": "vehicles",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 13,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t2",
+          "country": "DK",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t3",
+          "country": "PL",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t4",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t5",
+          "country": "PL",
+          "good": "vehicles",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t6",
+          "country": "ES",
+          "good": "communications",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        }
+      ],
+      "bids": [
+        {
+          "id": "bid-2",
+          "player": "p0",
+          "tender": "r1-t0",
+          "offer": 6,
+          "sequence": 2,
+          "pledges": [
+            {
+              "player": "p0",
+              "quantity": 1,
+              "logistics": 1,
+              "revenue": 100,
+              "liability": 100
+            }
+          ],
+          "escrow": 1
+        }
+      ],
+      "agreements": [],
+      "prices": {
+        "medical": 2,
+        "communications": 3,
+        "vehicles": 4
+      },
+      "stock": {
+        "medical": 8,
+        "communications": 8,
+        "vehicles": 8
+      },
+      "ready": [],
+      "event": 4,
+      "log": [
+        {
+          "seq": 0,
+          "round": 1,
+          "phase": "world",
+          "text": "The table is open. Every promise has a price.",
+          "kind": "setup"
+        },
+        {
+          "seq": 1,
+          "round": 1,
+          "phase": "world",
+          "text": "Quiet diplomacy",
+          "kind": "event"
+        },
+        {
+          "seq": 2,
+          "round": 1,
+          "phase": "income",
+          "text": "Income paid. Debt and extra logistics upkeep settled.",
+          "kind": "income"
+        },
+        {
+          "seq": 3,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. submits a sealed offer.",
+          "kind": "bid"
+        },
+        {
+          "seq": 4,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 5,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Northstar Union seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 6,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Vesper Exchange seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 7,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Atlas Cooperative seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 8,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Redwood Trading seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 9,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. wins IT at 6.",
+          "kind": "award"
+        },
+        {
+          "seq": 10,
+          "round": 1,
+          "phase": "actions",
+          "text": "Abstract political pressure destabilizes Italy. Consequences apply to all houses.",
+          "kind": "unrest"
+        },
+        {
+          "seq": 11,
+          "round": 1,
+          "phase": "actions",
+          "text": "Northstar Union passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 12,
+          "round": 1,
+          "phase": "actions",
+          "text": "Vesper Exchange passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 13,
+          "round": 1,
+          "phase": "actions",
+          "text": "Atlas Cooperative passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 14,
+          "round": 1,
+          "phase": "actions",
+          "text": "Redwood Trading passes.",
+          "kind": "action"
+        }
+      ],
+      "commands": [
+        {
+          "id": "design-13",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-14",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-15",
+          "player": "p0",
+          "type": "bid",
+          "tender": "r1-t0",
+          "offer": 6
+        },
+        {
+          "id": "design-16",
+          "player": "p0",
+          "type": "ready"
+        },
+        {
+          "id": "design-17",
+          "player": "p1",
+          "type": "ready"
+        },
+        {
+          "id": "design-18",
+          "player": "p2",
+          "type": "ready"
+        },
+        {
+          "id": "design-19",
+          "player": "p3",
+          "type": "ready"
+        },
+        {
+          "id": "design-20",
+          "player": "p4",
+          "type": "ready"
+        },
+        {
+          "id": "design-21",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-23",
+          "player": "p0",
+          "type": "unrest",
+          "country": "IT"
+        },
+        {
+          "id": "design-24",
+          "player": "p1",
+          "type": "pass"
+        },
+        {
+          "id": "design-25",
+          "player": "p2",
+          "type": "pass"
+        },
+        {
+          "id": "design-26",
+          "player": "p3",
+          "type": "pass"
+        },
+        {
+          "id": "design-27",
+          "player": "p4",
+          "type": "pass"
+        }
+      ],
+      "ids": [
+        "design-13",
+        "design-14",
+        "design-15",
+        "design-16",
+        "design-17",
+        "design-18",
+        "design-19",
+        "design-20",
+        "design-21",
+        "design-23",
+        "design-24",
+        "design-25",
+        "design-26",
+        "design-27"
+      ]
+    },
+    "delivered": {
+      "version": 1,
+      "humanFirm": 0,
+      "seed": 20261031,
+      "rng": 4160969023,
+      "round": 1,
+      "phase": "actions",
+      "first": 0,
+      "active": 1,
+      "finished": false,
+      "players": [
+        {
+          "id": "p0",
+          "name": "Meridian & Co.",
+          "firm": 0,
+          "cash": 18,
+          "debt": 0,
+          "inventory": {
+            "medical": 1,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 2,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 1,
+          "delivered": 1,
+          "actions": 1,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p1",
+          "name": "Northstar Union",
+          "firm": 1,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 2,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p2",
+          "name": "Vesper Exchange",
+          "firm": 2,
+          "cash": 15,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 0,
+            "vehicles": 2
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "consortium",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p3",
+          "name": "Atlas Cooperative",
+          "firm": 3,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 2,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 2,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p4",
+          "name": "Redwood Trading",
+          "firm": 4,
+          "cash": 13,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 3,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        }
+      ],
+      "countries": [
+        {
+          "id": "DK",
+          "name": "Denmark",
+          "stability": 5,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "GB",
+          "name": "United Kingdom",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "FR",
+          "name": "France",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "DE",
+          "name": "Germany",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "PL",
+          "name": "Poland",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ES",
+          "name": "Spain",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "IT",
+          "name": "Italy",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "TR",
+          "name": "Türkiye",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "EG",
+          "name": "Egypt",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "NG",
+          "name": "Nigeria",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "IN",
+          "name": "India",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "BR",
+          "name": "Brazil",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "US",
+          "name": "United States",
+          "stability": 3,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "JP",
+          "name": "Japan",
+          "stability": 4,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ZA",
+          "name": "South Africa",
+          "stability": 5,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        }
+      ],
+      "tenders": [
+        {
+          "id": "r1-t0",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "delivered",
+          "winner": "bid-2"
+        },
+        {
+          "id": "r1-t1",
+          "country": "IT",
+          "good": "vehicles",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 13,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t2",
+          "country": "DK",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t3",
+          "country": "PL",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t4",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t5",
+          "country": "PL",
+          "good": "vehicles",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t6",
+          "country": "ES",
+          "good": "communications",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        }
+      ],
+      "bids": [
+        {
+          "id": "bid-2",
+          "player": "p0",
+          "tender": "r1-t0",
+          "offer": 6,
+          "sequence": 2,
+          "pledges": [
+            {
+              "player": "p0",
+              "quantity": 1,
+              "logistics": 1,
+              "revenue": 100,
+              "liability": 100
+            }
+          ],
+          "escrow": 1
+        }
+      ],
+      "agreements": [],
+      "prices": {
+        "medical": 2,
+        "communications": 3,
+        "vehicles": 4
+      },
+      "stock": {
+        "medical": 8,
+        "communications": 8,
+        "vehicles": 8
+      },
+      "ready": [],
+      "event": 4,
+      "log": [
+        {
+          "seq": 0,
+          "round": 1,
+          "phase": "world",
+          "text": "The table is open. Every promise has a price.",
+          "kind": "setup"
+        },
+        {
+          "seq": 1,
+          "round": 1,
+          "phase": "world",
+          "text": "Quiet diplomacy",
+          "kind": "event"
+        },
+        {
+          "seq": 2,
+          "round": 1,
+          "phase": "income",
+          "text": "Income paid. Debt and extra logistics upkeep settled.",
+          "kind": "income"
+        },
+        {
+          "seq": 3,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. submits a sealed offer.",
+          "kind": "bid"
+        },
+        {
+          "seq": 4,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 5,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Northstar Union seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 6,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Vesper Exchange seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 7,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Atlas Cooperative seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 8,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Redwood Trading seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 9,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. wins IT at 6.",
+          "kind": "award"
+        },
+        {
+          "seq": 10,
+          "round": 1,
+          "phase": "actions",
+          "text": "IT delivery settled: r1-t0.",
+          "kind": "delivery"
+        }
+      ],
+      "commands": [
+        {
+          "id": "design-13",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-14",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-15",
+          "player": "p0",
+          "type": "bid",
+          "tender": "r1-t0",
+          "offer": 6
+        },
+        {
+          "id": "design-16",
+          "player": "p0",
+          "type": "ready"
+        },
+        {
+          "id": "design-17",
+          "player": "p1",
+          "type": "ready"
+        },
+        {
+          "id": "design-18",
+          "player": "p2",
+          "type": "ready"
+        },
+        {
+          "id": "design-19",
+          "player": "p3",
+          "type": "ready"
+        },
+        {
+          "id": "design-20",
+          "player": "p4",
+          "type": "ready"
+        },
+        {
+          "id": "design-21",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-22",
+          "player": "p0",
+          "type": "transport",
+          "tender": "r1-t0"
+        }
+      ],
+      "ids": [
+        "design-13",
+        "design-14",
+        "design-15",
+        "design-16",
+        "design-17",
+        "design-18",
+        "design-19",
+        "design-20",
+        "design-21",
+        "design-22"
+      ]
+    },
+    "failed": {
+      "version": 1,
+      "humanFirm": 0,
+      "seed": 20261031,
+      "rng": 884925143,
+      "round": 2,
+      "phase": "scoring",
+      "first": 1,
+      "active": 0,
+      "finished": false,
+      "players": [
+        {
+          "id": "p0",
+          "name": "Meridian & Co.",
+          "firm": 0,
+          "cash": 5,
+          "debt": 0,
+          "inventory": {
+            "medical": 1,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 2,
+          "contacts": 1,
+          "investigation": 2,
+          "reputation": 0,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 0,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p1",
+          "name": "Northstar Union",
+          "firm": 1,
+          "cash": 16,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 2,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 0,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p2",
+          "name": "Vesper Exchange",
+          "firm": 2,
+          "cash": 18,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 0,
+            "vehicles": 2
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 0,
+          "relationships": {},
+          "objective": "consortium",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p3",
+          "name": "Atlas Cooperative",
+          "firm": 3,
+          "cash": 16,
+          "debt": 0,
+          "inventory": {
+            "medical": 2,
+            "communications": 0,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 2,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 0,
+          "relationships": {},
+          "objective": "legitimate",
+          "coalitions": 0,
+          "bot": false
+        },
+        {
+          "id": "p4",
+          "name": "Redwood Trading",
+          "firm": 4,
+          "cash": 16,
+          "debt": 0,
+          "inventory": {
+            "medical": 0,
+            "communications": 2,
+            "vehicles": 0
+          },
+          "logistics": 1,
+          "contacts": 1,
+          "investigation": 0,
+          "reputation": 1,
+          "prestige": 0,
+          "delivered": 0,
+          "actions": 0,
+          "relationships": {},
+          "objective": "diplomat",
+          "coalitions": 0,
+          "bot": false
+        }
+      ],
+      "countries": [
+        {
+          "id": "DK",
+          "name": "Denmark",
+          "stability": 6,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "GB",
+          "name": "United Kingdom",
+          "stability": 5,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "FR",
+          "name": "France",
+          "stability": 6,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "DE",
+          "name": "Germany",
+          "stability": 4,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "PL",
+          "name": "Poland",
+          "stability": 5,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ES",
+          "name": "Spain",
+          "stability": 6,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "IT",
+          "name": "Italy",
+          "stability": 2,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": true,
+          "stance": "open"
+        },
+        {
+          "id": "TR",
+          "name": "Türkiye",
+          "stability": 5,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "EG",
+          "name": "Egypt",
+          "stability": 6,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "NG",
+          "name": "Nigeria",
+          "stability": 4,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "IN",
+          "name": "India",
+          "stability": 5,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "BR",
+          "name": "Brazil",
+          "stability": 6,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        },
+        {
+          "id": "US",
+          "name": "United States",
+          "stability": 4,
+          "demand": 2,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "open"
+        },
+        {
+          "id": "JP",
+          "name": "Japan",
+          "stability": 5,
+          "demand": 3,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "neutral"
+        },
+        {
+          "id": "ZA",
+          "name": "South Africa",
+          "stability": 6,
+          "demand": 4,
+          "leader": 0,
+          "sanctions": false,
+          "stance": "guarded"
+        }
+      ],
+      "tenders": [
+        {
+          "id": "r1-t0",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "failed",
+          "winner": "bid-2"
+        },
+        {
+          "id": "r1-t1",
+          "country": "IT",
+          "good": "vehicles",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 13,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t2",
+          "country": "DK",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t3",
+          "country": "PL",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t4",
+          "country": "IT",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r1-t5",
+          "country": "PL",
+          "good": "vehicles",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r1-t6",
+          "country": "ES",
+          "good": "communications",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 2,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r2-t0",
+          "country": "ES",
+          "good": "vehicles",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 12,
+          "deadline": 3,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r2-t1",
+          "country": "US",
+          "good": "vehicles",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 8,
+          "deadline": 3,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r2-t2",
+          "country": "ZA",
+          "good": "medical",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 8,
+          "deadline": 3,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r2-t3",
+          "country": "TR",
+          "good": "communications",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 9,
+          "deadline": 3,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r2-t4",
+          "country": "DE",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 6,
+          "deadline": 3,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        },
+        {
+          "id": "r2-t5",
+          "country": "BR",
+          "good": "vehicles",
+          "quantity": 2,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 12,
+          "deadline": 3,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 2,
+          "status": "open"
+        },
+        {
+          "id": "r2-t6",
+          "country": "EG",
+          "good": "medical",
+          "quantity": 1,
+          "logistics": 1,
+          "relationship": 0,
+          "payout": 7,
+          "deadline": 3,
+          "legal": "legal",
+          "risk": 0,
+          "penalty": 3,
+          "prestige": 1,
+          "status": "open"
+        }
+      ],
+      "bids": [
+        {
+          "id": "bid-2",
+          "player": "p0",
+          "tender": "r1-t0",
+          "offer": 6,
+          "sequence": 2,
+          "pledges": [
+            {
+              "player": "p0",
+              "quantity": 1,
+              "logistics": 1,
+              "revenue": 100,
+              "liability": 100
+            }
+          ],
+          "escrow": 1
+        }
+      ],
+      "agreements": [],
+      "prices": {
+        "medical": 1,
+        "communications": 2,
+        "vehicles": 3
+      },
+      "stock": {
+        "medical": 12,
+        "communications": 12,
+        "vehicles": 12
+      },
+      "ready": [],
+      "event": 0,
+      "log": [
+        {
+          "seq": 0,
+          "round": 1,
+          "phase": "world",
+          "text": "The table is open. Every promise has a price.",
+          "kind": "setup"
+        },
+        {
+          "seq": 1,
+          "round": 1,
+          "phase": "world",
+          "text": "Quiet diplomacy",
+          "kind": "event"
+        },
+        {
+          "seq": 2,
+          "round": 1,
+          "phase": "income",
+          "text": "Income paid. Debt and extra logistics upkeep settled.",
+          "kind": "income"
+        },
+        {
+          "seq": 3,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. submits a sealed offer.",
+          "kind": "bid"
+        },
+        {
+          "seq": 4,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 5,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Northstar Union seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 6,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Vesper Exchange seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 7,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Atlas Cooperative seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 8,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Redwood Trading seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 9,
+          "round": 1,
+          "phase": "negotiation",
+          "text": "Meridian & Co. wins IT at 6.",
+          "kind": "award"
+        },
+        {
+          "seq": 10,
+          "round": 1,
+          "phase": "actions",
+          "text": "Abstract political pressure destabilizes Italy. Consequences apply to all houses.",
+          "kind": "unrest"
+        },
+        {
+          "seq": 11,
+          "round": 1,
+          "phase": "actions",
+          "text": "Northstar Union passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 12,
+          "round": 1,
+          "phase": "actions",
+          "text": "Vesper Exchange passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 13,
+          "round": 1,
+          "phase": "actions",
+          "text": "Atlas Cooperative passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 14,
+          "round": 1,
+          "phase": "actions",
+          "text": "Redwood Trading passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 15,
+          "round": 1,
+          "phase": "actions",
+          "text": "Meridian & Co. passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 16,
+          "round": 1,
+          "phase": "actions",
+          "text": "Northstar Union passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 17,
+          "round": 1,
+          "phase": "actions",
+          "text": "Vesper Exchange passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 18,
+          "round": 1,
+          "phase": "actions",
+          "text": "Atlas Cooperative passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 19,
+          "round": 1,
+          "phase": "actions",
+          "text": "Redwood Trading passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 20,
+          "round": 1,
+          "phase": "actions",
+          "text": "Northstar Union passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 21,
+          "round": 1,
+          "phase": "actions",
+          "text": "Vesper Exchange passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 22,
+          "round": 1,
+          "phase": "actions",
+          "text": "Atlas Cooperative passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 23,
+          "round": 1,
+          "phase": "actions",
+          "text": "Redwood Trading passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 24,
+          "round": 2,
+          "phase": "world",
+          "text": "Open ports",
+          "kind": "event"
+        },
+        {
+          "seq": 25,
+          "round": 2,
+          "phase": "income",
+          "text": "Income paid. Debt and extra logistics upkeep settled.",
+          "kind": "income"
+        },
+        {
+          "seq": 26,
+          "round": 2,
+          "phase": "negotiation",
+          "text": "Meridian & Co. seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 27,
+          "round": 2,
+          "phase": "negotiation",
+          "text": "Northstar Union seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 28,
+          "round": 2,
+          "phase": "negotiation",
+          "text": "Vesper Exchange seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 29,
+          "round": 2,
+          "phase": "negotiation",
+          "text": "Atlas Cooperative seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 30,
+          "round": 2,
+          "phase": "negotiation",
+          "text": "Redwood Trading seals their offers.",
+          "kind": "ready"
+        },
+        {
+          "seq": 31,
+          "round": 2,
+          "phase": "actions",
+          "text": "Northstar Union passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 32,
+          "round": 2,
+          "phase": "actions",
+          "text": "Vesper Exchange passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 33,
+          "round": 2,
+          "phase": "actions",
+          "text": "Atlas Cooperative passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 34,
+          "round": 2,
+          "phase": "actions",
+          "text": "Redwood Trading passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 35,
+          "round": 2,
+          "phase": "actions",
+          "text": "Meridian & Co. passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 36,
+          "round": 2,
+          "phase": "actions",
+          "text": "Northstar Union passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 37,
+          "round": 2,
+          "phase": "actions",
+          "text": "Vesper Exchange passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 38,
+          "round": 2,
+          "phase": "actions",
+          "text": "Atlas Cooperative passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 39,
+          "round": 2,
+          "phase": "actions",
+          "text": "Redwood Trading passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 40,
+          "round": 2,
+          "phase": "actions",
+          "text": "Meridian & Co. passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 41,
+          "round": 2,
+          "phase": "actions",
+          "text": "Northstar Union passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 42,
+          "round": 2,
+          "phase": "actions",
+          "text": "Vesper Exchange passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 43,
+          "round": 2,
+          "phase": "actions",
+          "text": "Atlas Cooperative passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 44,
+          "round": 2,
+          "phase": "actions",
+          "text": "Redwood Trading passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 45,
+          "round": 2,
+          "phase": "actions",
+          "text": "Meridian & Co. passes.",
+          "kind": "action"
+        },
+        {
+          "seq": 46,
+          "round": 2,
+          "phase": "delivery",
+          "text": "IT contract failed: r1-t0.",
+          "kind": "failure"
+        },
+        {
+          "seq": 47,
+          "round": 2,
+          "phase": "delivery",
+          "text": "Meridian & Co.: enforcement roll 2, confiscation and 2 fine.",
+          "kind": "enforcement"
+        }
+      ],
+      "commands": [
+        {
+          "id": "design-13",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-14",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-15",
+          "player": "p0",
+          "type": "bid",
+          "tender": "r1-t0",
+          "offer": 6
+        },
+        {
+          "id": "design-16",
+          "player": "p0",
+          "type": "ready"
+        },
+        {
+          "id": "design-17",
+          "player": "p1",
+          "type": "ready"
+        },
+        {
+          "id": "design-18",
+          "player": "p2",
+          "type": "ready"
+        },
+        {
+          "id": "design-19",
+          "player": "p3",
+          "type": "ready"
+        },
+        {
+          "id": "design-20",
+          "player": "p4",
+          "type": "ready"
+        },
+        {
+          "id": "design-21",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-23",
+          "player": "p0",
+          "type": "unrest",
+          "country": "IT"
+        },
+        {
+          "id": "design-24",
+          "player": "p1",
+          "type": "pass"
+        },
+        {
+          "id": "design-25",
+          "player": "p2",
+          "type": "pass"
+        },
+        {
+          "id": "design-26",
+          "player": "p3",
+          "type": "pass"
+        },
+        {
+          "id": "design-27",
+          "player": "p4",
+          "type": "pass"
+        },
+        {
+          "id": "design-29",
+          "player": "p0",
+          "type": "pass"
+        },
+        {
+          "id": "design-30",
+          "player": "p1",
+          "type": "pass"
+        },
+        {
+          "id": "design-31",
+          "player": "p2",
+          "type": "pass"
+        },
+        {
+          "id": "design-32",
+          "player": "p3",
+          "type": "pass"
+        },
+        {
+          "id": "design-33",
+          "player": "p4",
+          "type": "pass"
+        },
+        {
+          "id": "design-34",
+          "player": "p1",
+          "type": "pass"
+        },
+        {
+          "id": "design-35",
+          "player": "p2",
+          "type": "pass"
+        },
+        {
+          "id": "design-36",
+          "player": "p3",
+          "type": "pass"
+        },
+        {
+          "id": "design-37",
+          "player": "p4",
+          "type": "pass"
+        },
+        {
+          "id": "design-38",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-39",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-40",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-41",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-42",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-43",
+          "player": "p0",
+          "type": "ready"
+        },
+        {
+          "id": "design-44",
+          "player": "p1",
+          "type": "ready"
+        },
+        {
+          "id": "design-45",
+          "player": "p2",
+          "type": "ready"
+        },
+        {
+          "id": "design-46",
+          "player": "p3",
+          "type": "ready"
+        },
+        {
+          "id": "design-47",
+          "player": "p4",
+          "type": "ready"
+        },
+        {
+          "id": "design-48",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-49",
+          "player": "p1",
+          "type": "pass"
+        },
+        {
+          "id": "design-50",
+          "player": "p2",
+          "type": "pass"
+        },
+        {
+          "id": "design-51",
+          "player": "p3",
+          "type": "pass"
+        },
+        {
+          "id": "design-52",
+          "player": "p4",
+          "type": "pass"
+        },
+        {
+          "id": "design-53",
+          "player": "p0",
+          "type": "pass"
+        },
+        {
+          "id": "design-54",
+          "player": "p1",
+          "type": "pass"
+        },
+        {
+          "id": "design-55",
+          "player": "p2",
+          "type": "pass"
+        },
+        {
+          "id": "design-56",
+          "player": "p3",
+          "type": "pass"
+        },
+        {
+          "id": "design-57",
+          "player": "p4",
+          "type": "pass"
+        },
+        {
+          "id": "design-58",
+          "player": "p0",
+          "type": "pass"
+        },
+        {
+          "id": "design-59",
+          "player": "p1",
+          "type": "pass"
+        },
+        {
+          "id": "design-60",
+          "player": "p2",
+          "type": "pass"
+        },
+        {
+          "id": "design-61",
+          "player": "p3",
+          "type": "pass"
+        },
+        {
+          "id": "design-62",
+          "player": "p4",
+          "type": "pass"
+        },
+        {
+          "id": "design-63",
+          "player": "p0",
+          "type": "pass"
+        },
+        {
+          "id": "design-64",
+          "player": "p0",
+          "type": "advance"
+        },
+        {
+          "id": "design-65",
+          "player": "p0",
+          "type": "advance"
+        }
+      ],
+      "ids": [
+        "design-13",
+        "design-14",
+        "design-15",
+        "design-16",
+        "design-17",
+        "design-18",
+        "design-19",
+        "design-20",
+        "design-21",
+        "design-23",
+        "design-24",
+        "design-25",
+        "design-26",
+        "design-27",
+        "design-29",
+        "design-30",
+        "design-31",
+        "design-32",
+        "design-33",
+        "design-34",
+        "design-35",
+        "design-36",
+        "design-37",
+        "design-38",
+        "design-39",
+        "design-40",
+        "design-41",
+        "design-42",
+        "design-43",
+        "design-44",
+        "design-45",
+        "design-46",
+        "design-47",
+        "design-48",
+        "design-49",
+        "design-50",
+        "design-51",
+        "design-52",
+        "design-53",
+        "design-54",
+        "design-55",
+        "design-56",
+        "design-57",
+        "design-58",
+        "design-59",
+        "design-60",
+        "design-61",
+        "design-62",
+        "design-63",
+        "design-64",
+        "design-65"
+      ]
+    }
+  }
+}
