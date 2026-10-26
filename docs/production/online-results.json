@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-25T19:09:16.092Z",
+  "room": "qa-1792955335557",
+  "players": 3,
+  "commands": 144,
+  "failures": 0,
+  "round": 8,
+  "finished": true,
+  "reconnectSeat": "p1",
+  "revision": 144,
+  "durationMs": 20392,
+  "persistence": "memory (PostgreSQL not configured; restart recovery not verified)",
+  "privateViews": true
+}

@@ -1,0 +1,5 @@
+# Generated illustration provenance
+
+Original supply triptych generated with the session image-generation tool on2026-10-25: medical cargo in warehouse, communications cases and civilian utility truck at a shipping dock. Prompt requested original detailed painterly editorial artwork, no brands, politician likenesses, weapons, text or operational instructions. Source image: `apps/web/public/art/supply-triptych.png`; original session image remains in `/workspace/generated_images/exec-c915ff51-1b71-48c3-a539-c4bd9b071072.png`.
+
+Rendered as three CSS background-position panels on digital supply cards. No pixel manipulation or image editing was used. UI labels and status symbols remain editable HTML/SVG; the illustration itself is raster. Artwork generation does not establish exclusive copyright, trademark clearance, print approval or legal rights beyond applicable service terms. Legal/commercial provenance review remains open. It has not yet been incorporated into the editable Figma card variants or physical print assets.
