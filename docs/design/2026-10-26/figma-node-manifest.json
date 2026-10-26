@@ -1,6 +1,5 @@
 {
   "fileKey": "xt8J8b4flEVpe1tAX36I6w",
-  "sessionId": "9b93e7a4-b807-41b8-bca9-7d52aa91a4fd",
   "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449",
   "pages": {
     "atelier": "5:2",
@@ -704,5 +703,20 @@
     "kit": "13:197",
     "box": "13:388",
     "book": "13:398"
-  }
+  },
+  "sanctionStates": [
+    {
+      "id": "25:266",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "25:287",
+      "w": 1920,
+      "h": 1080
+    }
+  ],
+  "equipmentAnnex": "27:185",
+  "cardOverview": "29:517",
+  "handoff": "31:2"
 }
