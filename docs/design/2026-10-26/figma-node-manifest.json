@@ -1,0 +1,708 @@
+{
+  "fileKey": "xt8J8b4flEVpe1tAX36I6w",
+  "sessionId": "9b93e7a4-b807-41b8-bca9-7d52aa91a4fd",
+  "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449",
+  "pages": {
+    "atelier": "5:2",
+    "cards": "5:3",
+    "table": "5:4",
+    "screens": "5:5",
+    "physical": "5:6",
+    "handoff": "5:7"
+  },
+  "table": [
+    "8:2",
+    "8:512"
+  ],
+  "cardFamilies": [
+    {
+      "name": "Country",
+      "id": "6:38",
+      "front": "6:2",
+      "back": "6:27"
+    },
+    {
+      "name": "Leader",
+      "id": "6:75",
+      "front": "6:39",
+      "back": "6:64"
+    },
+    {
+      "name": "Organization",
+      "id": "6:110",
+      "front": "6:76",
+      "back": "6:100"
+    },
+    {
+      "name": "Supply",
+      "id": "6:147",
+      "front": "6:111",
+      "back": "6:136"
+    },
+    {
+      "name": "Logistics",
+      "id": "6:182",
+      "front": "6:148",
+      "back": "6:172"
+    },
+    {
+      "name": "Contact",
+      "id": "6:221",
+      "front": "6:183",
+      "back": "6:209"
+    },
+    {
+      "name": "Contract",
+      "id": "6:260",
+      "front": "6:222",
+      "back": "6:248"
+    },
+    {
+      "name": "World Event",
+      "id": "6:297",
+      "front": "6:261",
+      "back": "6:286"
+    },
+    {
+      "name": "Unrest",
+      "id": "6:334",
+      "front": "6:298",
+      "back": "6:323"
+    },
+    {
+      "name": "Investigation",
+      "id": "6:373",
+      "front": "6:335",
+      "back": "6:361"
+    },
+    {
+      "name": "Objective",
+      "id": "6:410",
+      "front": "6:374",
+      "back": "6:399"
+    },
+    {
+      "name": "Agreement",
+      "id": "6:445",
+      "front": "6:411",
+      "back": "6:435"
+    }
+  ],
+  "leaders": [
+    {
+      "name": "Astrid Vester",
+      "iso": "DK",
+      "country": "Danmark",
+      "card": "14:2",
+      "slot": "14:6"
+    },
+    {
+      "name": "Eleanor Vale",
+      "iso": "GB",
+      "country": "Storbritannien",
+      "card": "14:13",
+      "slot": "14:17"
+    },
+    {
+      "name": "Camille Delorme",
+      "iso": "FR",
+      "country": "Frankrig",
+      "card": "14:24",
+      "slot": "14:28"
+    },
+    {
+      "name": "Mara Feld",
+      "iso": "DE",
+      "country": "Tyskland",
+      "card": "14:35",
+      "slot": "14:39"
+    },
+    {
+      "name": "Irena Wilk",
+      "iso": "PL",
+      "country": "Polen",
+      "card": "14:46",
+      "slot": "14:50"
+    },
+    {
+      "name": "Inés Ladera",
+      "iso": "ES",
+      "country": "Spanien",
+      "card": "14:57",
+      "slot": "14:61"
+    },
+    {
+      "name": "Luca Bellori",
+      "iso": "IT",
+      "country": "Italien",
+      "card": "14:68",
+      "slot": "14:72"
+    },
+    {
+      "name": "Deniz Arven",
+      "iso": "TR",
+      "country": "Tyrkiet",
+      "card": "14:79",
+      "slot": "14:83"
+    },
+    {
+      "name": "Nadia Elwan",
+      "iso": "EG",
+      "country": "Egypten",
+      "card": "14:90",
+      "slot": "14:94"
+    },
+    {
+      "name": "Ada Okorie",
+      "iso": "NG",
+      "country": "Nigeria",
+      "card": "14:101",
+      "slot": "14:105"
+    },
+    {
+      "name": "Kavya Sen",
+      "iso": "IN",
+      "country": "Indien",
+      "card": "14:112",
+      "slot": "14:116"
+    },
+    {
+      "name": "Clara Monteiro",
+      "iso": "BR",
+      "country": "Brasilien",
+      "card": "14:123",
+      "slot": "14:127"
+    },
+    {
+      "name": "Morgan Hale",
+      "iso": "US",
+      "country": "USA",
+      "card": "14:134",
+      "slot": "14:138"
+    },
+    {
+      "name": "Hana Mizuno",
+      "iso": "JP",
+      "country": "Japan",
+      "card": "14:145",
+      "slot": "14:149"
+    },
+    {
+      "name": "Lindiwe Maseko",
+      "iso": "ZA",
+      "country": "Sydafrika",
+      "card": "14:156",
+      "slot": "14:160"
+    }
+  ],
+  "countries": [
+    {
+      "iso": "DK",
+      "id": "22:37"
+    },
+    {
+      "iso": "GB",
+      "id": "22:46"
+    },
+    {
+      "iso": "FR",
+      "id": "22:55"
+    },
+    {
+      "iso": "DE",
+      "id": "22:64"
+    },
+    {
+      "iso": "PL",
+      "id": "22:73"
+    },
+    {
+      "iso": "ES",
+      "id": "22:82"
+    },
+    {
+      "iso": "IT",
+      "id": "22:91"
+    },
+    {
+      "iso": "TR",
+      "id": "22:100"
+    },
+    {
+      "iso": "EG",
+      "id": "22:109"
+    },
+    {
+      "iso": "NG",
+      "id": "22:118"
+    },
+    {
+      "iso": "IN",
+      "id": "22:127"
+    },
+    {
+      "iso": "BR",
+      "id": "22:136"
+    },
+    {
+      "iso": "US",
+      "id": "22:145"
+    },
+    {
+      "iso": "JP",
+      "id": "22:154"
+    },
+    {
+      "iso": "ZA",
+      "id": "22:163"
+    }
+  ],
+  "components": {
+    "cover": "7:2",
+    "buttons": [
+      {
+        "id": "7:28",
+        "name": "State=Default"
+      },
+      {
+        "id": "7:30",
+        "name": "State=Hover"
+      },
+      {
+        "id": "7:32",
+        "name": "State=Focus"
+      },
+      {
+        "id": "7:34",
+        "name": "State=Disabled"
+      },
+      {
+        "id": "7:36",
+        "name": "State=Loading"
+      }
+    ],
+    "houses": [
+      {
+        "id": "7:39",
+        "name": "House=Meridian & Co."
+      },
+      {
+        "id": "7:43",
+        "name": "House=Northstar Union"
+      },
+      {
+        "id": "7:47",
+        "name": "House=Vesper Exchange"
+      },
+      {
+        "id": "7:51",
+        "name": "House=Atlas Cooperative"
+      },
+      {
+        "id": "7:55",
+        "name": "House=Redwood Trading"
+      }
+    ],
+    "tokens": [
+      {
+        "id": "7:60",
+        "name": "Kind=1 M"
+      },
+      {
+        "id": "7:62",
+        "name": "Kind=5 M"
+      },
+      {
+        "id": "7:64",
+        "name": "Kind=10 M"
+      },
+      {
+        "id": "7:66",
+        "name": "Kind=REL"
+      },
+      {
+        "id": "7:68",
+        "name": "Kind=ACT"
+      },
+      {
+        "id": "7:70",
+        "name": "Kind=URO"
+      },
+      {
+        "id": "7:72",
+        "name": "Kind=STOP"
+      },
+      {
+        "id": "7:74",
+        "name": "Kind=BIND"
+      },
+      {
+        "id": "7:76",
+        "name": "Kind=I"
+      }
+    ],
+    "dice": [
+      {
+        "id": "7:79",
+        "name": "Face=1"
+      },
+      {
+        "id": "7:81",
+        "name": "Face=2"
+      },
+      {
+        "id": "7:84",
+        "name": "Face=3"
+      },
+      {
+        "id": "7:88",
+        "name": "Face=4"
+      },
+      {
+        "id": "7:93",
+        "name": "Face=5"
+      },
+      {
+        "id": "7:99",
+        "name": "Face=6"
+      }
+    ],
+    "icons": [
+      {
+        "id": "7:107",
+        "name": "Country"
+      },
+      {
+        "id": "7:112",
+        "name": "Leader"
+      },
+      {
+        "id": "7:117",
+        "name": "Organization"
+      },
+      {
+        "id": "7:121",
+        "name": "Supply"
+      },
+      {
+        "id": "7:126",
+        "name": "Logistics"
+      },
+      {
+        "id": "7:130",
+        "name": "Contact"
+      },
+      {
+        "id": "7:136",
+        "name": "Contract"
+      },
+      {
+        "id": "7:142",
+        "name": "World Event"
+      },
+      {
+        "id": "7:147",
+        "name": "Unrest"
+      },
+      {
+        "id": "7:152",
+        "name": "Investigation"
+      },
+      {
+        "id": "7:158",
+        "name": "Objective"
+      },
+      {
+        "id": "7:163",
+        "name": "Agreement"
+      }
+    ],
+    "sets": [
+      "7:38",
+      "7:59",
+      "7:78",
+      "7:106"
+    ]
+  },
+  "screenStates": [
+    {
+      "id": "11:2",
+      "state": "Draft",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "11:52",
+      "state": "Awaiting signatures",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "11:102",
+      "state": "Signed",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "11:150",
+      "state": "Draft",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:200",
+      "state": "Awaiting signatures",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:250",
+      "state": "Signed",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:298",
+      "state": "Title / main menu",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:316",
+      "state": "Setup / 2–5 houses",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:346",
+      "state": "Country dossier",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:366",
+      "state": "Market",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:392",
+      "state": "Sealed bid",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:413",
+      "state": "Privacy curtain",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:425",
+      "state": "Card archive",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:533",
+      "state": "Settings / save",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:548",
+      "state": "Final scoring",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:560",
+      "state": "Error / reservation conflict",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:571",
+      "state": "Empty / no tenders",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:579",
+      "state": "Loading / saving",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "18:140",
+      "state": "Title / main menu / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:158",
+      "state": "Setup / 2–5 houses / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:188",
+      "state": "Country dossier / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:208",
+      "state": "Market / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:234",
+      "state": "Sealed bid / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:255",
+      "state": "Privacy curtain / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:267",
+      "state": "Card archive / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:375",
+      "state": "Settings / save / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:390",
+      "state": "Final scoring / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:402",
+      "state": "Error / reservation conflict / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:413",
+      "state": "Empty / no tenders / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:421",
+      "state": "Loading / saving / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    }
+  ],
+  "prototype": [
+    {
+      "from": "11:310",
+      "to": "11:316",
+      "label": "Nyt bord"
+    },
+    {
+      "from": "11:344",
+      "to": "11:392",
+      "label": "Opret bord"
+    },
+    {
+      "from": "11:411",
+      "to": "11:150",
+      "label": "Opret konsortium"
+    },
+    {
+      "from": "11:195",
+      "to": "11:200",
+      "label": "Send til underskrift"
+    },
+    {
+      "from": "11:245",
+      "to": "11:250",
+      "label": "Accepter aftale"
+    },
+    {
+      "from": "11:569",
+      "to": "11:150",
+      "label": "Tilbage til kladden"
+    },
+    {
+      "from": "11:543",
+      "to": "11:579",
+      "label": "Gem lokalt"
+    },
+    {
+      "from": "18:152",
+      "to": "18:158",
+      "label": "Nyt bord"
+    },
+    {
+      "from": "18:171",
+      "to": "18:234",
+      "label": "Opret bord"
+    },
+    {
+      "from": "18:252",
+      "to": "11:2",
+      "label": "Opret konsortium"
+    },
+    {
+      "from": "11:47",
+      "to": "11:52",
+      "label": "Send til underskrift"
+    },
+    {
+      "from": "11:97",
+      "to": "11:102",
+      "label": "Accepter aftale"
+    }
+  ],
+  "fiveParty": [
+    {
+      "id": "19:268",
+      "width": 1920
+    },
+    {
+      "id": "19:336",
+      "width": 1440
+    }
+  ],
+  "physical": {
+    "mats": [
+      {
+        "id": "13:2",
+        "name": "Meridian & Co."
+      },
+      {
+        "id": "13:41",
+        "name": "Northstar Union"
+      },
+      {
+        "id": "13:80",
+        "name": "Vesper Exchange"
+      },
+      {
+        "id": "13:119",
+        "name": "Atlas Cooperative"
+      },
+      {
+        "id": "13:158",
+        "name": "Redwood Trading"
+      }
+    ],
+    "kit": "13:197",
+    "box": "13:388",
+    "book": "13:398"
+  }
+}
