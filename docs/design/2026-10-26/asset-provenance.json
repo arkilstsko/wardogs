@@ -1,0 +1,394 @@
+{
+  "generated": {
+    "method": "OpenAI image generation through Codex imagegen, original prompts",
+    "count": 26,
+    "portraitNodes": [
+      {
+        "name": "Astrid Vester",
+        "node": "14:6",
+        "file": "astrid-vester.png"
+      },
+      {
+        "name": "Eleanor Vale",
+        "node": "14:17",
+        "file": "gb-portrait.png"
+      },
+      {
+        "name": "Camille Delorme",
+        "node": "14:28",
+        "file": "fr-portrait.png"
+      },
+      {
+        "name": "Mara Feld",
+        "node": "14:39",
+        "file": "de-portrait.png"
+      },
+      {
+        "name": "Irena Wilk",
+        "node": "14:50",
+        "file": "pl-portrait.png"
+      },
+      {
+        "name": "Inés Ladera",
+        "node": "14:61",
+        "file": "es-portrait.png"
+      },
+      {
+        "name": "Luca Bellori",
+        "node": "14:72",
+        "file": "it-portrait.png"
+      },
+      {
+        "name": "Deniz Arven",
+        "node": "14:83",
+        "file": "tr-portrait.png"
+      },
+      {
+        "name": "Nadia Elwan",
+        "node": "14:94",
+        "file": "eg-portrait.png"
+      },
+      {
+        "name": "Ada Okorie",
+        "node": "14:105",
+        "file": "ng-portrait.png"
+      },
+      {
+        "name": "Kavya Sen",
+        "node": "14:116",
+        "file": "in-portrait.png"
+      },
+      {
+        "name": "Clara Monteiro",
+        "node": "14:127",
+        "file": "br-portrait.png"
+      },
+      {
+        "name": "Morgan Hale",
+        "node": "14:138",
+        "file": "us-portrait.png"
+      },
+      {
+        "name": "Hana Mizuno",
+        "node": "14:149",
+        "file": "jp-portrait.png"
+      },
+      {
+        "name": "Lindiwe Maseko",
+        "node": "14:160",
+        "file": "za-portrait.png"
+      }
+    ],
+    "cardSceneNodes": [
+      {
+        "name": "Organization",
+        "node": "6:81",
+        "file": "card-organization.png"
+      },
+      {
+        "name": "Supply",
+        "node": "6:116",
+        "file": "card-supply.png"
+      },
+      {
+        "name": "Logistics",
+        "node": "6:153",
+        "file": "card-logistics.png"
+      },
+      {
+        "name": "Contact",
+        "node": "6:188",
+        "file": "card-contact.png"
+      },
+      {
+        "name": "Contract",
+        "node": "6:227",
+        "file": "card-contract.png"
+      },
+      {
+        "name": "World Event",
+        "node": "6:266",
+        "file": "card-world-event.png"
+      },
+      {
+        "name": "Unrest",
+        "node": "6:303",
+        "file": "card-unrest.png"
+      },
+      {
+        "name": "Investigation",
+        "node": "6:340",
+        "file": "card-investigation.png"
+      },
+      {
+        "name": "Objective",
+        "node": "6:379",
+        "file": "card-objective.png"
+      },
+      {
+        "name": "Agreement",
+        "node": "6:416",
+        "file": "card-agreement.png"
+      }
+    ],
+    "cover": {
+      "node": "13:388",
+      "file": "dogs-of-war-cover-art.png"
+    },
+    "note": "Raster illustration layers; not editable vectors. No exclusive rights or artifact-free guarantee asserted."
+  },
+  "map": {
+    "node": "1:2",
+    "file": "user-world-map.svg",
+    "source": "User-provided original Figma vectors",
+    "vectors": 200,
+    "license": "Not established",
+    "geometry": "Preserved; not replaced or attributed to Natural Earth"
+  },
+  "symbols": {
+    "file": "dogs-of-war-symbols.svg",
+    "source": "Original 12-symbol SVG set authored for this file"
+  },
+  "stitch": {
+    "sourcePage": "3:2",
+    "usage": "Original source retained; existing art reused in unresolved equipment annex only",
+    "license": "User-provided; rights not established"
+  },
+  "print": "Illustration dimensions and checksums supplied below. Physical production requires printer-specific resolution, bleed, safe areas, CMYK and proof approval.",
+  "files": [
+    {
+      "file": "astrid-vester.png",
+      "bytes": 2522482,
+      "sha256": "087e102b3e0bd38e19ab1ff269794bbb636a71287324408082e8b45f971d7653",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "board-1440-preview.png",
+      "bytes": 283846,
+      "sha256": "a602c255849306ac265a7d67efe5d176b54ae3d1708ce7617f99a95b78a1f456",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "file": "board-1920-preview.png",
+      "bytes": 362184,
+      "sha256": "37979313b39440a608cf44ef5271b583d64e73add1e3b207895984a15959c51d",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "box-cover-preview.png",
+      "bytes": 1282817,
+      "sha256": "435e4ae969bd9343cff2f84d5b8eb938affa05390b284442916bc488ae78e8a7",
+      "width": 760,
+      "height": 960
+    },
+    {
+      "file": "br-portrait.png",
+      "bytes": 2337355,
+      "sha256": "9f53f37533f786d85810f759e0b0571e8bf18a8bd04702d6f16cc7dd8bfb3bd8",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "card-agreement.png",
+      "bytes": 2560592,
+      "sha256": "7a80d5094de78cbc4104adfd37535c22a6ba633dfab11488db22f7491ad3f697",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "card-cabinet-preview.png",
+      "bytes": 1716181,
+      "sha256": "dd128a6050fa6b9f013f069e01f986ea72691f508d8e64236a198ee88e7daf08",
+      "width": 2160,
+      "height": 1460
+    },
+    {
+      "file": "card-contact.png",
+      "bytes": 2114351,
+      "sha256": "c7fd111a9f0b954d6e50f534377cf652657a0d56539c188101268cd467526171",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "card-contract.png",
+      "bytes": 2964550,
+      "sha256": "715bf2f521312fe022fc2115a59532ff5bc324695987b19d8e688a897c1496d8",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "card-investigation.png",
+      "bytes": 2818358,
+      "sha256": "d25cdf51c9c4376d41f2189abdbbab2f26ec996905e829e9a843c628216f50af",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "card-logistics.png",
+      "bytes": 3098409,
+      "sha256": "1f3ec1e1689ee98936c2b6414553be0dcecf619a7b29d168569d786cb608ab7d",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "card-objective.png",
+      "bytes": 2503790,
+      "sha256": "70db3423fe12c9e4cdb90921683edc842693f7c9f583b8c5e2f8b9a47490c39e",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "card-organization.png",
+      "bytes": 3030742,
+      "sha256": "1190b49768307272e9eaf7a3fe59d6a81ed7a8e273fef94eadbff14c1b5f5c25",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "card-supply.png",
+      "bytes": 2937510,
+      "sha256": "5670bfb02ee6ea7e6169fec1ea066a0e0bfc248f33acd3dede053c41d0498598",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "card-unrest.png",
+      "bytes": 2844034,
+      "sha256": "86007742c946fe3eef55c34f20e1031a067f7fbfde35875f8ccdc6ee706133ea",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "card-world-event.png",
+      "bytes": 3145210,
+      "sha256": "7bf84ab113bbbf0cd16f1873d2e0c1deb08b7e6e8b9228047cb0d82b0e102f74",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "de-portrait.png",
+      "bytes": 2243354,
+      "sha256": "d0c293c70651ae3f046d422156a359f84e4fcee5c04c63dc74590a23b5a98124",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "dogs-of-war-cover-art.png",
+      "bytes": 2566584,
+      "sha256": "e849b80045412a667b3cf4b3f514fe307b30ecf536fd58624bdd110311db3e62",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "dogs-of-war-symbols.svg",
+      "bytes": 3399,
+      "sha256": "6d423eed7f56ee11e905a94666e470d05dccfaee2c8cab0c620ad6335b3a4032"
+    },
+    {
+      "file": "eg-portrait.png",
+      "bytes": 2179891,
+      "sha256": "110745228e8714f583ca3d7f2ee392074181d4778bb72fe499039d0b214afd6b",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "es-portrait.png",
+      "bytes": 2296619,
+      "sha256": "0e87494544d8ab5b841f2f8f82e181467869c1c3b0ef1e4a6fcd99d3587d9289",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "fr-portrait.png",
+      "bytes": 2259508,
+      "sha256": "d00f177e9ff66ba9d55fcbd88361fe7576e7dbba9397707bd89226b358e2c77b",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "gb-portrait.png",
+      "bytes": 2377320,
+      "sha256": "f9a5cbfb7943c07671cda70e7b4f2fc9b457daf8c9c587d29e56f2f2ec7896eb",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "in-portrait.png",
+      "bytes": 2263679,
+      "sha256": "6ae2941d17c05ba04f111c158780bff64f5cd9acd5603cba2949f6878cc522cf",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "it-portrait.png",
+      "bytes": 2352768,
+      "sha256": "c20e9f861be1642a2bd625615a02ef3777296ff9814c0ab84b8747b9f10335df",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "jp-portrait.png",
+      "bytes": 2216389,
+      "sha256": "2ffe01de185cd4686ff68364316ba7db018afb30a39bca3fed76bcb6e82e18ad",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "ng-portrait.png",
+      "bytes": 2317415,
+      "sha256": "304625ece6fc53665996ebc5460946ca05219edb3247fbd39c18a3532ed263ff",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "pl-portrait.png",
+      "bytes": 2448180,
+      "sha256": "24b4775f429541735cfe0ffdfeaf9ecfc932b1b37040e0f74b729d5df706a288",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "portrait-series-preview.png",
+      "bytes": 2694870,
+      "sha256": "78af8c3a55e60bf29cada46a7c936835bcbd635a887ae310f7c3d666060806b4",
+      "width": 1800,
+      "height": 1680
+    },
+    {
+      "file": "rulebook-preview.png",
+      "bytes": 290921,
+      "sha256": "15e64ed072b26094f72c4dd9721e3ce1d1424095eb7e336ece4ff4d040c9f202",
+      "width": 1020,
+      "height": 1440
+    },
+    {
+      "file": "tr-portrait.png",
+      "bytes": 2141131,
+      "sha256": "fdd1fb7dd2362f0414ab8618587d3af0c98ef5ce00bcf0306e974e9cd13ddd36",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "us-portrait.png",
+      "bytes": 2371650,
+      "sha256": "989e6270e0f029ebe5eade3f3cebc5794394e06de99d5341de34a1b5203c95af",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "file": "user-world-map.svg",
+      "bytes": 1839980,
+      "sha256": "62b8c490e74a4dfb0d8869b2a02deb934ea6eedf6b30c2b76fd766da51db9f9f"
+    },
+    {
+      "file": "za-portrait.png",
+      "bytes": 2301943,
+      "sha256": "bfbaf08b201b7c344641f0207e07e0912fcda2c0f85bec15f7ff5e3d3ff6000d",
+      "width": 1122,
+      "height": 1402
+    }
+  ]
+}
