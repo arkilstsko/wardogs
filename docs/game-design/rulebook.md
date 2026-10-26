@@ -1,6 +1,6 @@
-# Experimental rulebook v0.1
+# Legacy rules1 reference — v0.1
 
-**This describes the implemented game, not the complete proposed commercial content.** Last edited2026-10-25. Values are integers in abstract million-money units.
+**This describes the preserved rules1 engine. New games default to the [rules2 political candidate](RULES2-POLITICS.md). Neither edition is the complete commercial product.** Last edited2026-10-25. Values are integers in abstract million-money units.
 
 ## Setup and public information
 

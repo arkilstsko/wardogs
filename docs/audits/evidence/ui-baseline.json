@@ -1,0 +1,4977 @@
+{
+  "date": "2026-10-26T04:37:08.110Z",
+  "observations": [
+    {
+      "id": "01-title-1440",
+      "note": "Title and available play entry points.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "MERCHANTSOF WAR."
+      ],
+      "buttons": [
+        {
+          "name": "DA / EN",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Take your seat",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "Learn to play",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "Load table ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Credits & release status",
+          "size": "10px",
+          "disabled": false
+        }
+      ],
+      "smallText": []
+    },
+    {
+      "id": "02-setup-1440",
+      "note": "Company roster, scenario count, mode and seed.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 904
+      },
+      "headings": [
+        "Set the table.",
+        "01 / Scenario",
+        "02 / Trading houses",
+        "The open ledger"
+      ],
+      "buttons": [
+        {
+          "name": "← Back to title",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.Every route has a price.",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionTrust travels further.",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeOpportunity after dusk.",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "AAtlas CooperativeA shared stake in tomorrow.",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "RRedwood TradingBuilt to weather the storm.",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "Take your seat",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "Learn to play",
+          "size": "14px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "Every route has a price.",
+          "size": "11px"
+        },
+        {
+          "text": "Trust travels further.",
+          "size": "11px"
+        },
+        {
+          "text": "Opportunity after dusk.",
+          "size": "11px"
+        },
+        {
+          "text": "A shared stake in tomorrow.",
+          "size": "11px"
+        },
+        {
+          "text": "Built to weather the storm.",
+          "size": "11px"
+        }
+      ]
+    },
+    {
+      "id": "03-table-1440",
+      "note": "Viewport-only table; measure whether hand and action controls fit900px.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co."
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Continue phase",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "04-country",
+      "note": "Fictional leader baseline traits and political controls.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co.",
+        "🇩🇰 Denmark",
+        "Astrid Vester"
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Continue phase",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Close dialog",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "Influence · 2M",
+          "size": "14px",
+          "disabled": true
+        },
+        {
+          "name": "Political pressure · 3M",
+          "size": "14px",
+          "disabled": true
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "05-leaders",
+      "note": "All leader gallery art uses one silhouette.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co.",
+        "Leadership dossiers"
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Continue phase",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Close dialog",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇩🇰 DenmarkAstrid VesterSTABILITY 3/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇬🇧 United KingdomEleanor ValeSTABILITY 4/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FranceCamille DelormeSTABILITY 5/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇩🇪 GermanyMara FeldSTABILITY 3/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇵🇱 PolandIrena WilkSTABILITY 4/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇸 SpainInés LaderaSTABILITY 5/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyLuca BelloriSTABILITY 3/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇹🇷 TürkiyeDeniz ArvenSTABILITY 4/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptNadia ElwanSTABILITY 5/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇳🇬 NigeriaAda OkorieSTABILITY 3/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇳 IndiaKavya SenSTABILITY 4/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇧🇷 BrazilClara MonteiroSTABILITY 5/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇺🇸 United StatesMorgan HaleSTABILITY 3/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇯🇵 JapanHana MizunoSTABILITY 4/6",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaLindiwe MasekoSTABILITY 5/6",
+          "size": "14px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "06-hand-inspection",
+      "note": "Clicking a supply card opens market rather than enlarged physical card.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co.",
+        "Market",
+        "Medical cargo",
+        "Communications",
+        "Utility vehicles"
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Continue phase",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Close dialog",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "Acquire",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Sell · 1M",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Acquire",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Sell · 2M",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Acquire",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Sell · 3M",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Repay 3 debt · 3M",
+          "size": "14px",
+          "disabled": true
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "07-contract-market",
+      "note": "Tender identities and information hierarchy.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co.",
+        "Contracts"
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Continue phase",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Close dialog",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "14px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "08-contract-dossier",
+      "note": "Cost, deadline, risk and offer controls.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co.",
+        "Contract dossier"
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Continue phase",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Close dialog",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "Sealed bid · 1 action / 1M escrow",
+          "size": "14px",
+          "disabled": true
+        },
+        {
+          "name": "Form consortium",
+          "size": "14px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "09-consortium",
+      "note": "UI constrains joint proposal to two players and50/50.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co.",
+        "Form consortium",
+        "Agreements at the table"
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Continue phase",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Close dialog",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "Propose 50 / 50",
+          "size": "14px",
+          "disabled": true
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "10-danish",
+      "note": "Core labels Danish but narrative/actions still English.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "ForhandlingsbordetNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co."
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Felthåndbog",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Gem spil",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Indstillinger",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Dan konsortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Bordets journal ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Regeringsleder",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Danmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Fortsæt fase",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Kommunikation8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Nyttekøretøjer10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Nyttekøretøjer13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Kommunikation9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Kommunikation12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medicinsk udstyr8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Kommunikation8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Nyttekøretøjer8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Hemmeligt mål ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medicinsk udstyr — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medicinsk udstyr — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Indflydelse2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Forsvar / revision1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Udvid logistik2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Lån 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Spring handling over",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "UDBUDVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "11-table-1920",
+      "note": "Target1080px viewport and essential-control bounds.",
+      "viewport": {
+        "w": 1920,
+        "h": 1080
+      },
+      "document": {
+        "w": 1920,
+        "h": 1388
+      },
+      "headings": [
+        "Open ports",
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co."
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE10003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Continue phase",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "◇ ◇ ◇",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "◇ ◇ ◇",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "◇ ◇ ◇",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 1094,
+        "width": 1920,
+        "height": 268,
+        "top": 1094,
+        "right": 1920,
+        "bottom": 1362,
+        "left": 0
+      }
+    },
+    {
+      "id": "12-negotiation",
+      "note": "No negotiation area, hidden offers in dialogs.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co."
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE13003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE15003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Seal offers",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "13-scores",
+      "note": "Projected scores reveal deterministic firm objective category.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Meridian & Co.",
+        "Final ledger"
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.YOUR HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionLOCAL HOUSE13003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE15003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Seal offers",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Close dialog",
+          "size": "14px",
+          "disabled": false
+        },
+        {
+          "name": "New table",
+          "size": "14px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "14-hotseat-curtain",
+      "note": "Privacy curtain displays receiving house.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Northstar Union",
+        "Pass the table to Northstar Union"
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.LOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionYOUR HOUSE13003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE15003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Seal offers",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Communications — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Communications — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Reveal my table",
+          "size": "14px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    },
+    {
+      "id": "15-hotseat-objective",
+      "note": "Opponent seat is accessible by intentional local switch.",
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "document": {
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "The negotiation tableNegotiation is an art. Delivery is a promise.",
+        "Northstar Union",
+        "Secret objective",
+        "A trusted network"
+      ],
+      "buttons": [
+        {
+          "name": "Open table menu",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Field manual",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Save table",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Settings",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Phase rules",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "MMeridian & Co.LOCAL HOUSE12003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "NNorthstar UnionYOUR HOUSE13003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VVesper ExchangeLOCAL HOUSE15003 ACTIONS",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Form consortium",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Table ledger ↗",
+          "size": "11px",
+          "disabled": false
+        },
+        {
+          "name": "Head of government",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "WORLD◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "LEADERS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "CONTACTS◇ ◇ ◇",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Denmark ",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "All dossiers ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Seal offers",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "VIEW ALL ↗",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALEssential supply tender1 × Communications8M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇫🇷 FrancePUBLIC / LEGALEssential supply tender1 × Utility vehicles10M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇮🇹 ItalyPUBLIC / LEGALRegional supply accord2 × Utility vehicles13M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇿🇦 South AfricaPUBLIC / LEGALEssential supply tender1 × Communications9M 1 logistics R2+1 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "🇪🇬 EgyptPUBLIC / LEGALRegional supply accord2 × Communications12M 1 logistics R2+2 ★",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Medical cargo8 in stock2M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Communications8 in stock3M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Utility vehicles8 in stock4M+",
+          "size": "12px",
+          "disabled": true
+        },
+        {
+          "name": "Market & inventory ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Secret objective ↗",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Communications — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Communications — select or drag to a tender",
+          "size": "12px",
+          "disabled": false
+        },
+        {
+          "name": "Influence2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Defend / audit1M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Expand logistics2M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Borrow 3+3M",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Pass action",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Undo",
+          "size": "10px",
+          "disabled": true
+        },
+        {
+          "name": "Auto move",
+          "size": "10px",
+          "disabled": false
+        },
+        {
+          "name": "Close dialog",
+          "size": "14px",
+          "disabled": false
+        }
+      ],
+      "smallText": [
+        {
+          "text": "THE HOUSES 3",
+          "size": "11px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "YOUR HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "LOCAL HOUSE",
+          "size": "10px"
+        },
+        {
+          "text": "3 ACTIONS",
+          "size": "10px"
+        },
+        {
+          "text": "WORLD",
+          "size": "7px"
+        },
+        {
+          "text": "LEADERS",
+          "size": "7px"
+        },
+        {
+          "text": "CONTACTS",
+          "size": "7px"
+        },
+        {
+          "text": "TENDERSVIEW ALL ↗",
+          "size": "11px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+2 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        },
+        {
+          "text": "+1 ★",
+          "size": "10px"
+        },
+        {
+          "text": "PUBLIC / LEGAL",
+          "size": "10px"
+        },
+        {
+          "text": "M",
+          "size": "10px"
+        },
+        {
+          "text": " 1 logistics",
+          "size": "10px"
+        },
+        {
+          "text": " R2",
+          "size": "10px"
+        }
+      ],
+      "handBounds": {
+        "x": 0,
+        "y": 690,
+        "width": 1440,
+        "height": 186,
+        "top": 690,
+        "right": 1440,
+        "bottom": 876,
+        "left": 0
+      }
+    }
+  ],
+  "errors": []
+}

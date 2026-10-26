@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-26T03:40:15.028Z",
+  "date": "2026-10-26T06:54:11.176Z",
   "environment": "Node24 in managed cloud container; not a representative laptop/browser",
   "samples": 301,
-  "p50ReducerMs": 0.1756810000006226,
-  "p95ReducerMs": 1.7485749999996187,
-  "maxReducerMs": 743.7101669999993,
+  "p50ReducerMs": 0.20580600000016602,
+  "p95ReducerMs": 1.0268189999999322,
+  "maxReducerMs": 3.8133799999998246,
   "serializedBytes": 45577,
-  "replayImportMeanMs": 76.81858109999976,
+  "replayImportMeanMs": 166.5426068,
   "limitations": [
     "No FPS measurement",
     "No screen-reader verification",

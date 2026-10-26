@@ -1,0 +1,2 @@
+import {it,expect} from 'vitest';import {createHash} from 'node:crypto';import fixtures from './legacy-golden.json';import {createGame,canonical} from '../src';import {runGame} from '../../bots/src';
+for(const fixture of fixtures.fixtures)it(`preserves actual PR2 v1 golden seed${fixture.seed} for${fixture.count} players`,()=>{const state=runGame(createGame(fixture.seed,fixture.count));expect(createHash('sha256').update(canonical(state)).digest('hex')).toBe(fixture.sha256);expect(state.commands).toHaveLength(fixture.commands);});

@@ -1,13 +1,16 @@
+import {politicalDecision,BOT_PERSONALITIES,nextNegotiator,type BotPersonality} from './political-policy';
+export {BOT_PERSONALITIES,nextNegotiator,type BotPersonality} from './political-policy';
 import {available,execute,GOODS,reserved,type Command,type Game,type Player} from '../../game-core/src';
-export function botCommand(s:Game,p:Player):Command {
+export function botCommand(s:Game,p:Player,personality:BotPersonality=BOT_PERSONALITIES[p.firm]):Command {
+ if(s.rulesVersion===2){const political=politicalDecision(s,p,personality);if(political)return political;}
  const id=`auto-${s.commands.length}-${p.id}`;const base={id,player:p.id};
  if(s.phase==='negotiation'){
  const agreement=s.agreements.find(a=>a.status==='draft'&&a.pledges.some(x=>x.player===p.id)&&!a.accepted.includes(p.id));
- if(agreement){const command:Command={...base,type:'accept',agreement:agreement.id};try{execute(s,command);return command;}catch{/* stale pledges: decline */}}
+ if(agreement&&s.rulesVersion!==2){const command:Command={...base,type:'accept',agreement:agreement.id};try{execute(s,command);return command;}catch{/* stale pledges: decline */}}
  if(!s.ready.includes(p.id)&&p.actions>1&&p.investigation<5&&p.cash>=1){
- const tenders=s.tenders.filter(t=>t.status==='open'&&available(s,p,t.good)>=t.quantity&&p.logistics-reserved(s,p.id)>=t.logistics&&!(s.bids.some(b=>b.tender===t.id&&b.player===p.id))&&!s.countries.find(c=>c.id===t.country)!.sanctions);
+ const tenders=s.tenders.filter(t=>t.status==='open'&&(s.rulesVersion!==2||((p.relationships[t.country]??0)>=t.relationship&&p.reputation>=(t.minReputation??0)&&p.contacts>=(t.minContacts??0)&&!s.agreements.some(a=>a.status==='draft'&&a.proposer===p.id&&a.tender===t.id)))&&available(s,p,t.good)>=t.quantity&&p.logistics-reserved(s,p.id)>=t.logistics&&!(s.bids.some(b=>b.tender===t.id&&b.player===p.id))&&!s.countries.find(c=>c.id===t.country)!.sanctions);
  const t=tenders.sort((a,b)=>(b.payout-b.quantity*s.prices[b.good])-(a.payout-a.quantity*s.prices[a.good])||a.id.localeCompare(b.id))[0];
- if(t)return {...base,type:'bid',tender:t.id,offer:Math.max(1,t.payout-(((s.seed??0)+s.commands.length+p.firm)%2))};
+ if(t)return {...base,type:'bid',tender:t.id,offer:Math.max(1,t.payout-((s.rulesVersion===2?s.log.length+s.round+p.firm:(s.seed??0)+s.commands.length+p.firm)%2))};
  }
  return {...base,type:'ready'};
  }
@@ -27,9 +30,9 @@ export function botCommand(s:Game,p:Player):Command {
  }
  return {...base,type:'advance'};
 }
-export function nextAutoplay(s:Game):Command {
- if(s.phase==='negotiation'){const order=Array.from({length:s.players.length},(_,i)=>s.players[(s.first+i)%s.players.length]);const p=order.find(p=>!s.ready.includes(p.id));if(p)return botCommand(s,p);}
- if(s.phase==='actions'&&s.players.some(p=>p.actions>0))return botCommand(s,s.players[s.active]);
+export function nextAutoplay(s:Game,personalities?:BotPersonality[]):Command {
+ if(s.phase==='negotiation'){const order=Array.from({length:s.players.length},(_,i)=>s.players[(s.first+i)%s.players.length]);const p=s.rulesVersion===2?nextNegotiator(s):order.find(p=>!s.ready.includes(p.id));if(p)return botCommand(s,p,personalities?.[s.players.indexOf(p)]);}
+ if(s.phase==='actions'&&s.players.some(p=>p.actions>0))return botCommand(s,s.players[s.active],personalities?.[s.active]);
  return {type:'advance',id:`auto-${s.commands.length}`,player:s.players[s.first].id};
 }
-export function runGame(initial:Game){let s=initial;let steps=0;while(!s.finished){if(++steps>600)throw new Error('Termination guard exceeded.');s=execute(s,nextAutoplay(s));}return s;}
+export function runGame(initial:Game,personalities?:BotPersonality[]){let s=initial;let steps=0;while(!s.finished){if(++steps>600)throw new Error('Termination guard exceeded.');s=execute(s,nextAutoplay(s,personalities));}return s;}

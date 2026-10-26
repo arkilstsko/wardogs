@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-26",
+  "baselineAudit": "PR2-COMPREHENSIVE-AUDIT.md",
+  "baselineFindings": 54,
+  "policy": "This ledger supplements rather than overwrites baseline observations. Partial does not pass a release gate.",
+  "findings": [
+    {
+      "id": "A01",
+      "priority": "P0",
+      "feature": "Private consortium terms",
+      "status": "IMPLEMENTED_VERIFIED",
+      "evidence": "Private unsigned terms filtered in every phase and at finish;15 regression tests."
+    },
+    {
+      "id": "A02",
+      "priority": "P1",
+      "feature": "Consortium contribution and rewards",
+      "status": "PARTIAL",
+      "evidence": "Rules2 rejects zero cargo/logistics participants and shares prestige; rules1 retained for legacy replay. Economic alternatives still need playtests."
+    },
+    {
+      "id": "A03",
+      "priority": "P1",
+      "feature": "Online seat identity in the interface",
+      "status": "IMPLEMENTED_VERIFIED",
+      "evidence": "Online opponent inspection cannot switch seat; three browser contexts verify identity."
+    },
+    {
+      "id": "A04",
+      "priority": "P1",
+      "feature": "Live negotiation editing",
+      "status": "IMPLEMENTED_VERIFIED",
+      "evidence": "Unrelated server broadcasts preserve editor; browser regression."
+    },
+    {
+      "id": "A05",
+      "priority": "P1",
+      "feature": "Secret objectives",
+      "status": "PARTIAL",
+      "evidence": "Rules2 deals objectives independently; only3 objective effects authored."
+    },
+    {
+      "id": "A06",
+      "priority": "P1",
+      "feature": "Game identity and equipment",
+      "status": "PARTIAL",
+      "evidence": "Rules2 infantry/communications/armored equipment labels and separate illustrations; full category catalogue open."
+    },
+    {
+      "id": "A07",
+      "priority": "P1",
+      "feature": "Political leader model",
+      "status": "PARTIAL",
+      "evidence": "45 identities/3 real archetypes with Transport tests and actual effects; not45 independently balanced powers."
+    },
+    {
+      "id": "A08",
+      "priority": "P1",
+      "feature": "Scenario variation",
+      "status": "PARTIAL",
+      "evidence": "Seeded compatible leaders, tracks, objectives and scenarios; balance screening still fails."
+    },
+    {
+      "id": "A09",
+      "priority": "P1",
+      "feature": "Elections and government transitions",
+      "status": "PARTIAL",
+      "evidence": "Scheduled elections3/6 and immediate succession; intervention counterplay implemented. More event content open."
+    },
+    {
+      "id": "A10",
+      "priority": "P1",
+      "feature": "Conflict and unrest",
+      "status": "PARTIAL",
+      "evidence": "Pressure/order/legitimacy/scrutiny/exposure, Stabilize and one shared crisis tender; human return/risk assessment open."
+    },
+    {
+      "id": "A11",
+      "priority": "P1",
+      "feature": "Sanctions and delivery disruption",
+      "status": "PARTIAL",
+      "evidence": "Sanctions thresholds/counterplay and seeded disruption; full sanctions card deck open."
+    },
+    {
+      "id": "A12",
+      "priority": "P1",
+      "feature": "Procurement and tender variety",
+      "status": "PARTIAL",
+      "evidence": "Legal/gray/black public offers and major3-cargo contracts; private tenders open."
+    },
+    {
+      "id": "A13",
+      "priority": "P2",
+      "feature": "Sealed public bidding",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A14",
+      "priority": "P1",
+      "feature": "Consortium negotiation interface",
+      "status": "PARTIAL",
+      "evidence": "Selectable2..5 participants, contribution counters and separate revenue/liability percentages; usability testing pending."
+    },
+    {
+      "id": "A15",
+      "priority": "P1",
+      "feature": "Alliance, betrayal and liability",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A16",
+      "priority": "P1",
+      "feature": "Company specialization",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A17",
+      "priority": "P1",
+      "feature": "Reputation",
+      "status": "PARTIAL",
+      "evidence": "Reputation affects rules2 public-tender eligibility and policy/Stabilize rewards. Balance open."
+    },
+    {
+      "id": "A18",
+      "priority": "P1",
+      "feature": "Contacts and organizations",
+      "status": "PARTIAL",
+      "evidence": "Contacts affect influence and black eligibility; organizations remain unauthored."
+    },
+    {
+      "id": "A19",
+      "priority": "P2",
+      "feature": "Market scarcity and arbitrage",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A20",
+      "priority": "P2",
+      "feature": "Debt and financing",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A21",
+      "priority": "P2",
+      "feature": "Investigation and enforcement",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A22",
+      "priority": "P1",
+      "feature": "Bots play the whole game",
+      "status": "PARTIAL",
+      "evidence": "Five political policy profiles and neutral invitation order. Metamorphic hidden-state tests; complete strategic competence not established."
+    },
+    {
+      "id": "A23",
+      "priority": "P1",
+      "feature": "Balance methodology",
+      "status": "PARTIAL",
+      "evidence": "Two10k controlled political screenings; revised seat skew improves, faction failures remain."
+    },
+    {
+      "id": "A24",
+      "priority": "P1",
+      "feature": "Table composition and object hierarchy",
+      "status": "PARTIAL",
+      "evidence": "Opponents at far edge, parchment atlas, rack, own mat; desktop screenshots and mat-in-viewport assertions. Owner visual acceptance open."
+    },
+    {
+      "id": "A25",
+      "priority": "P1",
+      "feature": "Typography and token system",
+      "status": "PARTIAL",
+      "evidence": "Semantic component/motion tokens and larger essential labels; old CSS not fully reconciled or WCAG audited."
+    },
+    {
+      "id": "A26",
+      "priority": "P1",
+      "feature": "Card pickup/drop and legal targets",
+      "status": "PARTIAL",
+      "evidence": "Drag overlay and contextual targets; click/Enter inspection; invalid-drop pointer regression passes."
+    },
+    {
+      "id": "A27",
+      "priority": "P1",
+      "feature": "Physical card inspection, fan, stack and flip",
+      "status": "PARTIAL",
+      "evidence": "Actual equipment inspection, flip, return, fan/stack and count badges. Other card families remain open."
+    },
+    {
+      "id": "A28",
+      "priority": "P2",
+      "feature": "Tokens, decks and discards",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A29",
+      "priority": "P2",
+      "feature": "Motion and resolution feedback",
+      "status": "PARTIAL",
+      "evidence": "Tokenized timing and reduced-motion options. Full award/payment sequence art open."
+    },
+    {
+      "id": "A30",
+      "priority": "P1",
+      "feature": "Card catalogue and schema completeness",
+      "status": "PARTIAL",
+      "evidence": "Validated3-equipment records and45 leader data, legacy12\u219215 mapping documented. Full15-family playable catalogue remains open."
+    },
+    {
+      "id": "A31",
+      "priority": "P1",
+      "feature": "Original artwork and identity",
+      "status": "PARTIAL",
+      "evidence": "45 original portrait cells,3 procurement scenes and5 original emblems; owner/rights review and other family art open."
+    },
+    {
+      "id": "A32",
+      "priority": "P1",
+      "feature": "Editable Figma production library",
+      "status": "PARTIAL",
+      "evidence": "Five Figma emblem sets/10 native vector variants added and visually inspected. Portrait import proxy403; full screens/library incomplete."
+    },
+    {
+      "id": "A33",
+      "priority": "P2",
+      "feature": "Title, onboarding and tutorial",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A34",
+      "priority": "P1",
+      "feature": "Setup input and scenario eligibility",
+      "status": "IMPLEMENTED_VERIFIED",
+      "evidence": "Invalid scenario start caught and displayed; browser regression."
+    },
+    {
+      "id": "A35",
+      "priority": "P1",
+      "feature": "Leader draft",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A36",
+      "priority": "P1",
+      "feature": "Bilingual completeness",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A37",
+      "priority": "P1",
+      "feature": "Opponent public information and online scores",
+      "status": "PARTIAL",
+      "evidence": "Public opponent dossier and unknown rival projected scores in online view; typed restricted client model still open."
+    },
+    {
+      "id": "A38",
+      "priority": "P2",
+      "feature": "Hot-seat privacy and local undo",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A39",
+      "priority": "P2",
+      "feature": "Local save/load and migration",
+      "status": "PARTIAL",
+      "evidence": "Legacy and rules2 canonical import tested, browser restore tested; long-term rules2 migration planning remains."
+    },
+    {
+      "id": "A40",
+      "priority": "P2",
+      "feature": "Deterministic engine and action economy",
+      "status": "PARTIAL",
+      "evidence": "New command schema and rules2 action machine documented; every new action under test."
+    },
+    {
+      "id": "A41",
+      "priority": "P1",
+      "feature": "Online multiplayer and room admission",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A42",
+      "priority": "P1",
+      "feature": "Disconnection and room recovery",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A43",
+      "priority": "P1",
+      "feature": "Protocol and state typing",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A44",
+      "priority": "P2",
+      "feature": "Persistence, rate limits and observability",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A45",
+      "priority": "P1",
+      "feature": "Accessibility and alternative controls",
+      "status": "PARTIAL",
+      "evidence": "Keyboard equipment inspection/Space pickup, region controls and country selector. Full accessibility audit open."
+    },
+    {
+      "id": "A46",
+      "priority": "P2",
+      "feature": "Responsive layout, zoom and browser support",
+      "status": "PARTIAL",
+      "evidence": "Mat fits1366/1440/1920 in Chromium. Regional map zoom; full browser/OS zoom acceptance open."
+    },
+    {
+      "id": "A47",
+      "priority": "P2",
+      "feature": "Performance evidence",
+      "status": "PARTIAL",
+      "evidence": "Rules2 cloud reducer p95~1.05ms, canonical import~109ms. No representative laptop/FPS or IndexedDB timing claim."
+    },
+    {
+      "id": "A48",
+      "priority": "P1",
+      "feature": "Test coverage and truthfulness",
+      "status": "PARTIAL",
+      "evidence": "155 current unit/property/auth tests; browser labels corrected and real restore/inspection checks added. Full card/browser/security gates open."
+    },
+    {
+      "id": "A49",
+      "priority": "P2",
+      "feature": "Repository maintainability and packages",
+      "status": "PARTIAL",
+      "evidence": "Separate atlas, hand, portraits, inspector and rulebook components. Main App and legacy CSS remain large."
+    },
+    {
+      "id": "A50",
+      "priority": "P2",
+      "feature": "Security and dependency release gates",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A51",
+      "priority": "P2",
+      "feature": "Print and manufacturing",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A52",
+      "priority": "P1",
+      "feature": "Human playtesting and owner acceptance",
+      "status": "OPEN",
+      "evidence": "Baseline acceptance criteria not yet met."
+    },
+    {
+      "id": "A53",
+      "priority": "P2",
+      "feature": "Research before redesign",
+      "status": "PARTIAL",
+      "evidence": "New11-reference evidence matrix and explicit complete/partial/unread primary coverage. Remaining research gaps open."
+    },
+    {
+      "id": "A54",
+      "priority": "P2",
+      "feature": "Release branch, PR and evidence management",
+      "status": "PARTIAL",
+      "evidence": "Separate remediation branch/PR prepared; no release merge. Protection/remoteCI remain unverified."
+    }
+  ]
+}

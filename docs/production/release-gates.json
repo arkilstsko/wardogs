@@ -1,0 +1,18 @@
+{
+  "product": "Merchants of War",
+  "status": "CHANGES_REQUIRED",
+  "gates": {
+    "complete_gameplay_and_authored_cards": {"status": "OPEN", "evidence": "PR2-REMEDIATION-MILESTONE.md; full15-family deck, private tenders and negotiated consequences incomplete"},
+    "engineering_local": {"status": "PASS", "evidence": "155 unit/property/auth tests;5 Chromium e2e; local typecheck/lint/build"},
+    "balance": {"status": "FAIL", "evidence": "../playtests/political-screening.json;2p and4p faction controls fail"},
+    "human_playtests": {"status": "BLOCKED", "evidence": "0/30 complete real sessions; HUMAN-CAMPAIGN.md prepared"},
+    "visual_owner_acceptance": {"status": "PENDING", "evidence": "Current screenshots are an iteration, not owner approval"},
+    "figma_production_library": {"status": "BLOCKED", "evidence": "Editable emblems verified; image upload proxy403 and many full screens incomplete"},
+    "multiplayer_production": {"status": "OPEN", "evidence": "Admission, host disconnect and actual PostgreSQL restart recovery open"},
+    "localization_accessibility_browsers": {"status": "OPEN", "evidence": "Danish prose, screen reader/WCAG and Firefox/Edge/Safari incomplete"},
+    "hardware_performance_security": {"status": "OPEN", "evidence": "Cloud timings are not representative laptop/FPS acceptance; production review open"},
+    "physical_and_manufacturing": {"status": "OPEN", "evidence": "No physical round, approved dielines/print proof or actual factory quotes"},
+    "commercial_rights_and_trademark": {"status": "PENDING", "evidence": "Generated artwork and working title require review"},
+    "owner_final_release_approval": {"status": "PENDING", "evidence": "No final approval recorded"}
+  }
+}

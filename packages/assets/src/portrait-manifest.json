@@ -1,0 +1,227 @@
+{
+  "leader-dk-1": {
+    "sheet": "nordic-channel",
+    "row": 0,
+    "column": 0
+  },
+  "leader-dk-2": {
+    "sheet": "nordic-channel",
+    "row": 0,
+    "column": 1
+  },
+  "leader-dk-3": {
+    "sheet": "nordic-channel",
+    "row": 0,
+    "column": 2
+  },
+  "leader-gb-1": {
+    "sheet": "nordic-channel",
+    "row": 1,
+    "column": 0
+  },
+  "leader-gb-2": {
+    "sheet": "nordic-channel",
+    "row": 1,
+    "column": 1
+  },
+  "leader-gb-3": {
+    "sheet": "nordic-channel",
+    "row": 1,
+    "column": 2
+  },
+  "leader-fr-1": {
+    "sheet": "nordic-channel",
+    "row": 2,
+    "column": 0
+  },
+  "leader-fr-2": {
+    "sheet": "nordic-channel",
+    "row": 2,
+    "column": 1
+  },
+  "leader-fr-3": {
+    "sheet": "nordic-channel",
+    "row": 2,
+    "column": 2
+  },
+  "leader-de-1": {
+    "sheet": "continental",
+    "row": 0,
+    "column": 0
+  },
+  "leader-de-2": {
+    "sheet": "continental",
+    "row": 0,
+    "column": 1
+  },
+  "leader-de-3": {
+    "sheet": "continental",
+    "row": 0,
+    "column": 2
+  },
+  "leader-pl-1": {
+    "sheet": "continental",
+    "row": 1,
+    "column": 0
+  },
+  "leader-pl-2": {
+    "sheet": "continental",
+    "row": 1,
+    "column": 1
+  },
+  "leader-pl-3": {
+    "sheet": "continental",
+    "row": 1,
+    "column": 2
+  },
+  "leader-es-1": {
+    "sheet": "continental",
+    "row": 2,
+    "column": 0
+  },
+  "leader-es-2": {
+    "sheet": "continental",
+    "row": 2,
+    "column": 1
+  },
+  "leader-es-3": {
+    "sheet": "continental",
+    "row": 2,
+    "column": 2
+  },
+  "leader-it-1": {
+    "sheet": "mediterranean",
+    "row": 0,
+    "column": 0
+  },
+  "leader-it-2": {
+    "sheet": "mediterranean",
+    "row": 0,
+    "column": 1
+  },
+  "leader-it-3": {
+    "sheet": "mediterranean",
+    "row": 0,
+    "column": 2
+  },
+  "leader-tr-1": {
+    "sheet": "mediterranean",
+    "row": 1,
+    "column": 0
+  },
+  "leader-tr-2": {
+    "sheet": "mediterranean",
+    "row": 1,
+    "column": 1
+  },
+  "leader-tr-3": {
+    "sheet": "mediterranean",
+    "row": 1,
+    "column": 2
+  },
+  "leader-eg-1": {
+    "sheet": "mediterranean",
+    "row": 2,
+    "column": 0
+  },
+  "leader-eg-2": {
+    "sheet": "mediterranean",
+    "row": 2,
+    "column": 1
+  },
+  "leader-eg-3": {
+    "sheet": "mediterranean",
+    "row": 2,
+    "column": 2
+  },
+  "leader-ng-1": {
+    "sheet": "global-south",
+    "row": 0,
+    "column": 0
+  },
+  "leader-ng-2": {
+    "sheet": "global-south",
+    "row": 0,
+    "column": 1
+  },
+  "leader-ng-3": {
+    "sheet": "global-south",
+    "row": 0,
+    "column": 2
+  },
+  "leader-in-1": {
+    "sheet": "global-south",
+    "row": 1,
+    "column": 0
+  },
+  "leader-in-2": {
+    "sheet": "global-south",
+    "row": 1,
+    "column": 1
+  },
+  "leader-in-3": {
+    "sheet": "global-south",
+    "row": 1,
+    "column": 2
+  },
+  "leader-br-1": {
+    "sheet": "global-south",
+    "row": 2,
+    "column": 0
+  },
+  "leader-br-2": {
+    "sheet": "global-south",
+    "row": 2,
+    "column": 1
+  },
+  "leader-br-3": {
+    "sheet": "global-south",
+    "row": 2,
+    "column": 2
+  },
+  "leader-us-1": {
+    "sheet": "pacific-cape",
+    "row": 0,
+    "column": 0
+  },
+  "leader-us-2": {
+    "sheet": "pacific-cape",
+    "row": 0,
+    "column": 1
+  },
+  "leader-us-3": {
+    "sheet": "pacific-cape",
+    "row": 0,
+    "column": 2
+  },
+  "leader-jp-1": {
+    "sheet": "pacific-cape",
+    "row": 1,
+    "column": 0
+  },
+  "leader-jp-2": {
+    "sheet": "pacific-cape",
+    "row": 1,
+    "column": 1
+  },
+  "leader-jp-3": {
+    "sheet": "pacific-cape",
+    "row": 1,
+    "column": 2
+  },
+  "leader-za-1": {
+    "sheet": "pacific-cape",
+    "row": 2,
+    "column": 0
+  },
+  "leader-za-2": {
+    "sheet": "pacific-cape",
+    "row": 2,
+    "column": 1
+  },
+  "leader-za-3": {
+    "sheet": "pacific-cape",
+    "row": 2,
+    "column": 2
+  }
+}

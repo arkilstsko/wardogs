@@ -2,7 +2,7 @@
 
 **Working browser game; not a commercial release candidate. Working title, trademark clearance pending.**
 
-A tactile negotiation game for 2–5 fictional trading houses, using real countries, abstract cargo and fictional leadership. No operational illicit-trade or unrest instructions. Every current core mechanic has a physical token/card/die analogue.
+A tactile negotiation game for 2–5 fictional trading houses, using real countries, abstract arms-equipment cargo and fictional leadership. No operational illicit-trade or unrest instructions. Every current core mechanic has a physical token/card/die analogue.
 
 ## Run locally
 
@@ -29,16 +29,22 @@ npm run simulate -- 10000
 node --import tsx tools/verify-online.ts
 ```
 
-Playwright uses system Chromium locally, or its installed browser when CI=true. See [release evidence](docs/production/release-checklist.md), [rules](docs/game-design/rulebook.md), [GDD](docs/game-design/GDD-v1.md), [research](docs/research/matrix.md), and [threat model](docs/architecture/threat-model.md).
+Playwright uses system Chromium locally, or its installed browser when CI=true. Political candidate details: [PR2 comprehensive audit](docs/audits/PR2-COMPREHENSIVE-AUDIT.md), [rules2](docs/game-design/RULES2-POLITICS.md), [new research](docs/research/PR2-REMEDIATION-MATRIX.md) and [remediation evidence](docs/production/PR2-REMEDIATION-MILESTONE.md).
+
+See [release evidence](docs/production/release-checklist.md), [rules](docs/game-design/rulebook.md), [GDD](docs/game-design/GDD-v1.md), [research](docs/research/matrix.md), and [threat model](docs/architecture/threat-model.md).
+
+## Local review export
+
+After `npm run build`, run `node tools/export-standalone.mjs` to export one self-contained HTML file with local fonts and artwork. The current export was smoke-tested over a local HTTP server without external requests. Direct file-scheme behavior is not verified in the managed browser. This is a review build, not a release.
 
 ## Editable design
 
-[Figma source](https://www.figma.com/design/jdcFObTuyqXIPMH2ZDf6z4). Eleven named pages; source-linked variables, 12 card families with front/back/print variants, original vector icons and a semantic desktop table. Secondary screens are editable specifications, not fully polished per-screen responsive/state designs. See `docs/production/figma-ledger.json` for actual returned IDs.
+[Figma source](https://www.figma.com/design/jdcFObTuyqXIPMH2ZDf6z4). Eleven named pages; source-linked variables, 12 card families with front/back/print variants, original vector icons and a semantic desktop table. Five new company emblems have64/24px native vector variants. Many secondary screens remain editable specifications. Portrait image upload is blocked; do not mistake the file for final accepted art. See `docs/production/figma-ledger.json` for actual returned IDs.
 
 ## Important release limitations
 
-- **Balance screening fails.** Both 10,000-game results are retained. Rotating negotiation order improves two-player seat skew but does not resolve faction/seat confounding or dominant-policy concerns. No human playtests have occurred.
-- Leader succession works; unique country-compatible personality decks, private tenders, leader draft, all proposed deck effects and art are not fully authored.
+- **Balance screening fails.** Original and revised political10,000-game screening runs are retained alongside the earlier rules1 runs. Clockwise bot invitations remove the largest seat distortion; two-player and four-player faction failures remain. No human playtests have occurred.
+- Rules2 has45 compatible fictional leader identities using three actual policy archetypes, scheduled elections, shared crisis tenders, stabilization and contact/reputation eligibility. Private tenders, leader draft and the full15-family authored deck remain open.
 - Three-seat online play works locally; room admission needs production accounts/invites, expiry, distributed workers, host-disconnect policy and verified PostgreSQL recovery. No public deployment.
 - Danish core labels exist; narrative/validation strings are not completely localized. Some compact card captions remain small. No WCAG-AA or screen-reader certification is claimed.
 - Current Figma and print assets are editable playtest materials. Factory quotes, printer dielines, physical setup testing and 300dpi/CMYK preflight remain open.

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-26T08:18:39.254Z",
+  "artifactSha256": "12994561a60c203298395d5d881ca2baff1ebac9020b2557fb388200c3f8d80b",
+  "transport": "LocalHTTP; managed browser file scheme blocked",
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:8000/Merchants-of-War-play.html"
+  ],
+  "portraitLoaded": true,
+  "externalRequests": []
+}
