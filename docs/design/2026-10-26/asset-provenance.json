@@ -166,15 +166,15 @@
     },
     {
       "file": "board-1440-preview.png",
-      "bytes": 283846,
-      "sha256": "a602c255849306ac265a7d67efe5d176b54ae3d1708ce7617f99a95b78a1f456",
+      "bytes": 1266926,
+      "sha256": "81feb8d0a37e02a3757322af9046dc3835ef67e8f56e6a9d54146ccc4d092867",
       "width": 1440,
       "height": 900
     },
     {
       "file": "board-1920-preview.png",
-      "bytes": 362184,
-      "sha256": "37979313b39440a608cf44ef5271b583d64e73add1e3b207895984a15959c51d",
+      "bytes": 1810131,
+      "sha256": "11e23d20d91803c8930ed6e498473ea0ddeac5884d30bd687825fe6eb8222566",
       "width": 1920,
       "height": 1080
     },
@@ -201,8 +201,8 @@
     },
     {
       "file": "card-cabinet-preview.png",
-      "bytes": 1716181,
-      "sha256": "dd128a6050fa6b9f013f069e01f986ea72691f508d8e64236a198ee88e7daf08",
+      "bytes": 1919478,
+      "sha256": "3e482247b9ee0968135b5ec31152355405a4b8663670e73185f004d73b844d09",
       "width": 2160,
       "height": 1460
     },
@@ -345,6 +345,11 @@
       "height": 1402
     },
     {
+      "file": "phosphor-symbols.svg",
+      "bytes": 17621,
+      "sha256": "8f1aaa7a267821f4427aa4c817990ee421b7420e776fd5d6b04b946b4ffd76a6"
+    },
+    {
       "file": "pl-portrait.png",
       "bytes": 2448180,
       "sha256": "24b4775f429541735cfe0ffdfeaf9ecfc932b1b37040e0f74b729d5df706a288",
@@ -436,6 +441,10 @@
     ],
     "promptFile": "visual-review/material-prompts.json",
     "purpose": "Restrained material grain; not UI screenshots",
-    "count": 2
+    "count": 2,
+    "checksums": {
+      "felt-material.png": "3f7190d5e1bc1deb806ea374149747dc6119b54bad0d10d563773d9ec8c3f009",
+      "paper-material.png": "9d25b561ddfc6ac0eab1520b4e35445522e4a21f70c095f85f81b68ebc16be6c"
+    }
   }
 }
