@@ -39,7 +39,7 @@ Sealed bid, reservation conflict, sanctions and investigation restrictions must 
 ## Art direction and reusable system
 
 Deep teal felt, warm parchment, brass edges, engraved symbols and painted cabinet/harbor imagery. Typography: Barlow Condensed Bold for display, Inter for operational labels, Source Serif 4 for editorial card prose. Use the Figma variables/styles and `design-tokens.json`.
-96 components, 166 instances, 14 color variables and 13 text styles were counted at verification. 12 families have editable fronts and backs. Text remains real text. Country borders and the symbol set remain vectors. Paintings remain raster image layers.
+125 components, 308 instances, 15 color variables, 4 dimension variables and 13 text styles were counted at verification. 12 families have editable fronts and backs. Text remains real text. Country borders and the symbol set remain vectors. Paintings remain raster image layers.
 
 26 newly generated original illustrations: 15 fictional portraits, ten card scenes and the box cover. This is not artwork copied from the reference games.
 The source Stitch art is retained only in the source page and explicitly unresolved equipment annex. Verify its rights before external release.
@@ -67,7 +67,7 @@ The final-scoring screen specifies the source scoring formula; a complete popula
 
 ## Asset delivery
 
-`dogs-of-war-symbols.svg` is an original reusable 12-symbol sprite committed here. Import symbols by ID.
+`dogs-of-war-symbols.svg` is an original reusable 12-symbol sprite retained here as legacy artwork. The active UI/family icon set is now `phosphor-symbols.svg` (22 upstream Phosphor Duotone symbols, MIT; see `LICENSE-Phosphor.txt`). Import active symbols by ID.
 `figma-node-manifest.json` gives authoritative Figma node IDs, including portrait art slots.
 `asset-provenance.json` records source and export expectations.
 The local accompanying asset package contains 26 PNG illustrations, the world SVG, previews and these documents. Binary paintings are embedded in Figma and included in that package; they are not committed into this GitHub branch. Export the original image fills from the listed art nodes, not a screenshot of the whole card.
@@ -101,3 +101,12 @@ Principles studied, without reproducing protected boards or artwork:
 - [The Game Crafter templates](https://help.thegamecrafter.com/article/39-templates), [DPI guidance](https://help.thegamecrafter.com/article/33-dpi-dots-per-inch): supplier-specific safe areas and print resolution.
 
 Use a printer's actual templates before describing exports as print ready. The card-master aspect is 63:88; Figma pixels alone do not establish physical bleed or DPI.
+
+
+## Critical visual review and quality pass
+
+See `VISUAL-REVIEW.md` and Figma review nodes 57:2 / 57:17. The review explicitly does not sign off the complete premium game. The portrait series repeats poses and settings; final art direction, distinctive house identities and a complete authoritative in-progress state remain open.
+
+The current board has portrait-shaped hand cards, restrained material layers, full European country names and clearer commodity icons. Actions now have Primary/Secondary tones × six states including Pressed and explicit Focus. Body copy on full 315×440 card masters is 16px. Upstream SVG paths and license are supplied. Two additional generated material textures are documented in `asset-provenance.json`; original prompts are in the local review package.
+
+Do not treat static Figma button states or configured prototype reactions as tested runtime behavior. Do not carry the displayed initial reference values directly into an in-progress game. Bind actual engine state and preserve all existing command validation.
