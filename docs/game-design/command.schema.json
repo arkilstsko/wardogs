@@ -1,0 +1,368 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "const": "advance"
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "const": "ready"
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "acquire",
+            "sell"
+          ]
+        },
+        "good": {
+          "type": "string",
+          "enum": [
+            "medical",
+            "communications",
+            "vehicles"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type",
+        "good"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "influence",
+            "unrest"
+          ]
+        },
+        "country": {
+          "type": "string",
+          "maxLength": 4
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type",
+        "country"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "audit",
+            "network",
+            "pass"
+          ]
+        },
+        "upgrade": {
+          "type": "string",
+          "enum": [
+            "contact",
+            "logistics"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "const": "refinance"
+        },
+        "repay": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type",
+        "repay"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "const": "bid"
+        },
+        "tender": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "offer": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type",
+        "tender",
+        "offer"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "const": "transport"
+        },
+        "tender": {
+          "type": "string",
+          "maxLength": 50
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type",
+        "tender"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "const": "propose"
+        },
+        "tender": {
+          "type": "string",
+          "maxLength": 50
+        },
+        "offer": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30
+        },
+        "pledges": {
+          "minItems": 2,
+          "maxItems": 5,
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "player": {
+                "type": "string",
+                "maxLength": 40
+              },
+              "quantity": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 8
+              },
+              "logistics": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 3
+              },
+              "revenue": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "liability": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 100
+              }
+            },
+            "required": [
+              "player",
+              "quantity",
+              "logistics",
+              "revenue",
+              "liability"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type",
+        "tender",
+        "offer",
+        "pledges"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "player": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "accept",
+            "withdraw"
+          ]
+        },
+        "agreement": {
+          "type": "string",
+          "maxLength": 100
+        }
+      },
+      "required": [
+        "id",
+        "player",
+        "type",
+        "agreement"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}
