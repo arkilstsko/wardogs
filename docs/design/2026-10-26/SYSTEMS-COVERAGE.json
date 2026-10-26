@@ -1,0 +1,480 @@
+{
+  "date": "2026-10-26",
+  "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449",
+  "figma": {
+    "fileKey": "xt8J8b4flEVpe1tAX36I6w",
+    "page": "64:2",
+    "coverage": "72:411",
+    "corePage": "81:2"
+  },
+  "status": "Visual coverage inventory; not an approved complete game or ruleset",
+  "aspects": [
+    {
+      "id": "setup",
+      "aspect": "Opsætning · 2–5 huse",
+      "status": "Regler + design",
+      "detail": "2–5 huse, valg af firma, seed og startbonusser. Online drift er særskilt.",
+      "source": "createGame; content.ts FIRMS",
+      "nodes": [
+        "11:316",
+        "18:158",
+        "66:312"
+      ]
+    },
+    {
+      "id": "scenario",
+      "aspect": "Scenarier",
+      "status": "Afventer regler",
+      "detail": "Ét grundspil med otte runder. Ingen godkendte særscenarier, kampagner eller scenariemål.",
+      "source": "createGame; GDD-v1.md",
+      "nodes": [
+        "68:128",
+        "68:226",
+        "66:302",
+        "66:312"
+      ]
+    },
+    {
+      "id": "rounds",
+      "aspect": "Runder & faser",
+      "status": "Regler + design",
+      "detail": "Otte rundereferencer. Seks faser; levering er en handling, fase 05 afvikler frister og kontrol.",
+      "source": "PHASES; advance",
+      "nodes": [
+        "67:42",
+        "68:57",
+        "68:155"
+      ]
+    },
+    {
+      "id": "events",
+      "aspect": "Verdensbegivenheder",
+      "status": "Regler + design",
+      "detail": "Seks kildeeffekter; de kan gentages. En rundereference er ikke en udtømmelig trækbunke.",
+      "source": "EVENTS; world phase",
+      "nodes": [
+        "67:41",
+        "69:81",
+        "69:125"
+      ]
+    },
+    {
+      "id": "information",
+      "aspect": "Offentlig & privat viden",
+      "status": "Design; drift mangler",
+      "detail": "Offentligt regnskab; lastens sammensætning og hemmeligt mål forbliver private.",
+      "source": "public projection; Player.objective",
+      "nodes": [
+        "68:57",
+        "68:155",
+        "11:413",
+        "18:255"
+      ]
+    },
+    {
+      "id": "geography",
+      "aspect": "Kort & landegrænser",
+      "status": "Licensafklaring",
+      "detail": "200 eksisterende landevektorer bevaret. 15 aktive lande. Grænsepolitik og kortlicens kræver afklaring.",
+      "source": "COUNTRIES; original user map",
+      "nodes": [
+        "1:2",
+        "8:2",
+        "8:512"
+      ]
+    },
+    {
+      "id": "politics",
+      "aspect": "Politikere & organisationer",
+      "status": "Redaktionel QA",
+      "detail": "15 fiktive portrætnavne. Organisationers udvidede roller er ikke godkendte mekanikker.",
+      "source": "content.ts; proposed-card-metadata.json",
+      "nodes": [
+        "20:2",
+        "6:75",
+        "6:110"
+      ]
+    },
+    {
+      "id": "houses",
+      "aspect": "Fem handelshuse",
+      "status": "Design; navne QA",
+      "detail": "Fem spillerplader og kildebonusser. Firmanavne er bevaret; endelig navneredaktion mangler.",
+      "source": "FIRMS; createGame",
+      "nodes": [
+        "7:59",
+        "13:2",
+        "13:41",
+        "13:80",
+        "13:119",
+        "13:158"
+      ]
+    },
+    {
+      "id": "economy",
+      "aspect": "Indkomst, gæld & vedligehold",
+      "status": "Regler + design",
+      "detail": "Lån, afdrag, gældsloft, normal vedligehold og tvungent tab er vist med kildeberegnede kvitteringer.",
+      "source": "income; refinance; ensureCash",
+      "nodes": [
+        "81:37",
+        "81:105",
+        "81:173"
+      ]
+    },
+    {
+      "id": "goods",
+      "aspect": "Varer & udstyr",
+      "status": "Regler + design",
+      "detail": "Medicinsk, kommunikation og køretøjer er aktive. Flere våbenkategorier er kun uafklaret metadata.",
+      "source": "GOODS; acquire; sell",
+      "nodes": [
+        "6:147",
+        "27:185",
+        "11:366"
+      ]
+    },
+    {
+      "id": "market",
+      "aspect": "Marked & lager",
+      "status": "Regler + design",
+      "detail": "Medicinsk køb/salg viser pris- og lagerændringer, fri/bundet last og kapacitetsgrænser.",
+      "source": "prices; stock; acquire; sell",
+      "nodes": [
+        "81:207",
+        "81:241",
+        "11:366",
+        "18:208"
+      ]
+    },
+    {
+      "id": "blackmarket",
+      "aspect": "Gråhandel & sort marked",
+      "status": "Afventer udvidelse",
+      "detail": "Kontrakter kan være legal/gray. Et separat sort marked med egne regler er ikke defineret.",
+      "source": "Tender.legal; generateTenders",
+      "nodes": [
+        "6:260",
+        "27:185"
+      ]
+    },
+    {
+      "id": "tenders",
+      "aspect": "Udbud & kontrakter",
+      "status": "Regler + design",
+      "detail": "N+2 udbud, last, logistik, loft, frist, risiko og bod. Hovedbordets Italien-udbud er kildebaseret.",
+      "source": "generateTenders; Tender",
+      "nodes": [
+        "8:2",
+        "8:512",
+        "6:260"
+      ]
+    },
+    {
+      "id": "bids",
+      "aspect": "Bud, deponering & lighed",
+      "status": "Delvist design",
+      "detail": "Laveste betaling vinder; 1 handling + 1 M i deponering. Lighed og tabende bud skal forklares særskilt.",
+      "source": "bid; resolveBids",
+      "nodes": [
+        "11:392",
+        "18:234",
+        "67:1406"
+      ]
+    },
+    {
+      "id": "consortium",
+      "aspect": "Konsortier · 2–5 deltagere",
+      "status": "Design; drift mangler",
+      "detail": "Indtægts- og ansvarsandele skal hver summe til 100. Kladder binder ikke ressourcer.",
+      "source": "propose; accept; withdraw",
+      "nodes": [
+        "11:2",
+        "11:52",
+        "11:102",
+        "19:268",
+        "19:336"
+      ]
+    },
+    {
+      "id": "reservations",
+      "aspect": "Last & reserveret logistik",
+      "status": "Regler + design",
+      "detail": "Fri og bundet last vises særskilt. Sidste underskrift genvaliderer ressourcer og handling.",
+      "source": "reservedCargo; reservedLogistics",
+      "nodes": [
+        "67:1367",
+        "67:1406",
+        "11:560"
+      ]
+    },
+    {
+      "id": "freight",
+      "aspect": "Fragt & levering",
+      "status": "Regler + design",
+      "detail": "Én samlet transporthandling bruger last, frigiver logistik og afregner kontrakt + deponering.",
+      "source": "transport",
+      "nodes": [
+        "67:1367",
+        "67:1406",
+        "67:1523",
+        "67:1562"
+      ]
+    },
+    {
+      "id": "routes",
+      "aspect": "Ruter, havne & rejsetid",
+      "status": "Afventer regler",
+      "detail": "Ingen godkendte distancer, rejserunder, fragtrater, told, forsikring eller skibstyper.",
+      "source": "No corresponding engine fields",
+      "nodes": [
+        "65:2"
+      ]
+    },
+    {
+      "id": "sanctions",
+      "aspect": "Sanktioner & blokering",
+      "status": "Regler + design",
+      "detail": "Sanktioner blokerer transport. Stabilitet alene fjerner ikke flaget før kildeopdateringen.",
+      "source": "unrest; transport; refresh",
+      "nodes": [
+        "67:1445",
+        "67:1484",
+        "25:266",
+        "25:287"
+      ]
+    },
+    {
+      "id": "deadlines",
+      "aspect": "Frister & misligholdelse",
+      "status": "Regler + design",
+      "detail": "Fristfase, tabt deponering, bod, frigivelse og omdømme. Sidste runde afslutter åbne tildelinger.",
+      "source": "delivery; failTender; final scoring",
+      "nodes": [
+        "67:1601",
+        "67:1640",
+        "66:290"
+      ]
+    },
+    {
+      "id": "influence",
+      "aspect": "Relationer & indflydelse",
+      "status": "Regler + design",
+      "detail": "Relation og stabilitet vises før/efter. Kontakter og logistik har separate kildealternativer og loft 3.",
+      "source": "influence; network; relationships",
+      "nodes": [
+        "81:275",
+        "81:309",
+        "81:343",
+        "81:377"
+      ]
+    },
+    {
+      "id": "unrest",
+      "aspect": "Oprør & lederskifte",
+      "status": "Delvist design",
+      "detail": "Pris, ustabilitet, efterspørgsel, efterforskning og sanktioner er vist; lederskifte forklares. Egen successionskvittering mangler.",
+      "source": "unrest; country stability",
+      "nodes": [
+        "81:685",
+        "81:719",
+        "25:266"
+      ]
+    },
+    {
+      "id": "investigation",
+      "aspect": "Efterforskning & kontrol",
+      "status": "Regler + design",
+      "detail": "Revision og faktisk D6-kontrol med konfiskation, bøde, frist og frigivelse af reservationer er vist.",
+      "source": "audit; delivery enforcement",
+      "nodes": [
+        "81:411",
+        "81:445",
+        "81:479",
+        "81:513"
+      ]
+    },
+    {
+      "id": "actions",
+      "aspect": "Handlingspulje & tur",
+      "status": "Regler + design",
+      "detail": "Tre fælles handlinger pr. runde; bud og transport bruger samme pulje. Pas og turmarkør.",
+      "source": "takeAction; pass; ready",
+      "nodes": [
+        "68:57",
+        "68:155",
+        "13:197"
+      ]
+    },
+    {
+      "id": "objectives",
+      "aspect": "Hemmelige mål",
+      "status": "Regler + design",
+      "detail": "Tre faktiske målkort, privat fremskridt og afslørede mål i slutregnskabet. Andre metadata er ikke godkendte mål.",
+      "source": "Player.objective; finalScore",
+      "nodes": [
+        "83:131",
+        "81:547",
+        "81:581",
+        "81:821"
+      ]
+    },
+    {
+      "id": "endgame",
+      "aspect": "Slutspil & point",
+      "status": "Regler + design",
+      "detail": "Fuldt kildeberegnet slutregnskab for fem huse, alle pointled, mål, ressourcer og kildens rækkefølge ved lighed.",
+      "source": "finalScore; finished",
+      "nodes": [
+        "81:753",
+        "81:821",
+        "66:290"
+      ]
+    },
+    {
+      "id": "logs",
+      "aspect": "Hændelseslog & replay",
+      "status": "Delvist design",
+      "detail": "Offentlig afviklet tidslinje og kvitteringer findes. Komplet filtrering, afspilningskontrol og hele loggen mangler.",
+      "source": "commands; log; replay",
+      "nodes": [
+        "81:615",
+        "81:650"
+      ]
+    },
+    {
+      "id": "saves",
+      "aspect": "Gem, indlæs & fejl",
+      "status": "Delvist design",
+      "detail": "Gem/venter/fejl findes visuelt. Indlæsning, ugyldig fil, version og gendannelse mangler fuld QA.",
+      "source": "game save schemas; replay",
+      "nodes": [
+        "11:533",
+        "11:560",
+        "11:579"
+      ]
+    },
+    {
+      "id": "online",
+      "aspect": "Online bord & afbrudt forbindelse",
+      "status": "Afventer driftsdesign",
+      "detail": "Udviklingsserver med tre pladser er ikke dokumentation for færdig 2–5 spillerdrift.",
+      "source": "apps/server; authoritative tests",
+      "nodes": [
+        "11:316",
+        "18:158"
+      ]
+    },
+    {
+      "id": "bots",
+      "aspect": "Bots & lokal turtagning",
+      "status": "Afventer spiltest",
+      "detail": "Lokal hotseat og bots findes i kilden. Sværhedsgrad og fairness er ikke kvalitetssikret her.",
+      "source": "createGame bots; bot commands",
+      "nodes": [
+        "11:413",
+        "18:255"
+      ]
+    },
+    {
+      "id": "cards",
+      "aspect": "12 kortfamilier & indhold",
+      "status": "Delvist færdigt",
+      "detail": "12 redigerbare familier plus seks begivenheder, otte rundereferencer og tre faktiske mål. 189 metadata er ikke en færdig kortstak.",
+      "source": "proposed-card-metadata.json",
+      "nodes": [
+        "29:517",
+        "69:169",
+        "83:132"
+      ]
+    },
+    {
+      "id": "pieces",
+      "aspect": "Brikker, terninger & bunker",
+      "status": "Design; produktion QA",
+      "detail": "Penge, handlinger, indflydelse og status; bunker skal afspejle de faktiske regler.",
+      "source": "physical kit; active card families",
+      "nodes": [
+        "13:197",
+        "13:388"
+      ]
+    },
+    {
+      "id": "print",
+      "aspect": "Bog, æske & fysisk kvalitet",
+      "status": "Afventer trykprøve",
+      "detail": "Bogtekst og æskeflader findes. Stans, bleed, farveprøve, kortkarton og tolerancer er ikke verificeret.",
+      "source": "rulebook.md; production requirements",
+      "nodes": [
+        "35:185",
+        "35:202",
+        "35:221",
+        "35:236",
+        "35:244"
+      ]
+    },
+    {
+      "id": "icons",
+      "aspect": "Ikoner & materialer",
+      "status": "Design + kilde",
+      "detail": "22 Phosphor-vektorer med MIT-licens. Specialbrikker og papir/filt følger fælles bibliotek.",
+      "source": "Phosphor; visual-review sources",
+      "nodes": [
+        "57:17",
+        "7:38"
+      ]
+    },
+    {
+      "id": "access",
+      "aspect": "Læsbarhed & tilgængelighed",
+      "status": "Delvis QA",
+      "detail": "1920×1080 og 1440×900, kontraster og layout kontrolleres. Tastatur og skærmlæser kræver runtime.",
+      "source": "qa.json; design tokens",
+      "nodes": [
+        "8:2",
+        "8:512",
+        "67:1406"
+      ]
+    },
+    {
+      "id": "identity",
+      "aspect": "Navne, illustrationer & udgivelse",
+      "status": "Afventer redaktion",
+      "detail": "Portrætvariation, firmanavne, titelkontrol, indholdsredaktion og geografiske rettigheder er åbne gates.",
+      "source": "VISUAL-REVIEW.md",
+      "nodes": [
+        "44:310",
+        "57:2",
+        "20:2"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "title": "John Company 2nd Edition — publisher resources and rulebook",
+      "url": "https://wehrlegig.com/pages/resources",
+      "read": "48-page publisher-linked rulebook. Setup/scenario distinction and Manager of Shipping allocation reviewed. No rules or artwork imported."
+    },
+    {
+      "title": "Pax Pamir — Board Game Arena game panel and rule summary",
+      "url": "https://en.boardgamearena.com/gamepanel?game=paxpamir",
+      "read": "Turn/action/cleanup and event timing used as organizational reference only. Dogs of War keeps its own phases."
+    },
+    {
+      "title": "Brass Birmingham — publisher product reference",
+      "url": "https://roxley.com/products/brass-birmingham",
+      "read": "Economic table hierarchy and component legibility. Not a claim of a complete rulebook audit this turn."
+    },
+    {
+      "title": "BoardGameGeek — John Company official errata thread",
+      "url": "https://boardgamegeek.com/thread/2936700/official-errata",
+      "read": "Access blocked (403); not used as rules evidence."
+    }
+  ],
+  "extendedVerification": {
+    "states": 10,
+    "invariantsPassed": true,
+    "replayExact": true,
+    "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449"
+  }
+}

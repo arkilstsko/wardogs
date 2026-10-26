@@ -1,0 +1,147 @@
+{
+  "version": "0.2-visual-review",
+  "sourceFile": "xt8J8b4flEVpe1tAX36I6w",
+  "colors": {
+    "ink": "#101E22",
+    "felt": "#193137",
+    "panel": "#233D42",
+    "paper": "#EEE3C9",
+    "pale": "#F8F1DF",
+    "gold": "#C7A66B",
+    "line": "#62716B",
+    "muted": "#B9BDAE",
+    "red": "#A44036",
+    "blue": "#6EACBA",
+    "purple": "#AD91BC",
+    "green": "#87AD8A",
+    "copper": "#DB9278",
+    "wood": "#392B25",
+    "goldPressed": "#AD8B53"
+  },
+  "typography": {
+    "display": {
+      "family": "Barlow Condensed",
+      "style": "Bold",
+      "sizes": [
+        20,
+        24,
+        32,
+        40,
+        56,
+        80
+      ]
+    },
+    "body": {
+      "family": "Inter",
+      "sizes": [
+        12,
+        14,
+        16,
+        18
+      ]
+    },
+    "editorial": {
+      "family": "Source Serif 4",
+      "sizes": [
+        18,
+        24,
+        32
+      ]
+    }
+  },
+  "targets": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "card": {
+    "width": 315,
+    "height": 440,
+    "trimMm": [
+      63,
+      88
+    ],
+    "printStatus": "Not printer approved; supplier dieline and bleed still required",
+    "bodyFontPx": 16,
+    "bodyLineHeightPx": 20
+  },
+  "contrast": [
+    {
+      "foreground": "paper",
+      "background": "ink",
+      "ratio": 13.38
+    },
+    {
+      "foreground": "gold",
+      "background": "ink",
+      "ratio": 7.39
+    },
+    {
+      "foreground": "paper",
+      "background": "felt",
+      "ratio": 10.72
+    },
+    {
+      "foreground": "muted",
+      "background": "felt",
+      "ratio": 7.13
+    },
+    {
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 13.38
+    },
+    {
+      "foreground": "ink",
+      "background": "gold",
+      "ratio": 7.39
+    },
+    {
+      "foreground": "red",
+      "background": "paper",
+      "ratio": 4.89
+    },
+    {
+      "foreground": "green",
+      "background": "felt",
+      "ratio": 5.45
+    }
+  ],
+  "dimensions": {
+    "space8": 8,
+    "space16": 16,
+    "controlRadius": 3,
+    "controlStroke": 1
+  },
+  "action": {
+    "width": 220,
+    "height": 48,
+    "tones": [
+      "Primary",
+      "Secondary"
+    ],
+    "states": [
+      "Default",
+      "Hover",
+      "Focus",
+      "Pressed",
+      "Disabled",
+      "Loading"
+    ]
+  },
+  "icons": {
+    "library": "Phosphor Duotone",
+    "base": 32,
+    "proofSizes": [
+      20,
+      24,
+      32
+    ],
+    "license": "MIT"
+  }
+}

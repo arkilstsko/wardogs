@@ -1,0 +1,599 @@
+{
+  "pages": [
+    {
+      "page": "5:2",
+      "roots": 39,
+      "components": 66,
+      "instances": 12
+    },
+    {
+      "page": "5:3",
+      "roots": 44,
+      "components": 54,
+      "instances": 63
+    },
+    {
+      "page": "5:4",
+      "roots": 2,
+      "components": 0,
+      "instances": 24
+    },
+    {
+      "page": "5:5",
+      "roots": 34,
+      "components": 0,
+      "instances": 78
+    },
+    {
+      "page": "5:6",
+      "roots": 14,
+      "components": 5,
+      "instances": 69
+    },
+    {
+      "page": "5:7",
+      "roots": 1,
+      "components": 0,
+      "instances": 0
+    },
+    {
+      "page": "44:310",
+      "roots": 4,
+      "components": 0,
+      "instances": 66
+    },
+    {
+      "page": "64:2",
+      "roots": 20,
+      "components": 16,
+      "instances": 73
+    },
+    {
+      "page": "81:2",
+      "roots": 26,
+      "components": 3,
+      "instances": 55
+    }
+  ],
+  "overflow": [],
+  "mapVectors": 200,
+  "variables": 19,
+  "styles": 13,
+  "date": "2026-10-26",
+  "viewports": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "screenCount": 74,
+  "cardFamilies": 12,
+  "leaderPortraits": 15,
+  "originalNewIllustrations": 26,
+  "contrasts": [
+    {
+      "foreground": "paper",
+      "background": "ink",
+      "ratio": 13.38
+    },
+    {
+      "foreground": "gold",
+      "background": "ink",
+      "ratio": 7.39
+    },
+    {
+      "foreground": "paper",
+      "background": "felt",
+      "ratio": 10.72
+    },
+    {
+      "foreground": "muted",
+      "background": "felt",
+      "ratio": 7.13
+    },
+    {
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 13.38
+    },
+    {
+      "foreground": "ink",
+      "background": "gold",
+      "ratio": 7.39
+    },
+    {
+      "foreground": "red",
+      "background": "paper",
+      "ratio": 4.89
+    },
+    {
+      "foreground": "green",
+      "background": "felt",
+      "ratio": 5.45
+    }
+  ],
+  "method": "Figma auto-layout visible child sum plus padding and gap; primary and cross axis tolerance 1px. Does not prove absence of every absolute-position overlap.",
+  "visualReview": "VISUAL-REVIEW.md",
+  "notVerified": [
+    "All static screen content against every engine branch",
+    "Runtime keyboard and screen reader access",
+    "Responsive behavior between reference viewports",
+    "Printer proof, CMYK conversion and die lines",
+    "Authoritative political boundary policy and original map license"
+  ],
+  "rulebookTextPreserved": true,
+  "rulebookLastPage": {
+    "id": "35:224",
+    "used": 1207,
+    "available": 1210
+  },
+  "qualityVerdict": "Not signed off as a finished premium game",
+  "currentReview": {
+    "variables": [
+      {
+        "id": "VariableID:5:9",
+        "name": "DOW/ink",
+        "type": "COLOR",
+        "value": {
+          "r": 0.062745101749897,
+          "g": 0.11764705926179886,
+          "b": 0.13333334028720856,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-ink)"
+        }
+      },
+      {
+        "id": "VariableID:5:10",
+        "name": "DOW/felt",
+        "type": "COLOR",
+        "value": {
+          "r": 0.09803921729326248,
+          "g": 0.1921568661928177,
+          "b": 0.21568627655506134,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-felt)"
+        }
+      },
+      {
+        "id": "VariableID:5:11",
+        "name": "DOW/panel",
+        "type": "COLOR",
+        "value": {
+          "r": 0.13725490868091583,
+          "g": 0.239215686917305,
+          "b": 0.25882354378700256,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-panel)"
+        }
+      },
+      {
+        "id": "VariableID:5:12",
+        "name": "DOW/paper",
+        "type": "COLOR",
+        "value": {
+          "r": 0.9333333373069763,
+          "g": 0.8901960849761963,
+          "b": 0.7882353067398071,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-paper)"
+        }
+      },
+      {
+        "id": "VariableID:5:13",
+        "name": "DOW/pale",
+        "type": "COLOR",
+        "value": {
+          "r": 0.9725490212440491,
+          "g": 0.9450980424880981,
+          "b": 0.8745098114013672,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-pale)"
+        }
+      },
+      {
+        "id": "VariableID:5:14",
+        "name": "DOW/gold",
+        "type": "COLOR",
+        "value": {
+          "r": 0.7803921699523926,
+          "g": 0.6509804129600525,
+          "b": 0.41960784792900085,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-gold)"
+        }
+      },
+      {
+        "id": "VariableID:5:15",
+        "name": "DOW/line",
+        "type": "COLOR",
+        "value": {
+          "r": 0.3843137323856354,
+          "g": 0.4431372582912445,
+          "b": 0.41960784792900085,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-line)"
+        }
+      },
+      {
+        "id": "VariableID:5:16",
+        "name": "DOW/muted",
+        "type": "COLOR",
+        "value": {
+          "r": 0.7254902124404907,
+          "g": 0.7411764860153198,
+          "b": 0.6823529601097107,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-muted)"
+        }
+      },
+      {
+        "id": "VariableID:5:17",
+        "name": "DOW/red",
+        "type": "COLOR",
+        "value": {
+          "r": 0.6431372761726379,
+          "g": 0.250980406999588,
+          "b": 0.21176470816135406,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-red)"
+        }
+      },
+      {
+        "id": "VariableID:5:18",
+        "name": "DOW/blue",
+        "type": "COLOR",
+        "value": {
+          "r": 0.4313725531101227,
+          "g": 0.6745098233222961,
+          "b": 0.729411780834198,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-blue)"
+        }
+      },
+      {
+        "id": "VariableID:5:19",
+        "name": "DOW/purple",
+        "type": "COLOR",
+        "value": {
+          "r": 0.6784313917160034,
+          "g": 0.5686274766921997,
+          "b": 0.7372549176216125,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-purple)"
+        }
+      },
+      {
+        "id": "VariableID:5:20",
+        "name": "DOW/green",
+        "type": "COLOR",
+        "value": {
+          "r": 0.529411792755127,
+          "g": 0.6784313917160034,
+          "b": 0.5411764979362488,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-green)"
+        }
+      },
+      {
+        "id": "VariableID:5:21",
+        "name": "DOW/copper",
+        "type": "COLOR",
+        "value": {
+          "r": 0.8588235378265381,
+          "g": 0.572549045085907,
+          "b": 0.47058823704719543,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-copper)"
+        }
+      },
+      {
+        "id": "VariableID:5:22",
+        "name": "DOW/wood",
+        "type": "COLOR",
+        "value": {
+          "r": 0.2235294133424759,
+          "g": 0.16862745583057404,
+          "b": 0.14509804546833038,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-wood)"
+        }
+      },
+      {
+        "id": "VariableID:43:2",
+        "name": "DOW/space/8",
+        "type": "FLOAT",
+        "value": 8,
+        "codeSyntax": {
+          "WEB": "var(--dow-space-8)"
+        }
+      },
+      {
+        "id": "VariableID:43:3",
+        "name": "DOW/space/16",
+        "type": "FLOAT",
+        "value": 16,
+        "codeSyntax": {
+          "WEB": "var(--dow-space-16)"
+        }
+      },
+      {
+        "id": "VariableID:43:4",
+        "name": "DOW/radius/control",
+        "type": "FLOAT",
+        "value": 3,
+        "codeSyntax": {
+          "WEB": "var(--dow-radius-control)"
+        }
+      },
+      {
+        "id": "VariableID:43:5",
+        "name": "DOW/stroke/control",
+        "type": "FLOAT",
+        "value": 1,
+        "codeSyntax": {
+          "WEB": "var(--dow-stroke-control)"
+        }
+      },
+      {
+        "id": "VariableID:56:98",
+        "name": "DOW/goldPressed",
+        "type": "COLOR",
+        "value": {
+          "r": 0.6784313917160034,
+          "g": 0.545098066329956,
+          "b": 0.32549020648002625,
+          "a": 1
+        },
+        "codeSyntax": {
+          "WEB": "var(--dow-gold-pressed)"
+        }
+      }
+    ],
+    "styles": 13,
+    "components": 144,
+    "instances": 440,
+    "issues": [],
+    "materialPlacementIssues": [],
+    "pixelPerfectClaim": false,
+    "runtimeInteractionsVerified": false,
+    "sourceHistoryLimit": "Bounded conversation export; old attachments not all available",
+    "captures": [
+      "01-board-after-1920.png",
+      "01-board-after-1440.png",
+      "02-actions-after.png",
+      "03-cards-after.png",
+      "04-portraits-before.png",
+      "05-consortium-before.png",
+      "07-icon-proof.png"
+    ]
+  },
+  "systems": {
+    "date": "2026-10-26",
+    "page": "64:2",
+    "coverageAspects": 36,
+    "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449",
+    "components": 16,
+    "instances": 73,
+    "viewportFrames": 14,
+    "viewports": [
+      [
+        1920,
+        1080
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "overflow": [],
+    "nearestSolidBackgroundContrastFailures": [],
+    "contrastMethod": "Nearest solid parent; 4.5 normal / 3 large. Does not evaluate every image overlay or absolute overlap.",
+    "invariantAndReplayChecks": {
+      "invariantsPassed": true,
+      "replayExact": true,
+      "blockedAttemptPreservesState": true
+    },
+    "prototypeNavigationLinks": 8,
+    "hoverReactionsPreserved": true,
+    "prototypeRuntimeVerified": false,
+    "mainTablesChangedToNamedNegotiationFixture": true,
+    "captures": [
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "67:1406",
+        "name": "freight-ready-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "67:1484",
+        "name": "freight-blocked-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "68:155",
+        "name": "round-overview-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "68:226",
+        "name": "scenario-selection-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "69:125",
+        "name": "round-event-1440.png"
+      },
+      {
+        "width": 2380,
+        "height": 1120,
+        "format": "png",
+        "original_width": 2380,
+        "original_height": 1120,
+        "nodeId": "69:169",
+        "name": "events-round-cards.png"
+      },
+      {
+        "width": 1500,
+        "height": 2570,
+        "format": "png",
+        "original_width": 1500,
+        "original_height": 2570,
+        "nodeId": "72:411",
+        "name": "whole-game-coverage.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "format": "png",
+        "original_width": 1920,
+        "original_height": 1080,
+        "nodeId": "8:2",
+        "name": "board-1920-preview.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "8:512",
+        "name": "board-1440-preview.png"
+      }
+    ],
+    "notVerified": [
+      "All 14 new frames individually pixel-inspected",
+      "All older screen data against this fixture",
+      "Full multiplayer and runtime accessibility",
+      "Additional scenario rules, travel routes and freight rates"
+    ]
+  },
+  "coreLedgers": {
+    "page": "81:2",
+    "viewportFrames": 24,
+    "components": 3,
+    "instances": 55,
+    "overflow": [],
+    "nearestSolidBackgroundContrastFailures": [],
+    "fixtureStates": 10,
+    "invariantsPassed": true,
+    "replayExact": true,
+    "captures": [
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:37",
+        "name": "finance-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:513",
+        "name": "control-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:581",
+        "name": "private-objective-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:719",
+        "name": "political-pressure-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:821",
+        "name": "scoring-1440.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "format": "png",
+        "original_width": 1920,
+        "original_height": 1080,
+        "nodeId": "81:753",
+        "name": "scoring-1920.png"
+      },
+      {
+        "width": 1100,
+        "height": 620,
+        "format": "png",
+        "original_width": 1100,
+        "original_height": 620,
+        "nodeId": "83:132",
+        "name": "three-source-objectives.png"
+      }
+    ],
+    "prototypeRuntimeVerified": false
+  }
+}

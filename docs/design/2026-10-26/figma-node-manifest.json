@@ -1,0 +1,1785 @@
+{
+  "fileKey": "xt8J8b4flEVpe1tAX36I6w",
+  "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449",
+  "pages": {
+    "atelier": "5:2",
+    "cards": "5:3",
+    "table": "5:4",
+    "screens": "5:5",
+    "physical": "5:6",
+    "handoff": "5:7",
+    "review": "44:310",
+    "systems": "64:2",
+    "coreLedgers": "81:2"
+  },
+  "table": [
+    "8:2",
+    "8:512"
+  ],
+  "cardFamilies": [
+    {
+      "name": "Country",
+      "id": "6:38",
+      "front": "6:2",
+      "back": "6:27"
+    },
+    {
+      "name": "Leader",
+      "id": "6:75",
+      "front": "6:39",
+      "back": "6:64"
+    },
+    {
+      "name": "Organization",
+      "id": "6:110",
+      "front": "6:76",
+      "back": "6:100"
+    },
+    {
+      "name": "Supply",
+      "id": "6:147",
+      "front": "6:111",
+      "back": "6:136"
+    },
+    {
+      "name": "Logistics",
+      "id": "6:182",
+      "front": "6:148",
+      "back": "6:172"
+    },
+    {
+      "name": "Contact",
+      "id": "6:221",
+      "front": "6:183",
+      "back": "6:209"
+    },
+    {
+      "name": "Contract",
+      "id": "6:260",
+      "front": "6:222",
+      "back": "6:248"
+    },
+    {
+      "name": "World Event",
+      "id": "6:297",
+      "front": "6:261",
+      "back": "6:286"
+    },
+    {
+      "name": "Unrest",
+      "id": "6:334",
+      "front": "6:298",
+      "back": "6:323"
+    },
+    {
+      "name": "Investigation",
+      "id": "6:373",
+      "front": "6:335",
+      "back": "6:361"
+    },
+    {
+      "name": "Objective",
+      "id": "6:410",
+      "front": "6:374",
+      "back": "6:399"
+    },
+    {
+      "name": "Agreement",
+      "id": "6:445",
+      "front": "6:411",
+      "back": "6:435"
+    }
+  ],
+  "leaders": [
+    {
+      "name": "Astrid Vester",
+      "iso": "DK",
+      "country": "Danmark",
+      "card": "14:2",
+      "slot": "14:6"
+    },
+    {
+      "name": "Eleanor Vale",
+      "iso": "GB",
+      "country": "Storbritannien",
+      "card": "14:13",
+      "slot": "14:17"
+    },
+    {
+      "name": "Camille Delorme",
+      "iso": "FR",
+      "country": "Frankrig",
+      "card": "14:24",
+      "slot": "14:28"
+    },
+    {
+      "name": "Mara Feld",
+      "iso": "DE",
+      "country": "Tyskland",
+      "card": "14:35",
+      "slot": "14:39"
+    },
+    {
+      "name": "Irena Wilk",
+      "iso": "PL",
+      "country": "Polen",
+      "card": "14:46",
+      "slot": "14:50"
+    },
+    {
+      "name": "Inés Ladera",
+      "iso": "ES",
+      "country": "Spanien",
+      "card": "14:57",
+      "slot": "14:61"
+    },
+    {
+      "name": "Luca Bellori",
+      "iso": "IT",
+      "country": "Italien",
+      "card": "14:68",
+      "slot": "14:72"
+    },
+    {
+      "name": "Deniz Arven",
+      "iso": "TR",
+      "country": "Tyrkiet",
+      "card": "14:79",
+      "slot": "14:83"
+    },
+    {
+      "name": "Nadia Elwan",
+      "iso": "EG",
+      "country": "Egypten",
+      "card": "14:90",
+      "slot": "14:94"
+    },
+    {
+      "name": "Ada Okorie",
+      "iso": "NG",
+      "country": "Nigeria",
+      "card": "14:101",
+      "slot": "14:105"
+    },
+    {
+      "name": "Kavya Sen",
+      "iso": "IN",
+      "country": "Indien",
+      "card": "14:112",
+      "slot": "14:116"
+    },
+    {
+      "name": "Clara Monteiro",
+      "iso": "BR",
+      "country": "Brasilien",
+      "card": "14:123",
+      "slot": "14:127"
+    },
+    {
+      "name": "Morgan Hale",
+      "iso": "US",
+      "country": "USA",
+      "card": "14:134",
+      "slot": "14:138"
+    },
+    {
+      "name": "Hana Mizuno",
+      "iso": "JP",
+      "country": "Japan",
+      "card": "14:145",
+      "slot": "14:149"
+    },
+    {
+      "name": "Lindiwe Maseko",
+      "iso": "ZA",
+      "country": "Sydafrika",
+      "card": "14:156",
+      "slot": "14:160"
+    }
+  ],
+  "countries": [
+    {
+      "iso": "DK",
+      "id": "22:37"
+    },
+    {
+      "iso": "GB",
+      "id": "22:46"
+    },
+    {
+      "iso": "FR",
+      "id": "22:55"
+    },
+    {
+      "iso": "DE",
+      "id": "22:64"
+    },
+    {
+      "iso": "PL",
+      "id": "22:73"
+    },
+    {
+      "iso": "ES",
+      "id": "22:82"
+    },
+    {
+      "iso": "IT",
+      "id": "22:91"
+    },
+    {
+      "iso": "TR",
+      "id": "22:100"
+    },
+    {
+      "iso": "EG",
+      "id": "22:109"
+    },
+    {
+      "iso": "NG",
+      "id": "22:118"
+    },
+    {
+      "iso": "IN",
+      "id": "22:127"
+    },
+    {
+      "iso": "BR",
+      "id": "22:136"
+    },
+    {
+      "iso": "US",
+      "id": "22:145"
+    },
+    {
+      "iso": "JP",
+      "id": "22:154"
+    },
+    {
+      "iso": "ZA",
+      "id": "22:163"
+    }
+  ],
+  "components": {
+    "cover": "7:2",
+    "buttons": [
+      {
+        "id": "7:28",
+        "tone": "Primary",
+        "state": "Default"
+      },
+      {
+        "id": "7:30",
+        "tone": "Primary",
+        "state": "Hover"
+      },
+      {
+        "id": "7:32",
+        "tone": "Primary",
+        "state": "Focus"
+      },
+      {
+        "id": "43:6",
+        "tone": "Primary",
+        "state": "Pressed"
+      },
+      {
+        "id": "7:34",
+        "tone": "Primary",
+        "state": "Disabled"
+      },
+      {
+        "id": "7:36",
+        "tone": "Primary",
+        "state": "Loading"
+      },
+      {
+        "id": "43:8",
+        "tone": "Secondary",
+        "state": "Default"
+      },
+      {
+        "id": "43:10",
+        "tone": "Secondary",
+        "state": "Hover"
+      },
+      {
+        "id": "43:12",
+        "tone": "Secondary",
+        "state": "Focus"
+      },
+      {
+        "id": "43:14",
+        "tone": "Secondary",
+        "state": "Pressed"
+      },
+      {
+        "id": "43:16",
+        "tone": "Secondary",
+        "state": "Disabled"
+      },
+      {
+        "id": "43:18",
+        "tone": "Secondary",
+        "state": "Loading"
+      }
+    ],
+    "houses": [
+      {
+        "id": "7:39",
+        "name": "House=Meridian & Co."
+      },
+      {
+        "id": "7:43",
+        "name": "House=Northstar Union"
+      },
+      {
+        "id": "7:47",
+        "name": "House=Vesper Exchange"
+      },
+      {
+        "id": "7:51",
+        "name": "House=Atlas Cooperative"
+      },
+      {
+        "id": "7:55",
+        "name": "House=Redwood Trading"
+      }
+    ],
+    "tokens": [
+      {
+        "id": "7:60",
+        "name": "Kind=1 M"
+      },
+      {
+        "id": "7:62",
+        "name": "Kind=5 M"
+      },
+      {
+        "id": "7:64",
+        "name": "Kind=10 M"
+      },
+      {
+        "id": "7:66",
+        "name": "Kind=REL"
+      },
+      {
+        "id": "7:68",
+        "name": "Kind=ACT"
+      },
+      {
+        "id": "7:70",
+        "name": "Kind=URO"
+      },
+      {
+        "id": "7:72",
+        "name": "Kind=STOP"
+      },
+      {
+        "id": "7:74",
+        "name": "Kind=BIND"
+      },
+      {
+        "id": "7:76",
+        "name": "Kind=I"
+      }
+    ],
+    "dice": [
+      {
+        "id": "7:79",
+        "name": "Face=1"
+      },
+      {
+        "id": "7:81",
+        "name": "Face=2"
+      },
+      {
+        "id": "7:84",
+        "name": "Face=3"
+      },
+      {
+        "id": "7:88",
+        "name": "Face=4"
+      },
+      {
+        "id": "7:93",
+        "name": "Face=5"
+      },
+      {
+        "id": "7:99",
+        "name": "Face=6"
+      }
+    ],
+    "icons": [
+      {
+        "id": "7:107",
+        "name": "Country"
+      },
+      {
+        "id": "7:112",
+        "name": "Leader"
+      },
+      {
+        "id": "7:117",
+        "name": "Organization"
+      },
+      {
+        "id": "7:121",
+        "name": "Supply"
+      },
+      {
+        "id": "7:126",
+        "name": "Logistics"
+      },
+      {
+        "id": "7:130",
+        "name": "Contact"
+      },
+      {
+        "id": "7:136",
+        "name": "Contract"
+      },
+      {
+        "id": "7:142",
+        "name": "World Event"
+      },
+      {
+        "id": "7:147",
+        "name": "Unrest"
+      },
+      {
+        "id": "7:152",
+        "name": "Investigation"
+      },
+      {
+        "id": "7:158",
+        "name": "Objective"
+      },
+      {
+        "id": "7:163",
+        "name": "Agreement"
+      }
+    ],
+    "sets": [
+      "7:38",
+      "7:59",
+      "7:78",
+      "7:106"
+    ],
+    "phosphorIcons": [
+      {
+        "name": "globe-hemisphere-west",
+        "id": "42:2"
+      },
+      {
+        "name": "user-rectangle",
+        "id": "42:6"
+      },
+      {
+        "name": "buildings",
+        "id": "42:10"
+      },
+      {
+        "name": "package",
+        "id": "42:14"
+      },
+      {
+        "name": "boat",
+        "id": "42:18"
+      },
+      {
+        "name": "handshake",
+        "id": "42:22"
+      },
+      {
+        "name": "scroll",
+        "id": "42:26"
+      },
+      {
+        "name": "newspaper",
+        "id": "42:30"
+      },
+      {
+        "name": "fire",
+        "id": "42:34"
+      },
+      {
+        "name": "detective",
+        "id": "42:38"
+      },
+      {
+        "name": "target",
+        "id": "42:42"
+      },
+      {
+        "name": "seal-check",
+        "id": "42:46"
+      },
+      {
+        "name": "first-aid-kit",
+        "id": "42:50"
+      },
+      {
+        "name": "radio",
+        "id": "42:54"
+      },
+      {
+        "name": "truck",
+        "id": "42:58"
+      },
+      {
+        "name": "arrow-right",
+        "id": "42:62"
+      },
+      {
+        "name": "gear-six",
+        "id": "42:66"
+      },
+      {
+        "name": "floppy-disk",
+        "id": "42:70"
+      },
+      {
+        "name": "book-open",
+        "id": "42:74"
+      },
+      {
+        "name": "x",
+        "id": "42:78"
+      },
+      {
+        "name": "magnifying-glass",
+        "id": "42:82"
+      },
+      {
+        "name": "coins",
+        "id": "42:86"
+      }
+    ]
+  },
+  "screenStates": [
+    {
+      "id": "11:2",
+      "state": "Draft",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "11:52",
+      "state": "Awaiting signatures",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "11:102",
+      "state": "Signed",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "11:150",
+      "state": "Draft",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:200",
+      "state": "Awaiting signatures",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:250",
+      "state": "Signed",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:298",
+      "state": "Title / main menu",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:316",
+      "state": "Setup / 2–5 houses",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:346",
+      "state": "Country dossier",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:366",
+      "state": "Market",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:392",
+      "state": "Sealed bid",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:413",
+      "state": "Privacy curtain",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:425",
+      "state": "Card archive",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:533",
+      "state": "Settings / save",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:548",
+      "state": "Final scoring",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:560",
+      "state": "Error / reservation conflict",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:571",
+      "state": "Empty / no tenders",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "11:579",
+      "state": "Loading / saving",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "18:140",
+      "state": "Title / main menu / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:158",
+      "state": "Setup / 2–5 houses / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:188",
+      "state": "Country dossier / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:208",
+      "state": "Market / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:234",
+      "state": "Sealed bid / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:255",
+      "state": "Privacy curtain / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:267",
+      "state": "Card archive / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:375",
+      "state": "Settings / save / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:390",
+      "state": "Final scoring / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:402",
+      "state": "Error / reservation conflict / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:413",
+      "state": "Empty / no tenders / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    },
+    {
+      "id": "18:421",
+      "state": "Loading / saving / 1920×1080",
+      "w": 1920,
+      "h": 1080
+    }
+  ],
+  "prototype": [
+    {
+      "from": "11:310",
+      "to": "11:316",
+      "label": "Nyt bord"
+    },
+    {
+      "from": "11:344",
+      "to": "11:392",
+      "label": "Opret bord"
+    },
+    {
+      "from": "11:411",
+      "to": "11:150",
+      "label": "Opret konsortium"
+    },
+    {
+      "from": "11:195",
+      "to": "11:200",
+      "label": "Send til underskrift"
+    },
+    {
+      "from": "11:245",
+      "to": "11:250",
+      "label": "Accepter aftale"
+    },
+    {
+      "from": "11:569",
+      "to": "11:150",
+      "label": "Tilbage til kladden"
+    },
+    {
+      "from": "11:543",
+      "to": "11:579",
+      "label": "Gem lokalt"
+    },
+    {
+      "from": "18:152",
+      "to": "18:158",
+      "label": "Nyt bord"
+    },
+    {
+      "from": "18:171",
+      "to": "18:234",
+      "label": "Opret bord"
+    },
+    {
+      "from": "18:252",
+      "to": "11:2",
+      "label": "Opret konsortium"
+    },
+    {
+      "from": "11:47",
+      "to": "11:52",
+      "label": "Send til underskrift"
+    },
+    {
+      "from": "11:97",
+      "to": "11:102",
+      "label": "Accepter aftale"
+    },
+    {
+      "from": "68:124",
+      "to": "67:1367",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "68:222",
+      "to": "67:1406",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "67:1401",
+      "to": "67:1523",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "67:1440",
+      "to": "67:1562",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "68:126",
+      "to": "69:81",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "68:224",
+      "to": "69:125",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "69:123",
+      "to": "68:57",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "69:167",
+      "to": "68:155",
+      "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "81:34",
+      "to": "81:71",
+      "label": "Borrow source receipt"
+    },
+    {
+      "from": "81:68",
+      "to": "81:105",
+      "label": "Borrow source receipt"
+    }
+  ],
+  "fiveParty": [
+    {
+      "id": "19:268",
+      "width": 1920
+    },
+    {
+      "id": "19:336",
+      "width": 1440
+    }
+  ],
+  "physical": {
+    "mats": [
+      {
+        "id": "13:2",
+        "name": "Meridian & Co."
+      },
+      {
+        "id": "13:41",
+        "name": "Northstar Union"
+      },
+      {
+        "id": "13:80",
+        "name": "Vesper Exchange"
+      },
+      {
+        "id": "13:119",
+        "name": "Atlas Cooperative"
+      },
+      {
+        "id": "13:158",
+        "name": "Redwood Trading"
+      }
+    ],
+    "kit": "13:197",
+    "box": "13:388",
+    "book": "13:398",
+    "rulebookPages": [
+      "35:185",
+      "35:202",
+      "35:221"
+    ],
+    "boxBack": "35:236",
+    "boxSpine": "35:244"
+  },
+  "sanctionStates": [
+    {
+      "id": "25:266",
+      "w": 1440,
+      "h": 900
+    },
+    {
+      "id": "25:287",
+      "w": 1920,
+      "h": 1080
+    }
+  ],
+  "equipmentAnnex": "27:185",
+  "cardOverview": "29:517",
+  "handoff": "31:2",
+  "review": {
+    "page": "44:310",
+    "notes": "57:2",
+    "iconProof": "57:17"
+  },
+  "icons": {
+    "active": "phosphor-symbols.svg",
+    "license": "LICENSE-Phosphor.txt",
+    "legacy": "dogs-of-war-symbols.svg"
+  },
+  "archivePreviewNodes": [
+    {
+      "replaces": "11:432",
+      "id": "53:1087"
+    },
+    {
+      "replaces": "11:457",
+      "id": "53:1114"
+    },
+    {
+      "replaces": "11:482",
+      "id": "53:1140"
+    },
+    {
+      "replaces": "11:507",
+      "id": "53:1166"
+    },
+    {
+      "replaces": "18:274",
+      "id": "53:1192"
+    },
+    {
+      "replaces": "18:275",
+      "id": "53:1219"
+    },
+    {
+      "replaces": "18:276",
+      "id": "53:1245"
+    },
+    {
+      "replaces": "18:277",
+      "id": "53:1271"
+    }
+  ],
+  "systems": {
+    "page": "64:2",
+    "scope": "65:2",
+    "coverage": "72:411",
+    "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449",
+    "cards": {
+      "events": [
+        {
+          "event": "open-ports",
+          "id": "66:2"
+        },
+        {
+          "event": "supply-shock",
+          "id": "66:36"
+        },
+        {
+          "event": "public-scrutiny",
+          "id": "66:70"
+        },
+        {
+          "event": "relief-window",
+          "id": "66:104"
+        },
+        {
+          "event": "quiet-diplomacy",
+          "id": "66:138"
+        },
+        {
+          "event": "credit-tightens",
+          "id": "66:172"
+        }
+      ],
+      "rounds": [
+        {
+          "round": 1,
+          "id": "66:206"
+        },
+        {
+          "round": 2,
+          "id": "66:218"
+        },
+        {
+          "round": 3,
+          "id": "66:230"
+        },
+        {
+          "round": 4,
+          "id": "66:242"
+        },
+        {
+          "round": 5,
+          "id": "66:254"
+        },
+        {
+          "round": 6,
+          "id": "66:266"
+        },
+        {
+          "round": 7,
+          "id": "66:278"
+        },
+        {
+          "round": 8,
+          "id": "66:290"
+        }
+      ],
+      "scenario": [
+        {
+          "side": "Front",
+          "id": "66:302"
+        },
+        {
+          "side": "Back",
+          "id": "66:312"
+        }
+      ]
+    },
+    "sets": [
+      {
+        "id": "67:41",
+        "name": "DOW / World event reference"
+      },
+      {
+        "id": "67:42",
+        "name": "DOW / Round reference"
+      },
+      {
+        "id": "67:43",
+        "name": "DOW / Standard scenario"
+      }
+    ],
+    "freight": [
+      {
+        "state": "ready",
+        "w": 1920,
+        "h": 1080,
+        "id": "67:1367",
+        "primary": "67:1401",
+        "secondary": "67:1403"
+      },
+      {
+        "state": "ready",
+        "w": 1440,
+        "h": 900,
+        "id": "67:1406",
+        "primary": "67:1440",
+        "secondary": "67:1442"
+      },
+      {
+        "state": "blocked",
+        "w": 1920,
+        "h": 1080,
+        "id": "67:1445",
+        "primary": "67:1479",
+        "secondary": "67:1481"
+      },
+      {
+        "state": "blocked",
+        "w": 1440,
+        "h": 900,
+        "id": "67:1484",
+        "primary": "67:1518",
+        "secondary": "67:1520"
+      },
+      {
+        "state": "delivered",
+        "w": 1920,
+        "h": 1080,
+        "id": "67:1523",
+        "primary": "67:1557",
+        "secondary": "67:1559"
+      },
+      {
+        "state": "delivered",
+        "w": 1440,
+        "h": 900,
+        "id": "67:1562",
+        "primary": "67:1596",
+        "secondary": "67:1598"
+      },
+      {
+        "state": "failed",
+        "w": 1920,
+        "h": 1080,
+        "id": "67:1601",
+        "primary": "67:1635",
+        "secondary": "67:1637"
+      },
+      {
+        "state": "failed",
+        "w": 1440,
+        "h": 900,
+        "id": "67:1640",
+        "primary": "67:1674",
+        "secondary": "67:1676"
+      }
+    ],
+    "roundAndScenario": [
+      {
+        "type": "round",
+        "w": 1920,
+        "h": 1080,
+        "id": "68:57",
+        "primary": "68:124",
+        "event": "68:126"
+      },
+      {
+        "type": "scenario",
+        "w": 1920,
+        "h": 1080,
+        "id": "68:128",
+        "primary": "68:152"
+      },
+      {
+        "type": "round",
+        "w": 1440,
+        "h": 900,
+        "id": "68:155",
+        "primary": "68:222",
+        "event": "68:224"
+      },
+      {
+        "type": "scenario",
+        "w": 1440,
+        "h": 900,
+        "id": "68:226",
+        "primary": "68:250"
+      }
+    ],
+    "events": [
+      {
+        "id": "69:81",
+        "w": 1920,
+        "h": 1080,
+        "back": "69:123"
+      },
+      {
+        "id": "69:125",
+        "w": 1440,
+        "h": 900,
+        "back": "69:167"
+      }
+    ],
+    "cardProof": "69:169",
+    "prototype": [
+      [
+        "68:124",
+        "67:1367"
+      ],
+      [
+        "68:222",
+        "67:1406"
+      ],
+      [
+        "67:1401",
+        "67:1523"
+      ],
+      [
+        "67:1440",
+        "67:1562"
+      ],
+      [
+        "68:126",
+        "69:81"
+      ],
+      [
+        "68:224",
+        "69:125"
+      ],
+      [
+        "69:123",
+        "68:57"
+      ],
+      [
+        "69:167",
+        "68:155"
+      ]
+    ],
+    "qa": {
+      "page": "64:2",
+      "issues": [],
+      "contrastIssues": [],
+      "components": 16,
+      "instances": 73
+    },
+    "views": [
+      {
+        "id": "67:1367",
+        "name": "Freight / ready / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "67:1406",
+        "name": "Freight / ready / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "67:1445",
+        "name": "Freight / blocked / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "67:1484",
+        "name": "Freight / blocked / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "67:1523",
+        "name": "Freight / delivered / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "67:1562",
+        "name": "Freight / delivered / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "67:1601",
+        "name": "Freight / failed / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "67:1640",
+        "name": "Freight / failed / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "68:57",
+        "name": "Round overview / engine reference / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "68:128",
+        "name": "Scenario selection / current rules and gated content / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "68:155",
+        "name": "Round overview / engine reference / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "68:226",
+        "name": "Scenario selection / current rules and gated content / 1440×900",
+        "w": 1440,
+        "h": 900
+      },
+      {
+        "id": "69:81",
+        "name": "Round event / quiet diplomacy / 1920×1080",
+        "w": 1920,
+        "h": 1080
+      },
+      {
+        "id": "69:125",
+        "name": "Round event / quiet diplomacy / 1440×900",
+        "w": 1440,
+        "h": 900
+      }
+    ],
+    "counts": [
+      {
+        "page": "5:2",
+        "roots": 39,
+        "components": 66,
+        "instances": 12
+      },
+      {
+        "page": "5:3",
+        "roots": 44,
+        "components": 54,
+        "instances": 63
+      },
+      {
+        "page": "5:4",
+        "roots": 2,
+        "components": 0,
+        "instances": 24
+      },
+      {
+        "page": "5:5",
+        "roots": 34,
+        "components": 0,
+        "instances": 78
+      },
+      {
+        "page": "5:6",
+        "roots": 14,
+        "components": 5,
+        "instances": 69
+      },
+      {
+        "page": "5:7",
+        "roots": 1,
+        "components": 0,
+        "instances": 0
+      },
+      {
+        "page": "44:310",
+        "roots": 4,
+        "components": 0,
+        "instances": 66
+      },
+      {
+        "page": "64:2",
+        "roots": 20,
+        "components": 16,
+        "instances": 73
+      }
+    ],
+    "captureMetadata": [
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "67:1406",
+        "name": "freight-ready-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "67:1484",
+        "name": "freight-blocked-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "68:155",
+        "name": "round-overview-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "68:226",
+        "name": "scenario-selection-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "69:125",
+        "name": "round-event-1440.png"
+      },
+      {
+        "width": 2380,
+        "height": 1120,
+        "format": "png",
+        "original_width": 2380,
+        "original_height": 1120,
+        "nodeId": "69:169",
+        "name": "events-round-cards.png"
+      },
+      {
+        "width": 1500,
+        "height": 2570,
+        "format": "png",
+        "original_width": 1500,
+        "original_height": 2570,
+        "nodeId": "72:411",
+        "name": "whole-game-coverage.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "format": "png",
+        "original_width": 1920,
+        "original_height": 1080,
+        "nodeId": "8:2",
+        "name": "board-1920-preview.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "8:512",
+        "name": "board-1440-preview.png"
+      }
+    ]
+  },
+  "coreLedgers": {
+    "page": "81:2",
+    "screens": [
+      {
+        "type": "finance",
+        "id": "81:3",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:34"
+      },
+      {
+        "type": "finance",
+        "id": "81:37",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:68"
+      },
+      {
+        "type": "borrow",
+        "id": "81:71",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:102"
+      },
+      {
+        "type": "borrow",
+        "id": "81:105",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:136"
+      },
+      {
+        "type": "repay",
+        "id": "81:139",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:170"
+      },
+      {
+        "type": "repay",
+        "id": "81:173",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:204"
+      },
+      {
+        "type": "market",
+        "id": "81:207",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:238"
+      },
+      {
+        "type": "market",
+        "id": "81:241",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:272"
+      },
+      {
+        "type": "influence",
+        "id": "81:275",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:306"
+      },
+      {
+        "type": "influence",
+        "id": "81:309",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:340"
+      },
+      {
+        "type": "network",
+        "id": "81:343",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:374"
+      },
+      {
+        "type": "network",
+        "id": "81:377",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:408"
+      },
+      {
+        "type": "audit",
+        "id": "81:411",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:442"
+      },
+      {
+        "type": "audit",
+        "id": "81:445",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:476"
+      },
+      {
+        "type": "control",
+        "id": "81:479",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:510"
+      },
+      {
+        "type": "control",
+        "id": "81:513",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:544"
+      },
+      {
+        "type": "objective",
+        "id": "81:547",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:578"
+      },
+      {
+        "type": "objective",
+        "id": "81:581",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:612"
+      },
+      {
+        "type": "history",
+        "id": "81:615",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:647"
+      },
+      {
+        "type": "history",
+        "id": "81:650",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:682"
+      },
+      {
+        "type": "unrest",
+        "id": "81:685",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:716"
+      },
+      {
+        "type": "unrest",
+        "id": "81:719",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:750"
+      },
+      {
+        "type": "scoring",
+        "id": "81:753",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:819"
+      },
+      {
+        "type": "scoring",
+        "id": "81:821",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:887"
+      }
+    ],
+    "objectives": [
+      {
+        "id": "legitimate",
+        "node": "83:92"
+      },
+      {
+        "id": "diplomat",
+        "node": "83:105"
+      },
+      {
+        "id": "consortium",
+        "node": "83:118"
+      }
+    ],
+    "objectiveSet": "83:131",
+    "objectiveProof": "83:132",
+    "prototype": [
+      [
+        "81:34",
+        "81:71"
+      ],
+      [
+        "81:68",
+        "81:105"
+      ]
+    ],
+    "qa": {
+      "page": "81:2",
+      "issues": [],
+      "contrastIssues": [],
+      "components": 3,
+      "instances": 55
+    },
+    "captures": [
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:37",
+        "name": "finance-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:513",
+        "name": "control-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:581",
+        "name": "private-objective-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:719",
+        "name": "political-pressure-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:821",
+        "name": "scoring-1440.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "format": "png",
+        "original_width": 1920,
+        "original_height": 1080,
+        "nodeId": "81:753",
+        "name": "scoring-1920.png"
+      },
+      {
+        "width": 1100,
+        "height": 620,
+        "format": "png",
+        "original_width": 1100,
+        "original_height": 620,
+        "nodeId": "83:132",
+        "name": "three-source-objectives.png"
+      }
+    ],
+    "fixtureChecks": {
+      "invariantsPassed": true,
+      "replayExact": true
+    },
+    "rankings": [
+      {
+        "rank": 1,
+        "id": "p2",
+        "name": "Vesper Exchange",
+        "score": 19,
+        "cash": 36,
+        "debt": 0,
+        "cargo": 2,
+        "wealth": 19,
+        "prestige": 0,
+        "relations": 0,
+        "objective": "consortium",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      },
+      {
+        "rank": 2,
+        "id": "p1",
+        "name": "Northstar Union",
+        "score": 18,
+        "cash": 34,
+        "debt": 0,
+        "cargo": 2,
+        "wealth": 18,
+        "prestige": 0,
+        "relations": 0,
+        "objective": "diplomat",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      },
+      {
+        "rank": 3,
+        "id": "p3",
+        "name": "Atlas Cooperative",
+        "score": 18,
+        "cash": 34,
+        "debt": 0,
+        "cargo": 2,
+        "wealth": 18,
+        "prestige": 0,
+        "relations": 0,
+        "objective": "legitimate",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      },
+      {
+        "rank": 4,
+        "id": "p4",
+        "name": "Redwood Trading",
+        "score": 18,
+        "cash": 34,
+        "debt": 0,
+        "cargo": 2,
+        "wealth": 18,
+        "prestige": 0,
+        "relations": 0,
+        "objective": "diplomat",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      },
+      {
+        "rank": 5,
+        "id": "p0",
+        "name": "Meridian & Co.",
+        "score": 17,
+        "cash": 32,
+        "debt": 0,
+        "cargo": 1,
+        "wealth": 16,
+        "prestige": 1,
+        "relations": 0,
+        "objective": "legitimate",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      }
+    ]
+  },
+  "statistics": {
+    "components": 144,
+    "instances": 440,
+    "variables": 19,
+    "textStyles": 13,
+    "viewportFrames": 74
+  }
+}
