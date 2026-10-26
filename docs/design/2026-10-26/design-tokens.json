@@ -1,5 +1,5 @@
 {
-  "version": "0.1-design",
+  "version": "0.2-visual-review",
   "sourceFile": "xt8J8b4flEVpe1tAX36I6w",
   "colors": {
     "ink": "#101E22",
@@ -15,7 +15,8 @@
     "purple": "#AD91BC",
     "green": "#87AD8A",
     "copper": "#DB9278",
-    "wood": "#392B25"
+    "wood": "#392B25",
+    "goldPressed": "#AD8B53"
   },
   "typography": {
     "display": {
@@ -65,7 +66,9 @@
       63,
       88
     ],
-    "printStatus": "Not printer approved; supplier dieline and bleed still required"
+    "printStatus": "Not printer approved; supplier dieline and bleed still required",
+    "bodyFontPx": 16,
+    "bodyLineHeightPx": 20
   },
   "contrast": [
     {
@@ -108,5 +111,37 @@
       "background": "felt",
       "ratio": 5.45
     }
-  ]
+  ],
+  "dimensions": {
+    "space8": 8,
+    "space16": 16,
+    "controlRadius": 3,
+    "controlStroke": 1
+  },
+  "action": {
+    "width": 220,
+    "height": 48,
+    "tones": [
+      "Primary",
+      "Secondary"
+    ],
+    "states": [
+      "Default",
+      "Hover",
+      "Focus",
+      "Pressed",
+      "Disabled",
+      "Loading"
+    ]
+  },
+  "icons": {
+    "library": "Phosphor Duotone",
+    "base": 32,
+    "proofSizes": [
+      20,
+      24,
+      32
+    ],
+    "license": "MIT"
+  }
 }
