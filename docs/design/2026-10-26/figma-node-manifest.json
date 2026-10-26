@@ -9,7 +9,8 @@
     "physical": "5:6",
     "handoff": "5:7",
     "review": "44:310",
-    "systems": "64:2"
+    "systems": "64:2",
+    "coreLedgers": "81:2"
   },
   "table": [
     "8:2",
@@ -837,6 +838,16 @@
       "from": "69:167",
       "to": "68:155",
       "label": "Systems navigation; see source and target"
+    },
+    {
+      "from": "81:34",
+      "to": "81:71",
+      "label": "Borrow source receipt"
+    },
+    {
+      "from": "81:68",
+      "to": "81:105",
+      "label": "Borrow source receipt"
     }
   ],
   "fiveParty": [
@@ -1406,5 +1417,369 @@
         "name": "board-1440-preview.png"
       }
     ]
+  },
+  "coreLedgers": {
+    "page": "81:2",
+    "screens": [
+      {
+        "type": "finance",
+        "id": "81:3",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:34"
+      },
+      {
+        "type": "finance",
+        "id": "81:37",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:68"
+      },
+      {
+        "type": "borrow",
+        "id": "81:71",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:102"
+      },
+      {
+        "type": "borrow",
+        "id": "81:105",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:136"
+      },
+      {
+        "type": "repay",
+        "id": "81:139",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:170"
+      },
+      {
+        "type": "repay",
+        "id": "81:173",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:204"
+      },
+      {
+        "type": "market",
+        "id": "81:207",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:238"
+      },
+      {
+        "type": "market",
+        "id": "81:241",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:272"
+      },
+      {
+        "type": "influence",
+        "id": "81:275",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:306"
+      },
+      {
+        "type": "influence",
+        "id": "81:309",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:340"
+      },
+      {
+        "type": "network",
+        "id": "81:343",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:374"
+      },
+      {
+        "type": "network",
+        "id": "81:377",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:408"
+      },
+      {
+        "type": "audit",
+        "id": "81:411",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:442"
+      },
+      {
+        "type": "audit",
+        "id": "81:445",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:476"
+      },
+      {
+        "type": "control",
+        "id": "81:479",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:510"
+      },
+      {
+        "type": "control",
+        "id": "81:513",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:544"
+      },
+      {
+        "type": "objective",
+        "id": "81:547",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:578"
+      },
+      {
+        "type": "objective",
+        "id": "81:581",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:612"
+      },
+      {
+        "type": "history",
+        "id": "81:615",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:647"
+      },
+      {
+        "type": "history",
+        "id": "81:650",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:682"
+      },
+      {
+        "type": "unrest",
+        "id": "81:685",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:716"
+      },
+      {
+        "type": "unrest",
+        "id": "81:719",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:750"
+      },
+      {
+        "type": "scoring",
+        "id": "81:753",
+        "w": 1920,
+        "h": 1080,
+        "primary": "81:819"
+      },
+      {
+        "type": "scoring",
+        "id": "81:821",
+        "w": 1440,
+        "h": 900,
+        "primary": "81:887"
+      }
+    ],
+    "objectives": [
+      {
+        "id": "legitimate",
+        "node": "83:92"
+      },
+      {
+        "id": "diplomat",
+        "node": "83:105"
+      },
+      {
+        "id": "consortium",
+        "node": "83:118"
+      }
+    ],
+    "objectiveSet": "83:131",
+    "objectiveProof": "83:132",
+    "prototype": [
+      [
+        "81:34",
+        "81:71"
+      ],
+      [
+        "81:68",
+        "81:105"
+      ]
+    ],
+    "qa": {
+      "page": "81:2",
+      "issues": [],
+      "contrastIssues": [],
+      "components": 3,
+      "instances": 55
+    },
+    "captures": [
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:37",
+        "name": "finance-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:513",
+        "name": "control-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:581",
+        "name": "private-objective-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:719",
+        "name": "political-pressure-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:821",
+        "name": "scoring-1440.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "format": "png",
+        "original_width": 1920,
+        "original_height": 1080,
+        "nodeId": "81:753",
+        "name": "scoring-1920.png"
+      },
+      {
+        "width": 1100,
+        "height": 620,
+        "format": "png",
+        "original_width": 1100,
+        "original_height": 620,
+        "nodeId": "83:132",
+        "name": "three-source-objectives.png"
+      }
+    ],
+    "fixtureChecks": {
+      "invariantsPassed": true,
+      "replayExact": true
+    },
+    "rankings": [
+      {
+        "rank": 1,
+        "id": "p2",
+        "name": "Vesper Exchange",
+        "score": 19,
+        "cash": 36,
+        "debt": 0,
+        "cargo": 2,
+        "wealth": 19,
+        "prestige": 0,
+        "relations": 0,
+        "objective": "consortium",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      },
+      {
+        "rank": 2,
+        "id": "p1",
+        "name": "Northstar Union",
+        "score": 18,
+        "cash": 34,
+        "debt": 0,
+        "cargo": 2,
+        "wealth": 18,
+        "prestige": 0,
+        "relations": 0,
+        "objective": "diplomat",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      },
+      {
+        "rank": 3,
+        "id": "p3",
+        "name": "Atlas Cooperative",
+        "score": 18,
+        "cash": 34,
+        "debt": 0,
+        "cargo": 2,
+        "wealth": 18,
+        "prestige": 0,
+        "relations": 0,
+        "objective": "legitimate",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      },
+      {
+        "rank": 4,
+        "id": "p4",
+        "name": "Redwood Trading",
+        "score": 18,
+        "cash": 34,
+        "debt": 0,
+        "cargo": 2,
+        "wealth": 18,
+        "prestige": 0,
+        "relations": 0,
+        "objective": "diplomat",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      },
+      {
+        "rank": 5,
+        "id": "p0",
+        "name": "Meridian & Co.",
+        "score": 17,
+        "cash": 32,
+        "debt": 0,
+        "cargo": 1,
+        "wealth": 16,
+        "prestige": 1,
+        "relations": 0,
+        "objective": "legitimate",
+        "objectivePoints": 0,
+        "investigation": 0,
+        "penalty": 0
+      }
+    ]
+  },
+  "statistics": {
+    "components": 144,
+    "instances": 440,
+    "variables": 19,
+    "textStyles": 13,
+    "viewportFrames": 74
   }
 }

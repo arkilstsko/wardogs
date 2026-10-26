@@ -98,3 +98,10 @@ Side 08 tilføjer 14 viewport-rammer, 16 komponenter og en kildeafstemt oversigt
 Otte rundereferencer og seks begivenhedskort følger de eksisterende faser og effekter. Begivenheder kan gentages. Grundspillet har for- og bagside, og scenarievalget markerer manglende scenarieregler. Fragt udføres som handling; fase 05 er frister og kontrol. Ruter, rejsetid, forsikring og flere scenarier er fortsat uafklarede mekanikker.
 
 Layout og nærmeste ensfarvede tekstbaggrund bestod den målte kontrol efter rettelser. Der er otte nye navigationsforbindelser; prototypen er stadig begrænset. SYSTEMS-COVERAGE.md og 72:411 viser både leverancer og mangler. Den samlede kommercielle kvalitetsvurdering er fortsat ikke godkendt.
+
+
+## Opdatering: handlingsbog og fuldt slutregnskab
+
+Side 09 udfylder 24 konkrete visninger for finansiering, lån/afdrag, varehandel, relationer, udvidelse, revision, kontrol, privat mål, offentlig log, politisk pres og slutregnskab. Tre målkort følger de faktiske scorekriterier. Yderligere ti engine-tilstande bestod invariants og identisk replay. Det befolkede slutregnskab viser fem huse, alle pointled og afslørede mål.
+
+Det tidligere hul omkring finansielle kvitteringer og et faktisk slutregnskab er dermed reduceret med konkrete designs. Komplet historik/replay, successionskvittering, online/gendannelse, fulde kortstakke, navneredaktion og endelig illustration er stadig ikke slutgodkendt.

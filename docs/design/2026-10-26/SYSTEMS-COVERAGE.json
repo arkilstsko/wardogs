@@ -4,7 +4,8 @@
   "figma": {
     "fileKey": "xt8J8b4flEVpe1tAX36I6w",
     "page": "64:2",
-    "coverage": "72:411"
+    "coverage": "72:411",
+    "corePage": "81:2"
   },
   "status": "Visual coverage inventory; not an approved complete game or ruleset",
   "aspects": [
@@ -112,13 +113,13 @@
     {
       "id": "economy",
       "aspect": "Indkomst, gæld & vedligehold",
-      "status": "Delvist design",
-      "detail": "Kildeindkomst og vedligehold er med. Lån, afdrag og manglende likviditet kræver egne detaljerede visninger.",
+      "status": "Regler + design",
+      "detail": "Lån, afdrag, gældsloft, normal vedligehold og tvungent tab er vist med kildeberegnede kvitteringer.",
       "source": "income; refinance; ensureCash",
       "nodes": [
-        "68:57",
-        "68:155",
-        "66:312"
+        "81:37",
+        "81:105",
+        "81:173"
       ]
     },
     {
@@ -136,14 +137,14 @@
     {
       "id": "market",
       "aspect": "Marked & lager",
-      "status": "Delvist design",
-      "detail": "Pris, beholdning, kapacitet og køb/salg. Kontroller skal bindes til samme kildeøkonomi.",
+      "status": "Regler + design",
+      "detail": "Medicinsk køb/salg viser pris- og lagerændringer, fri/bundet last og kapacitetsgrænser.",
       "source": "prices; stock; acquire; sell",
       "nodes": [
+        "81:207",
+        "81:241",
         "11:366",
-        "18:208",
-        "8:2",
-        "8:512"
+        "18:208"
       ]
     },
     {
@@ -258,37 +259,39 @@
     {
       "id": "influence",
       "aspect": "Relationer & indflydelse",
-      "status": "Delvist design",
-      "detail": "Kontakter og relationer følger kildehandlingerne. Individuelle handlinger mangler egne kvitteringer.",
+      "status": "Regler + design",
+      "detail": "Relation og stabilitet vises før/efter. Kontakter og logistik har separate kildealternativer og loft 3.",
       "source": "influence; network; relationships",
       "nodes": [
-        "11:346",
-        "18:188",
-        "13:197"
+        "81:275",
+        "81:309",
+        "81:343",
+        "81:377"
       ]
     },
     {
       "id": "unrest",
       "aspect": "Oprør & lederskifte",
       "status": "Delvist design",
-      "detail": "Politisk pres kan udløse sanktioner og fiktivt lederskifte. Komplet sekvens mangler visninger.",
+      "detail": "Pris, ustabilitet, efterspørgsel, efterforskning og sanktioner er vist; lederskifte forklares. Egen successionskvittering mangler.",
       "source": "unrest; country stability",
       "nodes": [
-        "6:334",
-        "20:2",
+        "81:685",
+        "81:719",
         "25:266"
       ]
     },
     {
       "id": "investigation",
       "aspect": "Efterforskning & kontrol",
-      "status": "Delvist design",
-      "detail": "D6, kontrol, bøde og konfiskation af fri last. Tildelt last beskyttes af reservationen.",
+      "status": "Regler + design",
+      "detail": "Revision og faktisk D6-kontrol med konfiskation, bøde, frist og frigivelse af reservationer er vist.",
       "source": "audit; delivery enforcement",
       "nodes": [
-        "6:373",
-        "13:197",
-        "67:1640"
+        "81:411",
+        "81:445",
+        "81:479",
+        "81:513"
       ]
     },
     {
@@ -306,23 +309,25 @@
     {
       "id": "objectives",
       "aspect": "Hemmelige mål",
-      "status": "Delvist design",
-      "detail": "Tre kildemål; privat visning og kriterier kræver komplet individuel gennemgang.",
+      "status": "Regler + design",
+      "detail": "Tre faktiske målkort, privat fremskridt og afslørede mål i slutregnskabet. Andre metadata er ikke godkendte mål.",
       "source": "Player.objective; finalScore",
       "nodes": [
-        "6:410",
-        "11:413"
+        "83:131",
+        "81:547",
+        "81:581",
+        "81:821"
       ]
     },
     {
       "id": "endgame",
       "aspect": "Slutspil & point",
-      "status": "Delvist design",
-      "detail": "Runde 8, resterende kontrakter og kildens scoreformel. Eksisterende scorevisning skal datavalideres.",
+      "status": "Regler + design",
+      "detail": "Fuldt kildeberegnet slutregnskab for fem huse, alle pointled, mål, ressourcer og kildens rækkefølge ved lighed.",
       "source": "finalScore; finished",
       "nodes": [
-        "11:548",
-        "18:390",
+        "81:753",
+        "81:821",
         "66:290"
       ]
     },
@@ -330,10 +335,11 @@
       "id": "logs",
       "aspect": "Hændelseslog & replay",
       "status": "Delvist design",
-      "detail": "Fragtens fem tilstande er reproduceret. Spillets fulde log og hændelsesdetaljer mangler design.",
+      "detail": "Offentlig afviklet tidslinje og kvitteringer findes. Komplet filtrering, afspilningskontrol og hele loggen mangler.",
       "source": "commands; log; replay",
       "nodes": [
-        "67:1640"
+        "81:615",
+        "81:650"
       ]
     },
     {
@@ -374,12 +380,12 @@
       "id": "cards",
       "aspect": "12 kortfamilier & indhold",
       "status": "Delvist færdigt",
-      "detail": "12 redigerbare familier; 189 metadataforslag er ikke 189 færdigskrevne, balancerede spillekort.",
+      "detail": "12 redigerbare familier plus seks begivenheder, otte rundereferencer og tre faktiske mål. 189 metadata er ikke en færdig kortstak.",
       "source": "proposed-card-metadata.json",
       "nodes": [
         "29:517",
-        "6:445",
-        "69:169"
+        "69:169",
+        "83:132"
       ]
     },
     {
@@ -464,5 +470,11 @@
       "url": "https://boardgamegeek.com/thread/2936700/official-errata",
       "read": "Access blocked (403); not used as rules evidence."
     }
-  ]
+  ],
+  "extendedVerification": {
+    "states": 10,
+    "invariantsPassed": true,
+    "replayExact": true,
+    "sourceCommit": "520a03ada667e93d9ead585e719a001f48a99449"
+  }
 }

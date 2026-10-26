@@ -14,7 +14,7 @@
 - Event receipt for Quiet Diplomacy in both viewports, with Denmark stability 3 → 5, setup-order tie resolution and the next-phase explanation.
 - Thirty-six-area coverage inventory with rule source, visual nodes and remaining work. JSON counterpart is supplied.
 
-There are 16 new components, 73 instances and 14 new viewport frames on page 08. Totals across authored pages: 141 components, 385 instances, 19 variables and 13 text styles; 50 viewport frames including the existing main tables and supporting states. These counts describe artifacts, not functional completeness.
+There are 16 new components, 73 instances and 14 new viewport frames on page 08. Totals across authored pages: 144 components, 440 instances, 19 variables and 13 text styles; 74 viewport frames including the existing main tables, supporting states and action ledgers. These counts describe artifacts, not functional completeness.
 
 ## Authoritative source and deterministic evidence
 
@@ -66,9 +66,9 @@ The main table now uses the negotiation fixture for its own cash/actions, medica
 | Kort & landegrænser | Licensafklaring | 1:2, 8:2, 8:512 — 200 eksisterende landevektorer bevaret. 15 aktive lande. Grænsepolitik og kortlicens kræver afklaring. |
 | Politikere & organisationer | Redaktionel QA | 20:2, 6:75, 6:110 — 15 fiktive portrætnavne. Organisationers udvidede roller er ikke godkendte mekanikker. |
 | Fem handelshuse | Design; navne QA | 7:59, 13:2, 13:41, 13:80, 13:119, 13:158 — Fem spillerplader og kildebonusser. Firmanavne er bevaret; endelig navneredaktion mangler. |
-| Indkomst, gæld & vedligehold | Delvist design | 68:57, 68:155, 66:312 — Kildeindkomst og vedligehold er med. Lån, afdrag og manglende likviditet kræver egne detaljerede visninger. |
+| Indkomst, gæld & vedligehold | Regler + design | 81:37, 81:105, 81:173 — Lån, afdrag, gældsloft, normal vedligehold og tvungent tab er vist med kildeberegnede kvitteringer. |
 | Varer & udstyr | Regler + design | 6:147, 27:185, 11:366 — Medicinsk, kommunikation og køretøjer er aktive. Flere våbenkategorier er kun uafklaret metadata. |
-| Marked & lager | Delvist design | 11:366, 18:208, 8:2, 8:512 — Pris, beholdning, kapacitet og køb/salg. Kontroller skal bindes til samme kildeøkonomi. |
+| Marked & lager | Regler + design | 81:207, 81:241, 11:366, 18:208 — Medicinsk køb/salg viser pris- og lagerændringer, fri/bundet last og kapacitetsgrænser. |
 | Gråhandel & sort marked | Afventer udvidelse | 6:260, 27:185 — Kontrakter kan være legal/gray. Et separat sort marked med egne regler er ikke defineret. |
 | Udbud & kontrakter | Regler + design | 8:2, 8:512, 6:260 — N+2 udbud, last, logistik, loft, frist, risiko og bod. Hovedbordets Italien-udbud er kildebaseret. |
 | Bud, deponering & lighed | Delvist design | 11:392, 18:234, 67:1406 — Laveste betaling vinder; 1 handling + 1 M i deponering. Lighed og tabende bud skal forklares særskilt. |
@@ -78,17 +78,17 @@ The main table now uses the negotiation fixture for its own cash/actions, medica
 | Ruter, havne & rejsetid | Afventer regler | 65:2 — Ingen godkendte distancer, rejserunder, fragtrater, told, forsikring eller skibstyper. |
 | Sanktioner & blokering | Regler + design | 67:1445, 67:1484, 25:266, 25:287 — Sanktioner blokerer transport. Stabilitet alene fjerner ikke flaget før kildeopdateringen. |
 | Frister & misligholdelse | Regler + design | 67:1601, 67:1640, 66:290 — Fristfase, tabt deponering, bod, frigivelse og omdømme. Sidste runde afslutter åbne tildelinger. |
-| Relationer & indflydelse | Delvist design | 11:346, 18:188, 13:197 — Kontakter og relationer følger kildehandlingerne. Individuelle handlinger mangler egne kvitteringer. |
-| Oprør & lederskifte | Delvist design | 6:334, 20:2, 25:266 — Politisk pres kan udløse sanktioner og fiktivt lederskifte. Komplet sekvens mangler visninger. |
-| Efterforskning & kontrol | Delvist design | 6:373, 13:197, 67:1640 — D6, kontrol, bøde og konfiskation af fri last. Tildelt last beskyttes af reservationen. |
+| Relationer & indflydelse | Regler + design | 81:275, 81:309, 81:343, 81:377 — Relation og stabilitet vises før/efter. Kontakter og logistik har separate kildealternativer og loft 3. |
+| Oprør & lederskifte | Delvist design | 81:685, 81:719, 25:266 — Pris, ustabilitet, efterspørgsel, efterforskning og sanktioner er vist; lederskifte forklares. Egen successionskvittering mangler. |
+| Efterforskning & kontrol | Regler + design | 81:411, 81:445, 81:479, 81:513 — Revision og faktisk D6-kontrol med konfiskation, bøde, frist og frigivelse af reservationer er vist. |
 | Handlingspulje & tur | Regler + design | 68:57, 68:155, 13:197 — Tre fælles handlinger pr. runde; bud og transport bruger samme pulje. Pas og turmarkør. |
-| Hemmelige mål | Delvist design | 6:410, 11:413 — Tre kildemål; privat visning og kriterier kræver komplet individuel gennemgang. |
-| Slutspil & point | Delvist design | 11:548, 18:390, 66:290 — Runde 8, resterende kontrakter og kildens scoreformel. Eksisterende scorevisning skal datavalideres. |
-| Hændelseslog & replay | Delvist design | 67:1640 — Fragtens fem tilstande er reproduceret. Spillets fulde log og hændelsesdetaljer mangler design. |
+| Hemmelige mål | Regler + design | 83:131, 81:547, 81:581, 81:821 — Tre faktiske målkort, privat fremskridt og afslørede mål i slutregnskabet. Andre metadata er ikke godkendte mål. |
+| Slutspil & point | Regler + design | 81:753, 81:821, 66:290 — Fuldt kildeberegnet slutregnskab for fem huse, alle pointled, mål, ressourcer og kildens rækkefølge ved lighed. |
+| Hændelseslog & replay | Delvist design | 81:615, 81:650 — Offentlig afviklet tidslinje og kvitteringer findes. Komplet filtrering, afspilningskontrol og hele loggen mangler. |
 | Gem, indlæs & fejl | Delvist design | 11:533, 11:560, 11:579 — Gem/venter/fejl findes visuelt. Indlæsning, ugyldig fil, version og gendannelse mangler fuld QA. |
 | Online bord & afbrudt forbindelse | Afventer driftsdesign | 11:316, 18:158 — Udviklingsserver med tre pladser er ikke dokumentation for færdig 2–5 spillerdrift. |
 | Bots & lokal turtagning | Afventer spiltest | 11:413, 18:255 — Lokal hotseat og bots findes i kilden. Sværhedsgrad og fairness er ikke kvalitetssikret her. |
-| 12 kortfamilier & indhold | Delvist færdigt | 29:517, 6:445, 69:169 — 12 redigerbare familier; 189 metadataforslag er ikke 189 færdigskrevne, balancerede spillekort. |
+| 12 kortfamilier & indhold | Delvist færdigt | 29:517, 69:169, 83:132 — 12 redigerbare familier plus seks begivenheder, otte rundereferencer og tre faktiske mål. 189 metadata er ikke en færdig kortstak. |
 | Brikker, terninger & bunker | Design; produktion QA | 13:197, 13:388 — Penge, handlinger, indflydelse og status; bunker skal afspejle de faktiske regler. |
 | Bog, æske & fysisk kvalitet | Afventer trykprøve | 35:185, 35:202, 35:221, 35:236, 35:244 — Bogtekst og æskeflader findes. Stans, bleed, farveprøve, kortkarton og tolerancer er ikke verificeret. |
 | Ikoner & materialer | Design + kilde | 57:17, 7:38 — 22 Phosphor-vektorer med MIT-licens. Specialbrikker og papir/filt følger fælles bibliotek. |
@@ -123,3 +123,14 @@ Use references for hierarchy, phase aids, material legibility and complete scena
 7. Verify 2 and 5 players, long labels, sanctions, insufficient resources, tied bids, final-signature conflicts, failed deadlines, investigation, round 8, privacy, reconnect, keyboard and responsive behavior.
 
 The remaining portrait/house identity, full card authoring, print proof, rights and accessibility gates in VISUAL-REVIEW.md still apply. This addition makes omissions explicit; it does not sign off a completed commercial board game.
+
+
+## Completed source-action ledger addition
+
+Page 09 (81:2) adds 24 viewport frames: finance choice, loan receipt, repayment receipt, medical buy/sell sequence, influence, contacts/logistics alternatives, audit receipt, deadline/enforcement settlement, private objective progress, public history, political-pressure consequences and full final scoring. Each exists at both reference sizes. Three source objective fronts are 83:92 / 83:105 / 83:118, set 83:131, proof 83:132; pair with the existing back 6:399.
+
+The additional 10 complete states in EXTENDED-ENGINE-REFERENCE.json all passed invariants and exact replay. They are branches from the original freight example, including a fully completed eight-round pass continuation. Its five-house final ledger is 81:753 / 81:821: Vesper 19; Northstar, Atlas and Redwood 18; Meridian 17. Every score term and revealed objective is shown. This is a reproducible mechanical example, not evidence of strategy balance.
+
+Page 09 adds three components and 55 instances. Current totals are 144 components, 440 instances and 74 viewport frames, with the existing 19 variables and 13 styles. Two further loan-navigation links bring selected navigation examples to 22. Full prototype/runtime behavior is still not verified. Auto-layout and nearest-solid-background contrast checks on page 09 passed after fixing table height. Paper material uses frame background fills so it cannot obscure status text.
+
+Financing, market, influence/network, audit/control, source objectives and a populated final ledger now have concrete source-aligned designs. Full filtered history/replay controls, explicit succession receipt, all save/recovery/online states, remaining card authoring, brand/art direction and production proof still require work. Other viewport frames were structurally checked; this does not claim every frame received final individual pixel review.

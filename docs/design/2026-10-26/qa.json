@@ -47,6 +47,12 @@
       "roots": 20,
       "components": 16,
       "instances": 73
+    },
+    {
+      "page": "81:2",
+      "roots": 26,
+      "components": 3,
+      "instances": 55
     }
   ],
   "overflow": [],
@@ -64,7 +70,7 @@
       900
     ]
   ],
-  "screenCount": 50,
+  "screenCount": 74,
   "cardFamilies": 12,
   "leaderPortraits": 15,
   "originalNewIllustrations": 26,
@@ -376,8 +382,8 @@
       }
     ],
     "styles": 13,
-    "components": 141,
-    "instances": 385,
+    "components": 144,
+    "instances": 440,
     "issues": [],
     "materialPlacementIssues": [],
     "pixelPerfectClaim": false,
@@ -512,5 +518,82 @@
       "Full multiplayer and runtime accessibility",
       "Additional scenario rules, travel routes and freight rates"
     ]
+  },
+  "coreLedgers": {
+    "page": "81:2",
+    "viewportFrames": 24,
+    "components": 3,
+    "instances": 55,
+    "overflow": [],
+    "nearestSolidBackgroundContrastFailures": [],
+    "fixtureStates": 10,
+    "invariantsPassed": true,
+    "replayExact": true,
+    "captures": [
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:37",
+        "name": "finance-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:513",
+        "name": "control-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:581",
+        "name": "private-objective-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:719",
+        "name": "political-pressure-1440.png"
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "format": "png",
+        "original_width": 1440,
+        "original_height": 900,
+        "nodeId": "81:821",
+        "name": "scoring-1440.png"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "format": "png",
+        "original_width": 1920,
+        "original_height": 1080,
+        "nodeId": "81:753",
+        "name": "scoring-1920.png"
+      },
+      {
+        "width": 1100,
+        "height": 620,
+        "format": "png",
+        "original_width": 1100,
+        "original_height": 620,
+        "nodeId": "83:132",
+        "name": "three-source-objectives.png"
+      }
+    ],
+    "prototypeRuntimeVerified": false
   }
 }

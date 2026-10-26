@@ -5,7 +5,7 @@ Status: substantial editable design delivery, not an approved production release
 ## Open the actual design
 
 [Existing Figma file](https://www.figma.com/design/xt8J8b4flEVpe1tAX36I6w/Dogs-of-War?node-id=31-2).
-Original World map and Stitch pages are preserved. New pages 01–08 contain the authored system and its quality/source coverage reviews.
+Original World map and Stitch pages are preserved. New pages 01–09 contain the authored system and its quality/source coverage reviews.
 
 | Area | Figma nodes |
 |---|---|
@@ -39,7 +39,7 @@ Sealed bid, reservation conflict, sanctions and investigation restrictions must 
 ## Art direction and reusable system
 
 Deep teal felt, warm parchment, brass edges, engraved symbols and painted cabinet/harbor imagery. Typography: Barlow Condensed Bold for display, Inter for operational labels, Source Serif 4 for editorial card prose. Use the Figma variables/styles and `design-tokens.json`.
-141 components, 385 instances, 15 color variables, 4 dimension variables and 13 text styles were counted at verification. 12 families have editable fronts and backs. Text remains real text. Country borders and the symbol set remain vectors. Paintings remain raster image layers.
+144 components, 440 instances, 15 color variables, 4 dimension variables and 13 text styles were counted at verification. 12 families have editable fronts and backs. Text remains real text. Country borders and the symbol set remain vectors. Paintings remain raster image layers.
 
 26 newly generated original illustrations: 15 fictional portraits, ten card scenes and the box cover. This is not artwork copied from the reference games.
 The source Stitch art is retained only in the source page and explicitly unresolved equipment annex. Verify its rights before external release.
@@ -62,8 +62,8 @@ Natural Earth is an independently researched valid fallback: [admin-0 countries]
 7. Verify keyboard flow, hidden-information privacy, reduced motion, contrast, image delivery and save/load behavior.
 8. Run the existing repo tests and compare visual screenshots at both reference viewports. Test 2 and 5 players, full/empty inventories, long localized labels, blocked delivery, failed last signature, and loading/error recovery.
 
-The 50 viewport frames include two main tables, 34 earlier supporting states and 14 systems frames. Twenty selected navigation links are configured across the original and systems pages. This is not a fully interactive game.
-The final-scoring screen specifies the source scoring formula; a complete populated results table still requires implementation design refinement.
+The 74 viewport frames include two main tables, 34 earlier supporting states, 14 systems frames and 24 action-ledger frames. Twenty-two selected navigation links are configured across the original and systems pages. This is not a fully interactive game.
+The new final-scoring ledger (81:753 / 81:821) includes all five source-scored players, breakdowns, revealed objectives and tie order. Older scoring frames are legacy references.
 
 ## Asset delivery
 
@@ -121,3 +121,8 @@ Actual delivery uses an action in phase `actions`; code phase `delivery` is visu
 The five stored states passed engine invariants and exact replay. A sanctioned transport rejection preserved state. New-page auto-layout and nearest-solid-background text contrast checks passed after fixes. This is bounded design verification; full multiplayer, accessibility, all older screen data, complete card decks, house/portrait direction and print production remain open.
 
 Implementation sequence addition: after bidding/consortia, bind reserved/free resources and freight settlement; then round/event history, deadlines and full scoring; then setup/scenario gates, recovery and online/privacy QA. See the systems document for details.
+
+
+## Source-action ledger completion
+
+Page 09 (81:2) supplies financing, borrowing/repayment, medical trading, influence, upgrades, audit, enforcement, private goal progress, public history, unrest and populated final scoring in both viewports. See systems coverage for node IDs. EXTENDED-ENGINE-REFERENCE.json contains 10 more actual states with command histories; all passed invariants and exact replay. The original five freight states remain separate. Three source-scored objective fronts share the existing Objective back. Total: 144 components, 440 instances, 74 viewport frames.
