@@ -27,3 +27,5 @@ jobs:
           path: |
             docs/production/*results.json
             docs/production/*.png
+            docs/design/wardogs-v1/*results.json
+            docs/design/wardogs-v1/previews/*.png

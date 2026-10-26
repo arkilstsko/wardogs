@@ -1,0 +1,3945 @@
+{
+  "version": "1.0-design",
+  "fileKey": "xt8J8b4flEVpe1tAX36I6w",
+  "pages": {
+    "table": "89:2",
+    "cards": "89:3",
+    "rulesAndComponents": "89:4",
+    "situations": "89:5",
+    "geography": "114:2"
+  },
+  "covers": [
+    {
+      "node": "109:330",
+      "w": 1920,
+      "h": 1080,
+      "enter": "109:737"
+    },
+    {
+      "node": "109:766",
+      "w": 1440,
+      "h": 900,
+      "enter": "109:1173"
+    }
+  ],
+  "boards": [
+    {
+      "id": "98:23",
+      "w": 1920,
+      "h": 1080,
+      "seal": "98:28",
+      "book": "98:805",
+      "geography": "98:118"
+    },
+    {
+      "id": "98:807",
+      "w": 1440,
+      "h": 900,
+      "seal": "98:812",
+      "book": "98:1565",
+      "geography": "98:902"
+    }
+  ],
+  "catalogue": {
+    "physical": [
+      {
+        "id": "country-DK",
+        "family": "Country",
+        "front": "91:2",
+        "back": "91:152",
+        "collectorCode": "L-DK"
+      },
+      {
+        "id": "country-GB",
+        "family": "Country",
+        "front": "91:12",
+        "back": "91:152",
+        "collectorCode": "L-GB"
+      },
+      {
+        "id": "country-FR",
+        "family": "Country",
+        "front": "91:22",
+        "back": "91:152",
+        "collectorCode": "L-FR"
+      },
+      {
+        "id": "country-DE",
+        "family": "Country",
+        "front": "91:32",
+        "back": "91:152",
+        "collectorCode": "L-DE"
+      },
+      {
+        "id": "country-PL",
+        "family": "Country",
+        "front": "91:42",
+        "back": "91:152",
+        "collectorCode": "L-PL"
+      },
+      {
+        "id": "country-ES",
+        "family": "Country",
+        "front": "91:52",
+        "back": "91:152",
+        "collectorCode": "L-ES"
+      },
+      {
+        "id": "country-IT",
+        "family": "Country",
+        "front": "91:62",
+        "back": "91:152",
+        "collectorCode": "L-IT"
+      },
+      {
+        "id": "country-TR",
+        "family": "Country",
+        "front": "91:72",
+        "back": "91:152",
+        "collectorCode": "L-TR"
+      },
+      {
+        "id": "country-EG",
+        "family": "Country",
+        "front": "91:82",
+        "back": "91:152",
+        "collectorCode": "L-EG"
+      },
+      {
+        "id": "country-NG",
+        "family": "Country",
+        "front": "91:92",
+        "back": "91:152",
+        "collectorCode": "L-NG"
+      },
+      {
+        "id": "country-IN",
+        "family": "Country",
+        "front": "91:102",
+        "back": "91:152",
+        "collectorCode": "L-IN"
+      },
+      {
+        "id": "country-BR",
+        "family": "Country",
+        "front": "91:112",
+        "back": "91:152",
+        "collectorCode": "L-BR"
+      },
+      {
+        "id": "country-US",
+        "family": "Country",
+        "front": "91:122",
+        "back": "91:152",
+        "collectorCode": "L-US"
+      },
+      {
+        "id": "country-JP",
+        "family": "Country",
+        "front": "91:132",
+        "back": "91:152",
+        "collectorCode": "L-JP"
+      },
+      {
+        "id": "country-ZA",
+        "family": "Country",
+        "front": "91:142",
+        "back": "91:152",
+        "collectorCode": "L-ZA"
+      },
+      {
+        "id": "leader-DK",
+        "family": "Leader",
+        "front": "91:320",
+        "back": "91:330",
+        "collectorCode": "P-DK"
+      },
+      {
+        "id": "leader-GB",
+        "family": "Leader",
+        "front": "91:340",
+        "back": "91:350",
+        "collectorCode": "P-GB"
+      },
+      {
+        "id": "leader-FR",
+        "family": "Leader",
+        "front": "91:360",
+        "back": "91:370",
+        "collectorCode": "P-FR"
+      },
+      {
+        "id": "leader-DE",
+        "family": "Leader",
+        "front": "91:380",
+        "back": "91:390",
+        "collectorCode": "P-DE"
+      },
+      {
+        "id": "leader-PL",
+        "family": "Leader",
+        "front": "91:400",
+        "back": "91:410",
+        "collectorCode": "P-PL"
+      },
+      {
+        "id": "leader-ES",
+        "family": "Leader",
+        "front": "91:420",
+        "back": "91:430",
+        "collectorCode": "P-ES"
+      },
+      {
+        "id": "leader-IT",
+        "family": "Leader",
+        "front": "91:440",
+        "back": "91:450",
+        "collectorCode": "P-IT"
+      },
+      {
+        "id": "leader-TR",
+        "family": "Leader",
+        "front": "91:460",
+        "back": "91:470",
+        "collectorCode": "P-TR"
+      },
+      {
+        "id": "leader-EG",
+        "family": "Leader",
+        "front": "91:480",
+        "back": "91:490",
+        "collectorCode": "P-EG"
+      },
+      {
+        "id": "leader-NG",
+        "family": "Leader",
+        "front": "91:500",
+        "back": "91:510",
+        "collectorCode": "P-NG"
+      },
+      {
+        "id": "leader-IN",
+        "family": "Leader",
+        "front": "91:520",
+        "back": "91:530",
+        "collectorCode": "P-IN"
+      },
+      {
+        "id": "leader-BR",
+        "family": "Leader",
+        "front": "91:540",
+        "back": "91:550",
+        "collectorCode": "P-BR"
+      },
+      {
+        "id": "leader-US",
+        "family": "Leader",
+        "front": "91:560",
+        "back": "91:570",
+        "collectorCode": "P-US"
+      },
+      {
+        "id": "leader-JP",
+        "family": "Leader",
+        "front": "91:580",
+        "back": "91:590",
+        "collectorCode": "P-JP"
+      },
+      {
+        "id": "leader-ZA",
+        "family": "Leader",
+        "front": "91:600",
+        "back": "91:610",
+        "collectorCode": "P-ZA"
+      },
+      {
+        "id": "org-booking",
+        "family": "Organization",
+        "front": "91:924",
+        "back": "91:1047",
+        "collectorCode": "O-01"
+      },
+      {
+        "id": "org-insurance",
+        "family": "Organization",
+        "front": "91:937",
+        "back": "91:1047",
+        "collectorCode": "O-02"
+      },
+      {
+        "id": "org-audit",
+        "family": "Organization",
+        "front": "91:947",
+        "back": "91:1047",
+        "collectorCode": "O-03"
+      },
+      {
+        "id": "org-prestige",
+        "family": "Organization",
+        "front": "91:957",
+        "back": "91:1047",
+        "collectorCode": "O-04"
+      },
+      {
+        "id": "org-credit",
+        "family": "Organization",
+        "front": "91:967",
+        "back": "91:1047",
+        "collectorCode": "O-05"
+      },
+      {
+        "id": "org-diplomacy",
+        "family": "Organization",
+        "front": "91:977",
+        "back": "91:1047",
+        "collectorCode": "O-06"
+      },
+      {
+        "id": "org-resale",
+        "family": "Organization",
+        "front": "91:987",
+        "back": "91:1047",
+        "collectorCode": "O-07"
+      },
+      {
+        "id": "org-priority",
+        "family": "Organization",
+        "front": "91:997",
+        "back": "91:1047",
+        "collectorCode": "O-08"
+      },
+      {
+        "id": "org-storage",
+        "family": "Organization",
+        "front": "91:1007",
+        "back": "91:1047",
+        "collectorCode": "O-09"
+      },
+      {
+        "id": "org-mediation",
+        "family": "Organization",
+        "front": "91:1017",
+        "back": "91:1047",
+        "collectorCode": "O-10"
+      },
+      {
+        "id": "org-escrow",
+        "family": "Organization",
+        "front": "91:1027",
+        "back": "91:1047",
+        "collectorCode": "O-11"
+      },
+      {
+        "id": "org-contacts",
+        "family": "Organization",
+        "front": "91:1037",
+        "back": "91:1047",
+        "collectorCode": "O-12"
+      },
+      {
+        "id": "supply-medical-01",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-01"
+      },
+      {
+        "id": "supply-medical-02",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-02"
+      },
+      {
+        "id": "supply-medical-03",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-03"
+      },
+      {
+        "id": "supply-medical-04",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-04"
+      },
+      {
+        "id": "supply-medical-05",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-05"
+      },
+      {
+        "id": "supply-medical-06",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-06"
+      },
+      {
+        "id": "supply-medical-07",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-07"
+      },
+      {
+        "id": "supply-medical-08",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-08"
+      },
+      {
+        "id": "supply-medical-09",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-09"
+      },
+      {
+        "id": "supply-medical-10",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-10"
+      },
+      {
+        "id": "supply-medical-11",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-11"
+      },
+      {
+        "id": "supply-medical-12",
+        "family": "Supply",
+        "front": "91:1185",
+        "back": "91:1224",
+        "collectorCode": "V-MED-12"
+      },
+      {
+        "id": "supply-communications-01",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-01"
+      },
+      {
+        "id": "supply-communications-02",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-02"
+      },
+      {
+        "id": "supply-communications-03",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-03"
+      },
+      {
+        "id": "supply-communications-04",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-04"
+      },
+      {
+        "id": "supply-communications-05",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-05"
+      },
+      {
+        "id": "supply-communications-06",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-06"
+      },
+      {
+        "id": "supply-communications-07",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-07"
+      },
+      {
+        "id": "supply-communications-08",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-08"
+      },
+      {
+        "id": "supply-communications-09",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-09"
+      },
+      {
+        "id": "supply-communications-10",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-10"
+      },
+      {
+        "id": "supply-communications-11",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-11"
+      },
+      {
+        "id": "supply-communications-12",
+        "family": "Supply",
+        "front": "91:1198",
+        "back": "91:1224",
+        "collectorCode": "V-KOM-12"
+      },
+      {
+        "id": "supply-vehicles-01",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-01"
+      },
+      {
+        "id": "supply-vehicles-02",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-02"
+      },
+      {
+        "id": "supply-vehicles-03",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-03"
+      },
+      {
+        "id": "supply-vehicles-04",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-04"
+      },
+      {
+        "id": "supply-vehicles-05",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-05"
+      },
+      {
+        "id": "supply-vehicles-06",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-06"
+      },
+      {
+        "id": "supply-vehicles-07",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-07"
+      },
+      {
+        "id": "supply-vehicles-08",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-08"
+      },
+      {
+        "id": "supply-vehicles-09",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-09"
+      },
+      {
+        "id": "supply-vehicles-10",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-10"
+      },
+      {
+        "id": "supply-vehicles-11",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-11"
+      },
+      {
+        "id": "supply-vehicles-12",
+        "family": "Supply",
+        "front": "91:1211",
+        "back": "91:1224",
+        "collectorCode": "V-KØR-12"
+      },
+      {
+        "id": "logistics-1",
+        "family": "Logistics",
+        "front": "91:3586",
+        "back": "91:3599",
+        "collectorCode": "R-01"
+      },
+      {
+        "id": "logistics-2",
+        "family": "Logistics",
+        "front": "91:3586",
+        "back": "91:3599",
+        "collectorCode": "R-02"
+      },
+      {
+        "id": "logistics-3",
+        "family": "Logistics",
+        "front": "91:3586",
+        "back": "91:3599",
+        "collectorCode": "R-03"
+      },
+      {
+        "id": "logistics-4",
+        "family": "Logistics",
+        "front": "91:3586",
+        "back": "91:3599",
+        "collectorCode": "R-04"
+      },
+      {
+        "id": "logistics-5",
+        "family": "Logistics",
+        "front": "91:3586",
+        "back": "91:3599",
+        "collectorCode": "R-05"
+      },
+      {
+        "id": "contact-stamp",
+        "family": "Contact",
+        "front": "91:3681",
+        "back": "91:3837",
+        "collectorCode": "K-01"
+      },
+      {
+        "id": "contact-call",
+        "family": "Contact",
+        "front": "91:3694",
+        "back": "91:3837",
+        "collectorCode": "K-02"
+      },
+      {
+        "id": "contact-reroll",
+        "family": "Contact",
+        "front": "91:3707",
+        "back": "91:3837",
+        "collectorCode": "K-03"
+      },
+      {
+        "id": "contact-capacity",
+        "family": "Contact",
+        "front": "91:3720",
+        "back": "91:3837",
+        "collectorCode": "K-04"
+      },
+      {
+        "id": "contact-record",
+        "family": "Contact",
+        "front": "91:3733",
+        "back": "91:3837",
+        "collectorCode": "K-05"
+      },
+      {
+        "id": "contact-paid",
+        "family": "Contact",
+        "front": "91:3746",
+        "back": "91:3837",
+        "collectorCode": "K-06"
+      },
+      {
+        "id": "contact-paragraph",
+        "family": "Contact",
+        "front": "91:3759",
+        "back": "91:3837",
+        "collectorCode": "K-07"
+      },
+      {
+        "id": "contact-coffee",
+        "family": "Contact",
+        "front": "91:3772",
+        "back": "91:3837",
+        "collectorCode": "K-08"
+      },
+      {
+        "id": "contact-lunch",
+        "family": "Contact",
+        "front": "91:3785",
+        "back": "91:3837",
+        "collectorCode": "K-09"
+      },
+      {
+        "id": "contact-chain",
+        "family": "Contact",
+        "front": "91:3798",
+        "back": "91:3837",
+        "collectorCode": "K-10"
+      },
+      {
+        "id": "contact-tie",
+        "family": "Contact",
+        "front": "91:3811",
+        "back": "91:3837",
+        "collectorCode": "K-11"
+      },
+      {
+        "id": "contact-key",
+        "family": "Contact",
+        "front": "91:3824",
+        "back": "91:3837",
+        "collectorCode": "K-12"
+      },
+      {
+        "id": "contract-01",
+        "family": "Contract",
+        "front": "91:4011",
+        "back": "91:4563",
+        "collectorCode": "U-01"
+      },
+      {
+        "id": "contract-02",
+        "family": "Contract",
+        "front": "91:4034",
+        "back": "91:4563",
+        "collectorCode": "U-02"
+      },
+      {
+        "id": "contract-03",
+        "family": "Contract",
+        "front": "91:4057",
+        "back": "91:4563",
+        "collectorCode": "U-03"
+      },
+      {
+        "id": "contract-04",
+        "family": "Contract",
+        "front": "91:4080",
+        "back": "91:4563",
+        "collectorCode": "U-04"
+      },
+      {
+        "id": "contract-05",
+        "family": "Contract",
+        "front": "91:4103",
+        "back": "91:4563",
+        "collectorCode": "U-05"
+      },
+      {
+        "id": "contract-06",
+        "family": "Contract",
+        "front": "91:4126",
+        "back": "91:4563",
+        "collectorCode": "U-06"
+      },
+      {
+        "id": "contract-07",
+        "family": "Contract",
+        "front": "91:4149",
+        "back": "91:4563",
+        "collectorCode": "U-07"
+      },
+      {
+        "id": "contract-08",
+        "family": "Contract",
+        "front": "91:4172",
+        "back": "91:4563",
+        "collectorCode": "U-08"
+      },
+      {
+        "id": "contract-09",
+        "family": "Contract",
+        "front": "91:4195",
+        "back": "91:4563",
+        "collectorCode": "U-09"
+      },
+      {
+        "id": "contract-10",
+        "family": "Contract",
+        "front": "91:4218",
+        "back": "91:4563",
+        "collectorCode": "U-10"
+      },
+      {
+        "id": "contract-11",
+        "family": "Contract",
+        "front": "91:4241",
+        "back": "91:4563",
+        "collectorCode": "U-11"
+      },
+      {
+        "id": "contract-12",
+        "family": "Contract",
+        "front": "91:4264",
+        "back": "91:4563",
+        "collectorCode": "U-12"
+      },
+      {
+        "id": "contract-13",
+        "family": "Contract",
+        "front": "91:4287",
+        "back": "91:4563",
+        "collectorCode": "U-13"
+      },
+      {
+        "id": "contract-14",
+        "family": "Contract",
+        "front": "91:4310",
+        "back": "91:4563",
+        "collectorCode": "U-14"
+      },
+      {
+        "id": "contract-15",
+        "family": "Contract",
+        "front": "91:4333",
+        "back": "91:4563",
+        "collectorCode": "U-15"
+      },
+      {
+        "id": "contract-16",
+        "family": "Contract",
+        "front": "91:4356",
+        "back": "91:4563",
+        "collectorCode": "U-16"
+      },
+      {
+        "id": "contract-17",
+        "family": "Contract",
+        "front": "91:4379",
+        "back": "91:4563",
+        "collectorCode": "U-17"
+      },
+      {
+        "id": "contract-18",
+        "family": "Contract",
+        "front": "91:4402",
+        "back": "91:4563",
+        "collectorCode": "U-18"
+      },
+      {
+        "id": "contract-19",
+        "family": "Contract",
+        "front": "91:4425",
+        "back": "91:4563",
+        "collectorCode": "U-19"
+      },
+      {
+        "id": "contract-20",
+        "family": "Contract",
+        "front": "91:4448",
+        "back": "91:4563",
+        "collectorCode": "U-20"
+      },
+      {
+        "id": "contract-21",
+        "family": "Contract",
+        "front": "91:4471",
+        "back": "91:4563",
+        "collectorCode": "U-21"
+      },
+      {
+        "id": "contract-22",
+        "family": "Contract",
+        "front": "91:4494",
+        "back": "91:4563",
+        "collectorCode": "U-22"
+      },
+      {
+        "id": "contract-23",
+        "family": "Contract",
+        "front": "91:4517",
+        "back": "91:4563",
+        "collectorCode": "U-23"
+      },
+      {
+        "id": "contract-24",
+        "family": "Contract",
+        "front": "91:4540",
+        "back": "91:4563",
+        "collectorCode": "U-24"
+      },
+      {
+        "id": "event-open-ports",
+        "family": "WorldEvent",
+        "front": "91:5133",
+        "back": "91:5253",
+        "collectorCode": "B-01"
+      },
+      {
+        "id": "event-supply-shock",
+        "family": "WorldEvent",
+        "front": "91:5143",
+        "back": "91:5253",
+        "collectorCode": "B-02"
+      },
+      {
+        "id": "event-public-scrutiny",
+        "family": "WorldEvent",
+        "front": "91:5153",
+        "back": "91:5253",
+        "collectorCode": "B-03"
+      },
+      {
+        "id": "event-relief-window",
+        "family": "WorldEvent",
+        "front": "91:5163",
+        "back": "91:5253",
+        "collectorCode": "B-04"
+      },
+      {
+        "id": "event-quiet-diplomacy",
+        "family": "WorldEvent",
+        "front": "91:5173",
+        "back": "91:5253",
+        "collectorCode": "B-05"
+      },
+      {
+        "id": "event-credit-tightens",
+        "family": "WorldEvent",
+        "front": "91:5183",
+        "back": "91:5253",
+        "collectorCode": "B-06"
+      },
+      {
+        "id": "incident-clear",
+        "family": "WorldEvent",
+        "front": "91:5193",
+        "back": "97:2351",
+        "collectorCode": "H-01"
+      },
+      {
+        "id": "incident-form",
+        "family": "WorldEvent",
+        "front": "91:5203",
+        "back": "97:2351",
+        "collectorCode": "H-02"
+      },
+      {
+        "id": "incident-inspection",
+        "family": "WorldEvent",
+        "front": "91:5213",
+        "back": "97:2351",
+        "collectorCode": "H-03"
+      },
+      {
+        "id": "incident-holiday",
+        "family": "WorldEvent",
+        "front": "91:5223",
+        "back": "97:2351",
+        "collectorCode": "H-04"
+      },
+      {
+        "id": "incident-seal",
+        "family": "WorldEvent",
+        "front": "91:5233",
+        "back": "97:2351",
+        "collectorCode": "H-05"
+      },
+      {
+        "id": "incident-fee",
+        "family": "WorldEvent",
+        "front": "91:5243",
+        "back": "97:2351",
+        "collectorCode": "H-06"
+      },
+      {
+        "id": "unrest-calm",
+        "family": "Unrest",
+        "front": "92:1856",
+        "back": "92:1919",
+        "collectorCode": "S-01"
+      },
+      {
+        "id": "unrest-routine",
+        "family": "Unrest",
+        "front": "92:1869",
+        "back": "92:1919",
+        "collectorCode": "S-02"
+      },
+      {
+        "id": "unrest-sanction",
+        "family": "Unrest",
+        "front": "92:1879",
+        "back": "92:1919",
+        "collectorCode": "S-03"
+      },
+      {
+        "id": "unrest-succession",
+        "family": "Unrest",
+        "front": "92:1889",
+        "back": "92:1919",
+        "collectorCode": "S-04"
+      },
+      {
+        "id": "unrest-reopen",
+        "family": "Unrest",
+        "front": "92:1899",
+        "back": "92:1919",
+        "collectorCode": "S-05"
+      },
+      {
+        "id": "unrest-pressure",
+        "family": "Unrest",
+        "front": "92:1909",
+        "back": "92:1919",
+        "collectorCode": "S-06"
+      },
+      {
+        "id": "investigation-0",
+        "family": "Investigation",
+        "front": "92:1997",
+        "back": "92:2075",
+        "collectorCode": "E-01"
+      },
+      {
+        "id": "investigation-1",
+        "family": "Investigation",
+        "front": "92:2010",
+        "back": "92:2075",
+        "collectorCode": "E-02"
+      },
+      {
+        "id": "investigation-2",
+        "family": "Investigation",
+        "front": "92:2023",
+        "back": "92:2075",
+        "collectorCode": "E-03"
+      },
+      {
+        "id": "investigation-3",
+        "family": "Investigation",
+        "front": "92:2036",
+        "back": "92:2075",
+        "collectorCode": "E-04"
+      },
+      {
+        "id": "investigation-4",
+        "family": "Investigation",
+        "front": "92:2049",
+        "back": "92:2075",
+        "collectorCode": "E-05"
+      },
+      {
+        "id": "investigation-5",
+        "family": "Investigation",
+        "front": "92:2062",
+        "back": "92:2075",
+        "collectorCode": "E-06"
+      },
+      {
+        "id": "objective-legitimate",
+        "family": "Objective",
+        "front": "92:2171",
+        "back": "92:2339",
+        "collectorCode": "M-01"
+      },
+      {
+        "id": "objective-diplomat",
+        "family": "Objective",
+        "front": "92:2185",
+        "back": "92:2339",
+        "collectorCode": "M-02"
+      },
+      {
+        "id": "objective-consortium",
+        "family": "Objective",
+        "front": "92:2199",
+        "back": "92:2339",
+        "collectorCode": "M-03"
+      },
+      {
+        "id": "objective-exporter",
+        "family": "Objective",
+        "front": "92:2213",
+        "back": "92:2339",
+        "collectorCode": "M-04"
+      },
+      {
+        "id": "objective-tonnage",
+        "family": "Objective",
+        "front": "92:2227",
+        "back": "92:2339",
+        "collectorCode": "M-05"
+      },
+      {
+        "id": "objective-regions",
+        "family": "Objective",
+        "front": "92:2241",
+        "back": "92:2339",
+        "collectorCode": "M-06"
+      },
+      {
+        "id": "objective-ledger",
+        "family": "Objective",
+        "front": "92:2255",
+        "back": "92:2339",
+        "collectorCode": "M-07"
+      },
+      {
+        "id": "objective-repay",
+        "family": "Objective",
+        "front": "92:2269",
+        "back": "92:2339",
+        "collectorCode": "M-08"
+      },
+      {
+        "id": "objective-broker",
+        "family": "Objective",
+        "front": "92:2283",
+        "back": "92:2339",
+        "collectorCode": "M-09"
+      },
+      {
+        "id": "objective-home",
+        "family": "Objective",
+        "front": "92:2297",
+        "back": "92:2339",
+        "collectorCode": "M-10"
+      },
+      {
+        "id": "objective-gray",
+        "family": "Objective",
+        "front": "92:2311",
+        "back": "92:2339",
+        "collectorCode": "M-11"
+      },
+      {
+        "id": "objective-mixed",
+        "family": "Objective",
+        "front": "92:2325",
+        "back": "92:2339",
+        "collectorCode": "M-12"
+      },
+      {
+        "id": "agreement-1",
+        "family": "Agreement",
+        "front": "92:2525",
+        "back": "92:2538",
+        "collectorCode": "A-01"
+      },
+      {
+        "id": "agreement-2",
+        "family": "Agreement",
+        "front": "92:2525",
+        "back": "92:2538",
+        "collectorCode": "A-02"
+      },
+      {
+        "id": "agreement-3",
+        "family": "Agreement",
+        "front": "92:2525",
+        "back": "92:2538",
+        "collectorCode": "A-03"
+      },
+      {
+        "id": "agreement-4",
+        "family": "Agreement",
+        "front": "92:2525",
+        "back": "92:2538",
+        "collectorCode": "A-04"
+      },
+      {
+        "id": "agreement-5",
+        "family": "Agreement",
+        "front": "92:2525",
+        "back": "92:2538",
+        "collectorCode": "A-05"
+      },
+      {
+        "id": "supply-arms-01",
+        "family": "Supply",
+        "collectorCode": "V-VAB-01",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-02",
+        "family": "Supply",
+        "collectorCode": "V-VAB-02",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-03",
+        "family": "Supply",
+        "collectorCode": "V-VAB-03",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-04",
+        "family": "Supply",
+        "collectorCode": "V-VAB-04",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-05",
+        "family": "Supply",
+        "collectorCode": "V-VAB-05",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-06",
+        "family": "Supply",
+        "collectorCode": "V-VAB-06",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-07",
+        "family": "Supply",
+        "collectorCode": "V-VAB-07",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-08",
+        "family": "Supply",
+        "collectorCode": "V-VAB-08",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-09",
+        "family": "Supply",
+        "collectorCode": "V-VAB-09",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-10",
+        "family": "Supply",
+        "collectorCode": "V-VAB-10",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-11",
+        "family": "Supply",
+        "collectorCode": "V-VAB-11",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "supply-arms-12",
+        "family": "Supply",
+        "collectorCode": "V-VAB-12",
+        "front": "100:2358",
+        "back": "91:1224"
+      },
+      {
+        "id": "contract-25",
+        "family": "Contract",
+        "collectorCode": "U-25",
+        "front": "100:2371",
+        "back": "91:4563"
+      },
+      {
+        "id": "contract-26",
+        "family": "Contract",
+        "collectorCode": "U-26",
+        "front": "100:2397",
+        "back": "91:4563"
+      },
+      {
+        "id": "contract-27",
+        "family": "Contract",
+        "collectorCode": "U-27",
+        "front": "100:2420",
+        "back": "91:4563"
+      },
+      {
+        "id": "contract-28",
+        "family": "Contract",
+        "collectorCode": "U-28",
+        "front": "100:2443",
+        "back": "91:4563"
+      },
+      {
+        "id": "contract-29",
+        "family": "Contract",
+        "collectorCode": "U-29",
+        "front": "100:2466",
+        "back": "91:4563"
+      },
+      {
+        "id": "contract-30",
+        "family": "Contract",
+        "collectorCode": "U-30",
+        "front": "100:2489",
+        "back": "91:4563"
+      },
+      {
+        "id": "contract-31",
+        "family": "Contract",
+        "collectorCode": "U-31",
+        "front": "100:2512",
+        "back": "91:4563"
+      },
+      {
+        "id": "contract-32",
+        "family": "Contract",
+        "collectorCode": "U-32",
+        "front": "100:2535",
+        "back": "91:4563"
+      }
+    ],
+    "masters": [
+      {
+        "id": "country-DK",
+        "side": "Front",
+        "node": "91:2",
+        "family": "Country"
+      },
+      {
+        "id": "country-GB",
+        "side": "Front",
+        "node": "91:12",
+        "family": "Country"
+      },
+      {
+        "id": "country-FR",
+        "side": "Front",
+        "node": "91:22",
+        "family": "Country"
+      },
+      {
+        "id": "country-DE",
+        "side": "Front",
+        "node": "91:32",
+        "family": "Country"
+      },
+      {
+        "id": "country-PL",
+        "side": "Front",
+        "node": "91:42",
+        "family": "Country"
+      },
+      {
+        "id": "country-ES",
+        "side": "Front",
+        "node": "91:52",
+        "family": "Country"
+      },
+      {
+        "id": "country-IT",
+        "side": "Front",
+        "node": "91:62",
+        "family": "Country"
+      },
+      {
+        "id": "country-TR",
+        "side": "Front",
+        "node": "91:72",
+        "family": "Country"
+      },
+      {
+        "id": "country-EG",
+        "side": "Front",
+        "node": "91:82",
+        "family": "Country"
+      },
+      {
+        "id": "country-NG",
+        "side": "Front",
+        "node": "91:92",
+        "family": "Country"
+      },
+      {
+        "id": "country-IN",
+        "side": "Front",
+        "node": "91:102",
+        "family": "Country"
+      },
+      {
+        "id": "country-BR",
+        "side": "Front",
+        "node": "91:112",
+        "family": "Country"
+      },
+      {
+        "id": "country-US",
+        "side": "Front",
+        "node": "91:122",
+        "family": "Country"
+      },
+      {
+        "id": "country-JP",
+        "side": "Front",
+        "node": "91:132",
+        "family": "Country"
+      },
+      {
+        "id": "country-ZA",
+        "side": "Front",
+        "node": "91:142",
+        "family": "Country"
+      },
+      {
+        "id": "country-DK",
+        "side": "Back",
+        "node": "91:152",
+        "family": "Country"
+      },
+      {
+        "id": "leader-DK",
+        "side": "Front",
+        "node": "91:320",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-DK",
+        "side": "Back",
+        "node": "91:330",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-GB",
+        "side": "Front",
+        "node": "91:340",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-GB",
+        "side": "Back",
+        "node": "91:350",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-FR",
+        "side": "Front",
+        "node": "91:360",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-FR",
+        "side": "Back",
+        "node": "91:370",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-DE",
+        "side": "Front",
+        "node": "91:380",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-DE",
+        "side": "Back",
+        "node": "91:390",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-PL",
+        "side": "Front",
+        "node": "91:400",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-PL",
+        "side": "Back",
+        "node": "91:410",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-ES",
+        "side": "Front",
+        "node": "91:420",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-ES",
+        "side": "Back",
+        "node": "91:430",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-IT",
+        "side": "Front",
+        "node": "91:440",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-IT",
+        "side": "Back",
+        "node": "91:450",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-TR",
+        "side": "Front",
+        "node": "91:460",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-TR",
+        "side": "Back",
+        "node": "91:470",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-EG",
+        "side": "Front",
+        "node": "91:480",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-EG",
+        "side": "Back",
+        "node": "91:490",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-NG",
+        "side": "Front",
+        "node": "91:500",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-NG",
+        "side": "Back",
+        "node": "91:510",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-IN",
+        "side": "Front",
+        "node": "91:520",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-IN",
+        "side": "Back",
+        "node": "91:530",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-BR",
+        "side": "Front",
+        "node": "91:540",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-BR",
+        "side": "Back",
+        "node": "91:550",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-US",
+        "side": "Front",
+        "node": "91:560",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-US",
+        "side": "Back",
+        "node": "91:570",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-JP",
+        "side": "Front",
+        "node": "91:580",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-JP",
+        "side": "Back",
+        "node": "91:590",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-ZA",
+        "side": "Front",
+        "node": "91:600",
+        "family": "Leader"
+      },
+      {
+        "id": "leader-ZA",
+        "side": "Back",
+        "node": "91:610",
+        "family": "Leader"
+      },
+      {
+        "id": "org-booking",
+        "side": "Front",
+        "node": "91:924",
+        "family": "Organization"
+      },
+      {
+        "id": "org-insurance",
+        "side": "Front",
+        "node": "91:937",
+        "family": "Organization"
+      },
+      {
+        "id": "org-audit",
+        "side": "Front",
+        "node": "91:947",
+        "family": "Organization"
+      },
+      {
+        "id": "org-prestige",
+        "side": "Front",
+        "node": "91:957",
+        "family": "Organization"
+      },
+      {
+        "id": "org-credit",
+        "side": "Front",
+        "node": "91:967",
+        "family": "Organization"
+      },
+      {
+        "id": "org-diplomacy",
+        "side": "Front",
+        "node": "91:977",
+        "family": "Organization"
+      },
+      {
+        "id": "org-resale",
+        "side": "Front",
+        "node": "91:987",
+        "family": "Organization"
+      },
+      {
+        "id": "org-priority",
+        "side": "Front",
+        "node": "91:997",
+        "family": "Organization"
+      },
+      {
+        "id": "org-storage",
+        "side": "Front",
+        "node": "91:1007",
+        "family": "Organization"
+      },
+      {
+        "id": "org-mediation",
+        "side": "Front",
+        "node": "91:1017",
+        "family": "Organization"
+      },
+      {
+        "id": "org-escrow",
+        "side": "Front",
+        "node": "91:1027",
+        "family": "Organization"
+      },
+      {
+        "id": "org-contacts",
+        "side": "Front",
+        "node": "91:1037",
+        "family": "Organization"
+      },
+      {
+        "id": "org-booking",
+        "side": "Back",
+        "node": "91:1047",
+        "family": "Organization"
+      },
+      {
+        "id": "supply-medical-01",
+        "side": "Front",
+        "node": "91:1185",
+        "family": "Supply"
+      },
+      {
+        "id": "supply-communications-01",
+        "side": "Front",
+        "node": "91:1198",
+        "family": "Supply"
+      },
+      {
+        "id": "supply-vehicles-01",
+        "side": "Front",
+        "node": "91:1211",
+        "family": "Supply"
+      },
+      {
+        "id": "supply-medical-01",
+        "side": "Back",
+        "node": "91:1224",
+        "family": "Supply"
+      },
+      {
+        "id": "logistics-1",
+        "side": "Front",
+        "node": "91:3586",
+        "family": "Logistics"
+      },
+      {
+        "id": "logistics-1",
+        "side": "Back",
+        "node": "91:3599",
+        "family": "Logistics"
+      },
+      {
+        "id": "contact-stamp",
+        "side": "Front",
+        "node": "91:3681",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-call",
+        "side": "Front",
+        "node": "91:3694",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-reroll",
+        "side": "Front",
+        "node": "91:3707",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-capacity",
+        "side": "Front",
+        "node": "91:3720",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-record",
+        "side": "Front",
+        "node": "91:3733",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-paid",
+        "side": "Front",
+        "node": "91:3746",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-paragraph",
+        "side": "Front",
+        "node": "91:3759",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-coffee",
+        "side": "Front",
+        "node": "91:3772",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-lunch",
+        "side": "Front",
+        "node": "91:3785",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-chain",
+        "side": "Front",
+        "node": "91:3798",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-tie",
+        "side": "Front",
+        "node": "91:3811",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-key",
+        "side": "Front",
+        "node": "91:3824",
+        "family": "Contact"
+      },
+      {
+        "id": "contact-stamp",
+        "side": "Back",
+        "node": "91:3837",
+        "family": "Contact"
+      },
+      {
+        "id": "contract-01",
+        "side": "Front",
+        "node": "91:4011",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-02",
+        "side": "Front",
+        "node": "91:4034",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-03",
+        "side": "Front",
+        "node": "91:4057",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-04",
+        "side": "Front",
+        "node": "91:4080",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-05",
+        "side": "Front",
+        "node": "91:4103",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-06",
+        "side": "Front",
+        "node": "91:4126",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-07",
+        "side": "Front",
+        "node": "91:4149",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-08",
+        "side": "Front",
+        "node": "91:4172",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-09",
+        "side": "Front",
+        "node": "91:4195",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-10",
+        "side": "Front",
+        "node": "91:4218",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-11",
+        "side": "Front",
+        "node": "91:4241",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-12",
+        "side": "Front",
+        "node": "91:4264",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-13",
+        "side": "Front",
+        "node": "91:4287",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-14",
+        "side": "Front",
+        "node": "91:4310",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-15",
+        "side": "Front",
+        "node": "91:4333",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-16",
+        "side": "Front",
+        "node": "91:4356",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-17",
+        "side": "Front",
+        "node": "91:4379",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-18",
+        "side": "Front",
+        "node": "91:4402",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-19",
+        "side": "Front",
+        "node": "91:4425",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-20",
+        "side": "Front",
+        "node": "91:4448",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-21",
+        "side": "Front",
+        "node": "91:4471",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-22",
+        "side": "Front",
+        "node": "91:4494",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-23",
+        "side": "Front",
+        "node": "91:4517",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-24",
+        "side": "Front",
+        "node": "91:4540",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-01",
+        "side": "Back",
+        "node": "91:4563",
+        "family": "Contract"
+      },
+      {
+        "id": "event-open-ports",
+        "side": "Front",
+        "node": "91:5133",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "event-supply-shock",
+        "side": "Front",
+        "node": "91:5143",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "event-public-scrutiny",
+        "side": "Front",
+        "node": "91:5153",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "event-relief-window",
+        "side": "Front",
+        "node": "91:5163",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "event-quiet-diplomacy",
+        "side": "Front",
+        "node": "91:5173",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "event-credit-tightens",
+        "side": "Front",
+        "node": "91:5183",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "incident-clear",
+        "side": "Front",
+        "node": "91:5193",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "incident-form",
+        "side": "Front",
+        "node": "91:5203",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "incident-inspection",
+        "side": "Front",
+        "node": "91:5213",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "incident-holiday",
+        "side": "Front",
+        "node": "91:5223",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "incident-seal",
+        "side": "Front",
+        "node": "91:5233",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "incident-fee",
+        "side": "Front",
+        "node": "91:5243",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "event-open-ports",
+        "side": "Back",
+        "node": "91:5253",
+        "family": "WorldEvent"
+      },
+      {
+        "id": "unrest-calm",
+        "side": "Front",
+        "node": "92:1856",
+        "family": "Unrest"
+      },
+      {
+        "id": "unrest-routine",
+        "side": "Front",
+        "node": "92:1869",
+        "family": "Unrest"
+      },
+      {
+        "id": "unrest-sanction",
+        "side": "Front",
+        "node": "92:1879",
+        "family": "Unrest"
+      },
+      {
+        "id": "unrest-succession",
+        "side": "Front",
+        "node": "92:1889",
+        "family": "Unrest"
+      },
+      {
+        "id": "unrest-reopen",
+        "side": "Front",
+        "node": "92:1899",
+        "family": "Unrest"
+      },
+      {
+        "id": "unrest-pressure",
+        "side": "Front",
+        "node": "92:1909",
+        "family": "Unrest"
+      },
+      {
+        "id": "unrest-calm",
+        "side": "Back",
+        "node": "92:1919",
+        "family": "Unrest"
+      },
+      {
+        "id": "investigation-0",
+        "side": "Front",
+        "node": "92:1997",
+        "family": "Investigation"
+      },
+      {
+        "id": "investigation-1",
+        "side": "Front",
+        "node": "92:2010",
+        "family": "Investigation"
+      },
+      {
+        "id": "investigation-2",
+        "side": "Front",
+        "node": "92:2023",
+        "family": "Investigation"
+      },
+      {
+        "id": "investigation-3",
+        "side": "Front",
+        "node": "92:2036",
+        "family": "Investigation"
+      },
+      {
+        "id": "investigation-4",
+        "side": "Front",
+        "node": "92:2049",
+        "family": "Investigation"
+      },
+      {
+        "id": "investigation-5",
+        "side": "Front",
+        "node": "92:2062",
+        "family": "Investigation"
+      },
+      {
+        "id": "investigation-0",
+        "side": "Back",
+        "node": "92:2075",
+        "family": "Investigation"
+      },
+      {
+        "id": "objective-legitimate",
+        "side": "Front",
+        "node": "92:2171",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-diplomat",
+        "side": "Front",
+        "node": "92:2185",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-consortium",
+        "side": "Front",
+        "node": "92:2199",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-exporter",
+        "side": "Front",
+        "node": "92:2213",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-tonnage",
+        "side": "Front",
+        "node": "92:2227",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-regions",
+        "side": "Front",
+        "node": "92:2241",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-ledger",
+        "side": "Front",
+        "node": "92:2255",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-repay",
+        "side": "Front",
+        "node": "92:2269",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-broker",
+        "side": "Front",
+        "node": "92:2283",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-home",
+        "side": "Front",
+        "node": "92:2297",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-gray",
+        "side": "Front",
+        "node": "92:2311",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-mixed",
+        "side": "Front",
+        "node": "92:2325",
+        "family": "Objective"
+      },
+      {
+        "id": "objective-legitimate",
+        "side": "Back",
+        "node": "92:2339",
+        "family": "Objective"
+      },
+      {
+        "id": "agreement-1",
+        "side": "Front",
+        "node": "92:2525",
+        "family": "Agreement"
+      },
+      {
+        "id": "agreement-1",
+        "side": "Back",
+        "node": "92:2538",
+        "family": "Agreement"
+      },
+      {
+        "id": "incident-back",
+        "family": "WorldEvent",
+        "side": "Back",
+        "node": "97:2351"
+      },
+      {
+        "id": "supply-arms-01",
+        "side": "Front",
+        "node": "100:2358",
+        "family": "Supply"
+      },
+      {
+        "id": "contract-25",
+        "side": "Front",
+        "node": "100:2371",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-26",
+        "side": "Front",
+        "node": "100:2397",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-27",
+        "side": "Front",
+        "node": "100:2420",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-28",
+        "side": "Front",
+        "node": "100:2443",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-29",
+        "side": "Front",
+        "node": "100:2466",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-30",
+        "side": "Front",
+        "node": "100:2489",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-31",
+        "side": "Front",
+        "node": "100:2512",
+        "family": "Contract"
+      },
+      {
+        "id": "contract-32",
+        "side": "Front",
+        "node": "100:2535",
+        "family": "Contract"
+      }
+    ],
+    "portraitSlots": [
+      {
+        "iso": "DK",
+        "node": "91:336"
+      },
+      {
+        "iso": "GB",
+        "node": "91:356"
+      },
+      {
+        "iso": "FR",
+        "node": "91:376"
+      },
+      {
+        "iso": "DE",
+        "node": "91:396"
+      },
+      {
+        "iso": "PL",
+        "node": "91:416"
+      },
+      {
+        "iso": "ES",
+        "node": "91:436"
+      },
+      {
+        "iso": "IT",
+        "node": "91:456"
+      },
+      {
+        "iso": "TR",
+        "node": "91:476"
+      },
+      {
+        "iso": "EG",
+        "node": "91:496"
+      },
+      {
+        "iso": "NG",
+        "node": "91:516"
+      },
+      {
+        "iso": "IN",
+        "node": "91:536"
+      },
+      {
+        "iso": "BR",
+        "node": "91:556"
+      },
+      {
+        "iso": "US",
+        "node": "91:576"
+      },
+      {
+        "iso": "JP",
+        "node": "91:596"
+      },
+      {
+        "iso": "ZA",
+        "node": "91:616"
+      }
+    ],
+    "sets": [
+      {
+        "family": "Country",
+        "id": "91:166"
+      },
+      {
+        "family": "Leader",
+        "id": "91:620"
+      },
+      {
+        "family": "Organization",
+        "id": "91:1061"
+      },
+      {
+        "family": "Supply",
+        "id": "91:1238"
+      },
+      {
+        "family": "Logistics",
+        "id": "91:3612"
+      },
+      {
+        "family": "Contact",
+        "id": "91:3851"
+      },
+      {
+        "family": "Contract",
+        "id": "91:4577"
+      },
+      {
+        "family": "Contract",
+        "part": "B",
+        "id": "100:2558"
+      },
+      {
+        "family": "WorldEvent",
+        "id": "91:5267"
+      },
+      {
+        "family": "Unrest",
+        "id": "92:1933"
+      },
+      {
+        "family": "Investigation",
+        "id": "92:2089"
+      },
+      {
+        "family": "Objective",
+        "id": "92:2353"
+      },
+      {
+        "family": "Agreement",
+        "id": "92:2551"
+      }
+    ],
+    "proofs": [
+      {
+        "family": "Country",
+        "id": "91:167"
+      },
+      {
+        "family": "Leader",
+        "id": "91:621"
+      },
+      {
+        "family": "Organization",
+        "id": "91:1062"
+      },
+      {
+        "family": "Supply",
+        "id": "91:1239"
+      },
+      {
+        "family": "Logistics",
+        "id": "91:3613"
+      },
+      {
+        "family": "Contact",
+        "id": "91:3852"
+      },
+      {
+        "family": "Contract",
+        "id": "91:4578"
+      },
+      {
+        "family": "WorldEvent",
+        "id": "91:5268"
+      },
+      {
+        "family": "Unrest",
+        "id": "92:1934"
+      },
+      {
+        "family": "Investigation",
+        "id": "92:2090"
+      },
+      {
+        "family": "Objective",
+        "id": "92:2354"
+      },
+      {
+        "family": "Agreement",
+        "id": "92:2552"
+      }
+    ],
+    "additionalIcon": {
+      "name": "crosshair",
+      "id": "100:2354"
+    }
+  },
+  "roundsAndScenarios": {
+    "rounds": [
+      {
+        "round": 1,
+        "front": "102:2",
+        "back": "102:42"
+      },
+      {
+        "round": 2,
+        "front": "102:7",
+        "back": "102:42"
+      },
+      {
+        "round": 3,
+        "front": "102:12",
+        "back": "102:42"
+      },
+      {
+        "round": 4,
+        "front": "102:17",
+        "back": "102:42"
+      },
+      {
+        "round": 5,
+        "front": "102:22",
+        "back": "102:42"
+      },
+      {
+        "round": 6,
+        "front": "102:27",
+        "back": "102:42"
+      },
+      {
+        "round": 7,
+        "front": "102:32",
+        "back": "102:42"
+      },
+      {
+        "round": 8,
+        "front": "102:37",
+        "back": "102:42"
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "intro",
+        "front": "102:48",
+        "back": "102:68"
+      },
+      {
+        "id": "standard",
+        "front": "102:53",
+        "back": "102:68"
+      },
+      {
+        "id": "freight",
+        "front": "102:58",
+        "back": "102:68"
+      },
+      {
+        "id": "election",
+        "front": "102:63",
+        "back": "102:68"
+      }
+    ],
+    "roundSet": "102:47",
+    "scenarioSet": "102:73",
+    "proof": "102:74"
+  },
+  "physical": {
+    "mats": [
+      {
+        "house": "meridian",
+        "node": "103:58"
+      },
+      {
+        "house": "northstar",
+        "node": "103:132"
+      },
+      {
+        "house": "vesper",
+        "node": "103:206"
+      },
+      {
+        "house": "atlas",
+        "node": "103:280"
+      },
+      {
+        "house": "redwood",
+        "node": "103:354"
+      }
+    ],
+    "money": [
+      {
+        "value": 1,
+        "side": "Front",
+        "node": "103:909"
+      },
+      {
+        "value": 1,
+        "side": "Back",
+        "node": "103:913"
+      },
+      {
+        "value": 3,
+        "side": "Front",
+        "node": "103:917"
+      },
+      {
+        "value": 3,
+        "side": "Back",
+        "node": "103:921"
+      },
+      {
+        "value": 5,
+        "side": "Front",
+        "node": "103:925"
+      },
+      {
+        "value": 5,
+        "side": "Back",
+        "node": "103:929"
+      },
+      {
+        "value": 10,
+        "side": "Front",
+        "node": "103:933"
+      },
+      {
+        "value": 10,
+        "side": "Back",
+        "node": "103:937"
+      },
+      {
+        "value": 25,
+        "side": "Front",
+        "node": "103:941"
+      },
+      {
+        "value": 25,
+        "side": "Back",
+        "node": "103:945"
+      }
+    ],
+    "tokens": [
+      {
+        "house": "meridian",
+        "kind": "Ship",
+        "node": "103:950"
+      },
+      {
+        "house": "meridian",
+        "kind": "Action",
+        "node": "103:953"
+      },
+      {
+        "house": "meridian",
+        "kind": "Relation",
+        "node": "103:958"
+      },
+      {
+        "house": "meridian",
+        "kind": "Track",
+        "node": "103:963"
+      },
+      {
+        "house": "meridian",
+        "kind": "Office",
+        "node": "103:968"
+      },
+      {
+        "house": "northstar",
+        "kind": "Ship",
+        "node": "103:971"
+      },
+      {
+        "house": "northstar",
+        "kind": "Action",
+        "node": "103:974"
+      },
+      {
+        "house": "northstar",
+        "kind": "Relation",
+        "node": "103:979"
+      },
+      {
+        "house": "northstar",
+        "kind": "Track",
+        "node": "103:984"
+      },
+      {
+        "house": "northstar",
+        "kind": "Office",
+        "node": "103:989"
+      },
+      {
+        "house": "vesper",
+        "kind": "Ship",
+        "node": "103:992"
+      },
+      {
+        "house": "vesper",
+        "kind": "Action",
+        "node": "103:995"
+      },
+      {
+        "house": "vesper",
+        "kind": "Relation",
+        "node": "103:1000"
+      },
+      {
+        "house": "vesper",
+        "kind": "Track",
+        "node": "103:1005"
+      },
+      {
+        "house": "vesper",
+        "kind": "Office",
+        "node": "103:1010"
+      },
+      {
+        "house": "atlas",
+        "kind": "Ship",
+        "node": "103:1013"
+      },
+      {
+        "house": "atlas",
+        "kind": "Action",
+        "node": "103:1016"
+      },
+      {
+        "house": "atlas",
+        "kind": "Relation",
+        "node": "103:1021"
+      },
+      {
+        "house": "atlas",
+        "kind": "Track",
+        "node": "103:1026"
+      },
+      {
+        "house": "atlas",
+        "kind": "Office",
+        "node": "103:1031"
+      },
+      {
+        "house": "redwood",
+        "kind": "Ship",
+        "node": "103:1034"
+      },
+      {
+        "house": "redwood",
+        "kind": "Action",
+        "node": "103:1037"
+      },
+      {
+        "house": "redwood",
+        "kind": "Relation",
+        "node": "103:1042"
+      },
+      {
+        "house": "redwood",
+        "kind": "Track",
+        "node": "103:1047"
+      },
+      {
+        "house": "redwood",
+        "kind": "Office",
+        "node": "103:1052"
+      },
+      {
+        "kind": "Sanction",
+        "node": "103:1056"
+      },
+      {
+        "kind": "Reservation",
+        "node": "103:1058"
+      },
+      {
+        "kind": "Insurance",
+        "node": "103:1060"
+      },
+      {
+        "kind": "First",
+        "node": "103:1062"
+      }
+    ],
+    "dice": [
+      {
+        "face": 1,
+        "node": "103:1065"
+      },
+      {
+        "face": 2,
+        "node": "103:1067"
+      },
+      {
+        "face": 3,
+        "node": "103:1070"
+      },
+      {
+        "face": 4,
+        "node": "103:1074"
+      },
+      {
+        "face": 5,
+        "node": "103:1079"
+      },
+      {
+        "face": 6,
+        "node": "103:1085"
+      }
+    ],
+    "matSet": "103:428",
+    "boxLid": "103:429",
+    "boxBack": "103:838",
+    "privacyOutside": "103:844",
+    "privacyInside": "103:868",
+    "agreementPad": "103:881",
+    "bidEnvelope": "103:904",
+    "moneySet": "103:949",
+    "houseTokenSet": "103:1055",
+    "commonTokenSet": "103:1064",
+    "diceSet": "103:1092",
+    "componentKey": "103:1093"
+  },
+  "scenes": [
+    {
+      "id": "setup",
+      "node": "105:2",
+      "w": 1920,
+      "h": 1080,
+      "panel": "105:636",
+      "close": "105:641",
+      "primary": "105:643",
+      "links": [
+        "105:647",
+        "105:655",
+        "105:663",
+        "105:671"
+      ]
+    },
+    {
+      "id": "setup",
+      "node": "105:678",
+      "w": 1440,
+      "h": 900,
+      "panel": "105:1312",
+      "close": "105:1317",
+      "primary": "105:1319",
+      "links": [
+        "105:1323",
+        "105:1331",
+        "105:1339",
+        "105:1347"
+      ]
+    },
+    {
+      "id": "tender",
+      "node": "105:1354",
+      "w": 1920,
+      "h": 1080,
+      "panel": "105:1988",
+      "close": "105:1993",
+      "primary": "105:1995",
+      "links": []
+    },
+    {
+      "id": "tender",
+      "node": "105:2047",
+      "w": 1440,
+      "h": 900,
+      "panel": "105:2681",
+      "close": "105:2686",
+      "primary": "105:2688",
+      "links": []
+    },
+    {
+      "id": "agreement",
+      "node": "105:2740",
+      "w": 1920,
+      "h": 1080,
+      "panel": "105:3374",
+      "close": "105:3379",
+      "primary": "105:3381",
+      "links": []
+    },
+    {
+      "id": "agreement",
+      "node": "105:3438",
+      "w": 1440,
+      "h": 900,
+      "panel": "105:4072",
+      "close": "105:4077",
+      "primary": "105:4079",
+      "links": []
+    },
+    {
+      "id": "signature",
+      "node": "105:4136",
+      "w": 1920,
+      "h": 1080,
+      "panel": "105:4770",
+      "close": "105:4775",
+      "primary": "105:4777",
+      "links": []
+    },
+    {
+      "id": "signature",
+      "node": "105:4836",
+      "w": 1440,
+      "h": 900,
+      "panel": "105:5470",
+      "close": "105:5475",
+      "primary": "105:5477",
+      "links": []
+    },
+    {
+      "id": "shipping",
+      "node": "106:1302",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:1936",
+      "close": "106:1941",
+      "primary": "106:1943",
+      "links": []
+    },
+    {
+      "id": "shipping",
+      "node": "106:1978",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:2612",
+      "close": "106:2617",
+      "primary": "106:2619",
+      "links": []
+    },
+    {
+      "id": "transit",
+      "node": "106:2654",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:3288",
+      "close": "106:3293",
+      "primary": "106:3295",
+      "links": []
+    },
+    {
+      "id": "transit",
+      "node": "106:3328",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:3962",
+      "close": "106:3967",
+      "primary": "106:3969",
+      "links": []
+    },
+    {
+      "id": "incident",
+      "node": "106:4002",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:4636",
+      "close": "106:4641",
+      "primary": "106:4643",
+      "links": []
+    },
+    {
+      "id": "incident",
+      "node": "106:4678",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:5312",
+      "close": "106:5317",
+      "primary": "106:5319",
+      "links": []
+    },
+    {
+      "id": "sanction",
+      "node": "106:5354",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:5988",
+      "close": "106:5993",
+      "primary": "106:5995",
+      "links": []
+    },
+    {
+      "id": "sanction",
+      "node": "106:6018",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:6652",
+      "close": "106:6657",
+      "primary": "106:6659",
+      "links": []
+    },
+    {
+      "id": "succession",
+      "node": "106:12907",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:13541",
+      "close": "106:13546",
+      "primary": "106:13548",
+      "links": []
+    },
+    {
+      "id": "succession",
+      "node": "106:13578",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:14212",
+      "close": "106:14217",
+      "primary": "106:14219",
+      "links": []
+    },
+    {
+      "id": "black-market",
+      "node": "106:14249",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:14883",
+      "close": "106:14888",
+      "primary": "106:14890",
+      "links": []
+    },
+    {
+      "id": "black-market",
+      "node": "106:14931",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:15565",
+      "close": "106:15570",
+      "primary": "106:15572",
+      "links": []
+    },
+    {
+      "id": "private-reader",
+      "node": "106:15613",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:16247",
+      "close": "106:16252",
+      "primary": "106:16254",
+      "links": []
+    },
+    {
+      "id": "private-reader",
+      "node": "106:16291",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:16925",
+      "close": "106:16930",
+      "primary": "106:16932",
+      "links": []
+    },
+    {
+      "id": "insurance",
+      "node": "106:16969",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:17603",
+      "close": "106:17608",
+      "primary": "106:17610",
+      "links": []
+    },
+    {
+      "id": "insurance",
+      "node": "106:17654",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:18288",
+      "close": "106:18293",
+      "primary": "106:18295",
+      "links": []
+    },
+    {
+      "id": "gray",
+      "node": "106:19523",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:20157",
+      "close": "106:20162",
+      "primary": "106:20164",
+      "links": []
+    },
+    {
+      "id": "gray",
+      "node": "106:20188",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:20822",
+      "close": "106:20827",
+      "primary": "106:20829",
+      "links": []
+    },
+    {
+      "id": "reconnect",
+      "node": "106:20853",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:21487",
+      "close": "106:21492",
+      "primary": "106:21494",
+      "links": []
+    },
+    {
+      "id": "reconnect",
+      "node": "106:21523",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:22157",
+      "close": "106:22162",
+      "primary": "106:22164",
+      "links": []
+    },
+    {
+      "id": "version",
+      "node": "106:22193",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:22827",
+      "close": "106:22832",
+      "primary": "106:22834",
+      "links": []
+    },
+    {
+      "id": "version",
+      "node": "106:22849",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:23483",
+      "close": "106:23488",
+      "primary": "106:23490",
+      "links": []
+    },
+    {
+      "id": "final",
+      "node": "106:23505",
+      "w": 1920,
+      "h": 1080,
+      "panel": "106:24139",
+      "close": "106:24144",
+      "primary": "106:24146",
+      "links": []
+    },
+    {
+      "id": "final",
+      "node": "106:24202",
+      "w": 1440,
+      "h": 900,
+      "panel": "106:24836",
+      "close": "106:24841",
+      "primary": "106:24843",
+      "links": []
+    },
+    {
+      "id": "actions",
+      "node": "110:5102",
+      "w": 1920,
+      "h": 1080,
+      "panel": "110:5736",
+      "close": "110:5741",
+      "primary": "110:5743",
+      "links": []
+    },
+    {
+      "id": "actions",
+      "node": "110:5788",
+      "w": 1440,
+      "h": 900,
+      "panel": "110:6422",
+      "close": "110:6427",
+      "primary": "110:6429",
+      "links": []
+    },
+    {
+      "id": "market-empty",
+      "node": "110:6474",
+      "w": 1920,
+      "h": 1080,
+      "panel": "110:7108",
+      "close": "110:7113",
+      "primary": "110:7115",
+      "links": []
+    },
+    {
+      "id": "market-empty",
+      "node": "110:7145",
+      "w": 1440,
+      "h": 900,
+      "panel": "110:7779",
+      "close": "110:7784",
+      "primary": "110:7786",
+      "links": []
+    },
+    {
+      "id": "agreement-conflict",
+      "node": "110:7816",
+      "w": 1920,
+      "h": 1080,
+      "panel": "110:8450",
+      "close": "110:8455",
+      "primary": "110:8457",
+      "links": []
+    },
+    {
+      "id": "agreement-conflict",
+      "node": "110:8487",
+      "w": 1440,
+      "h": 900,
+      "panel": "110:9121",
+      "close": "110:9126",
+      "primary": "110:9128",
+      "links": []
+    },
+    {
+      "id": "country",
+      "node": "110:15127",
+      "w": 1920,
+      "h": 1080,
+      "panel": "110:15761",
+      "close": "110:15766",
+      "primary": "110:15768",
+      "links": []
+    },
+    {
+      "id": "country",
+      "node": "110:16204",
+      "w": 1440,
+      "h": 900,
+      "panel": "110:16838",
+      "close": "110:16843",
+      "primary": "110:16845",
+      "links": []
+    },
+    {
+      "id": "world",
+      "node": "110:17281",
+      "w": 1920,
+      "h": 1080,
+      "panel": "110:17915",
+      "close": "110:17920",
+      "primary": "110:17922",
+      "links": []
+    },
+    {
+      "id": "world",
+      "node": "110:17949",
+      "w": 1440,
+      "h": 900,
+      "panel": "110:18583",
+      "close": "110:18588",
+      "primary": "110:18590",
+      "links": []
+    }
+  ],
+  "prototype": {
+    "reviews": [
+      {
+        "w": 1920,
+        "h": 1080,
+        "node": "111:6640"
+      },
+      {
+        "w": 1440,
+        "h": 900,
+        "node": "111:7595"
+      }
+    ],
+    "indexes": [
+      {
+        "w": 1920,
+        "h": 1080,
+        "node": "111:7273"
+      },
+      {
+        "w": 1440,
+        "h": 900,
+        "node": "111:8228"
+      }
+    ],
+    "linkedScenes": 42
+  },
+  "mainOverlays": [
+    {
+      "id": "signature",
+      "w": 1920,
+      "h": 1080,
+      "node": "112:368"
+    },
+    {
+      "id": "signature",
+      "w": 1440,
+      "h": 900,
+      "node": "112:1222"
+    },
+    {
+      "id": "private-reader",
+      "w": 1920,
+      "h": 1080,
+      "node": "112:2076"
+    },
+    {
+      "id": "private-reader",
+      "w": 1440,
+      "h": 900,
+      "node": "112:2883"
+    }
+  ],
+  "rulebook": {
+    "pages": [
+      "116:217",
+      "116:262",
+      "116:300",
+      "116:330",
+      "116:373",
+      "116:404"
+    ],
+    "retainedCharacters": 32753,
+    "renderedBlocks": [
+      {
+        "index": 0,
+        "node": "116:224"
+      },
+      {
+        "index": 1,
+        "node": "116:225"
+      },
+      {
+        "index": 2,
+        "node": "116:226"
+      },
+      {
+        "index": 3,
+        "node": "116:227"
+      },
+      {
+        "index": 4,
+        "node": "116:228"
+      },
+      {
+        "index": 5,
+        "node": "116:229"
+      },
+      {
+        "index": 6,
+        "node": "116:230"
+      },
+      {
+        "index": 7,
+        "node": "116:231"
+      },
+      {
+        "index": 8,
+        "node": "116:232"
+      },
+      {
+        "index": 9,
+        "node": "116:233"
+      },
+      {
+        "index": 10,
+        "node": "116:234"
+      },
+      {
+        "index": 11,
+        "node": "116:235"
+      },
+      {
+        "index": 12,
+        "node": "116:236"
+      },
+      {
+        "index": 13,
+        "node": "116:237"
+      },
+      {
+        "index": 14,
+        "node": "116:238"
+      },
+      {
+        "index": 15,
+        "node": "116:239"
+      },
+      {
+        "index": 16,
+        "node": "116:240"
+      },
+      {
+        "index": 17,
+        "node": "116:241"
+      },
+      {
+        "index": 18,
+        "node": "116:242"
+      },
+      {
+        "index": 19,
+        "node": "116:243"
+      },
+      {
+        "index": 20,
+        "node": "116:244"
+      },
+      {
+        "index": 21,
+        "node": "116:245"
+      },
+      {
+        "index": 22,
+        "node": "116:246"
+      },
+      {
+        "index": 23,
+        "node": "116:247"
+      },
+      {
+        "index": 24,
+        "node": "116:248"
+      },
+      {
+        "index": 25,
+        "node": "116:249"
+      },
+      {
+        "index": 26,
+        "node": "116:250"
+      },
+      {
+        "index": 27,
+        "node": "116:251"
+      },
+      {
+        "index": 28,
+        "node": "116:252"
+      },
+      {
+        "index": 29,
+        "node": "116:253"
+      },
+      {
+        "index": 30,
+        "node": "116:254"
+      },
+      {
+        "index": 31,
+        "node": "116:255"
+      },
+      {
+        "index": 32,
+        "node": "116:256"
+      },
+      {
+        "index": 33,
+        "node": "116:257"
+      },
+      {
+        "index": 34,
+        "node": "116:258"
+      },
+      {
+        "index": 35,
+        "node": "116:259"
+      },
+      {
+        "index": 36,
+        "node": "116:260"
+      },
+      {
+        "index": 37,
+        "node": "116:261"
+      },
+      {
+        "index": 38,
+        "node": "116:269"
+      },
+      {
+        "index": 39,
+        "node": "116:270"
+      },
+      {
+        "index": 40,
+        "node": "116:271"
+      },
+      {
+        "index": 41,
+        "node": "116:272"
+      },
+      {
+        "index": 42,
+        "node": "116:273"
+      },
+      {
+        "index": 43,
+        "node": "116:274"
+      },
+      {
+        "index": 44,
+        "node": "116:275"
+      },
+      {
+        "index": 45,
+        "node": "116:276"
+      },
+      {
+        "index": 46,
+        "node": "116:277"
+      },
+      {
+        "index": 47,
+        "node": "116:278"
+      },
+      {
+        "index": 48,
+        "node": "116:279"
+      },
+      {
+        "index": 49,
+        "node": "116:280"
+      },
+      {
+        "index": 50,
+        "node": "116:281"
+      },
+      {
+        "index": 51,
+        "node": "116:282"
+      },
+      {
+        "index": 52,
+        "node": "116:283"
+      },
+      {
+        "index": 53,
+        "node": "116:284"
+      },
+      {
+        "index": 54,
+        "node": "116:285"
+      },
+      {
+        "index": 55,
+        "node": "116:286"
+      },
+      {
+        "index": 56,
+        "node": "116:287"
+      },
+      {
+        "index": 57,
+        "node": "116:288"
+      },
+      {
+        "index": 58,
+        "node": "116:289"
+      },
+      {
+        "index": 59,
+        "node": "116:290"
+      },
+      {
+        "index": 60,
+        "node": "116:291"
+      },
+      {
+        "index": 61,
+        "node": "116:292"
+      },
+      {
+        "index": 62,
+        "node": "116:293"
+      },
+      {
+        "index": 63,
+        "node": "116:294"
+      },
+      {
+        "index": 64,
+        "node": "116:295"
+      },
+      {
+        "index": 65,
+        "node": "116:296"
+      },
+      {
+        "index": 66,
+        "node": "116:297"
+      },
+      {
+        "index": 67,
+        "node": "116:298"
+      },
+      {
+        "index": 68,
+        "node": "116:299"
+      },
+      {
+        "index": 69,
+        "node": "116:307"
+      },
+      {
+        "index": 70,
+        "node": "116:308"
+      },
+      {
+        "index": 71,
+        "node": "116:309"
+      },
+      {
+        "index": 72,
+        "node": "116:310"
+      },
+      {
+        "index": 73,
+        "node": "116:311"
+      },
+      {
+        "index": 74,
+        "node": "116:312"
+      },
+      {
+        "index": 75,
+        "node": "116:313"
+      },
+      {
+        "index": 76,
+        "node": "116:314"
+      },
+      {
+        "index": 77,
+        "node": "116:315"
+      },
+      {
+        "index": 78,
+        "node": "116:316"
+      },
+      {
+        "index": 79,
+        "node": "116:317"
+      },
+      {
+        "index": 80,
+        "node": "116:318"
+      },
+      {
+        "index": 81,
+        "node": "116:319"
+      },
+      {
+        "index": 82,
+        "node": "116:320"
+      },
+      {
+        "index": 83,
+        "node": "116:321"
+      },
+      {
+        "index": 84,
+        "node": "116:322"
+      },
+      {
+        "index": 85,
+        "node": "116:323"
+      },
+      {
+        "index": 86,
+        "node": "116:324"
+      },
+      {
+        "index": 87,
+        "node": "116:325"
+      },
+      {
+        "index": 88,
+        "node": "116:326"
+      },
+      {
+        "index": 89,
+        "node": "116:327"
+      },
+      {
+        "index": 90,
+        "node": "116:328"
+      },
+      {
+        "index": 91,
+        "node": "116:329"
+      },
+      {
+        "index": 92,
+        "node": "116:337"
+      },
+      {
+        "index": 93,
+        "node": "116:338"
+      },
+      {
+        "index": 94,
+        "node": "116:339"
+      },
+      {
+        "index": 95,
+        "node": "116:340"
+      },
+      {
+        "index": 96,
+        "node": "116:341"
+      },
+      {
+        "index": 97,
+        "node": "116:342"
+      },
+      {
+        "index": 98,
+        "node": "116:343"
+      },
+      {
+        "index": 99,
+        "node": "116:344"
+      },
+      {
+        "index": 100,
+        "node": "116:345"
+      },
+      {
+        "index": 101,
+        "node": "116:346"
+      },
+      {
+        "index": 102,
+        "node": "116:347"
+      },
+      {
+        "index": 103,
+        "node": "116:348"
+      },
+      {
+        "index": 104,
+        "node": "116:349"
+      },
+      {
+        "index": 105,
+        "node": "116:350"
+      },
+      {
+        "index": 106,
+        "node": "116:351"
+      },
+      {
+        "index": 107,
+        "node": "116:352"
+      },
+      {
+        "index": 108,
+        "node": "116:353"
+      },
+      {
+        "index": 109,
+        "node": "116:354"
+      },
+      {
+        "index": 110,
+        "node": "116:355"
+      },
+      {
+        "index": 111,
+        "node": "116:356"
+      },
+      {
+        "index": 112,
+        "node": "116:357"
+      },
+      {
+        "index": 113,
+        "node": "116:358"
+      },
+      {
+        "index": 114,
+        "node": "116:359"
+      },
+      {
+        "index": 115,
+        "node": "116:360"
+      },
+      {
+        "index": 116,
+        "node": "116:361"
+      },
+      {
+        "index": 117,
+        "node": "116:362"
+      },
+      {
+        "index": 118,
+        "node": "116:363"
+      },
+      {
+        "index": 119,
+        "node": "116:364"
+      },
+      {
+        "index": 120,
+        "node": "116:365"
+      },
+      {
+        "index": 121,
+        "node": "116:366"
+      },
+      {
+        "index": 122,
+        "node": "116:367"
+      },
+      {
+        "index": 123,
+        "node": "116:368"
+      },
+      {
+        "index": 124,
+        "node": "116:369"
+      },
+      {
+        "index": 125,
+        "node": "116:370"
+      },
+      {
+        "index": 126,
+        "node": "116:371"
+      },
+      {
+        "index": 127,
+        "node": "116:372"
+      },
+      {
+        "index": 128,
+        "node": "116:380"
+      },
+      {
+        "index": 129,
+        "node": "116:381"
+      },
+      {
+        "index": 130,
+        "node": "116:382"
+      },
+      {
+        "index": 131,
+        "node": "116:383"
+      },
+      {
+        "index": 132,
+        "node": "116:384"
+      },
+      {
+        "index": 133,
+        "node": "116:385"
+      },
+      {
+        "index": 134,
+        "node": "116:386"
+      },
+      {
+        "index": 135,
+        "node": "116:387"
+      },
+      {
+        "index": 136,
+        "node": "116:388"
+      },
+      {
+        "index": 137,
+        "node": "116:389"
+      },
+      {
+        "index": 138,
+        "node": "116:390"
+      },
+      {
+        "index": 139,
+        "node": "116:391"
+      },
+      {
+        "index": 140,
+        "node": "116:392"
+      },
+      {
+        "index": 141,
+        "node": "116:393"
+      },
+      {
+        "index": 142,
+        "node": "116:394"
+      },
+      {
+        "index": 143,
+        "node": "116:395"
+      },
+      {
+        "index": 144,
+        "node": "116:396"
+      },
+      {
+        "index": 145,
+        "node": "116:397"
+      },
+      {
+        "index": 146,
+        "node": "116:398"
+      },
+      {
+        "index": 147,
+        "node": "116:399"
+      },
+      {
+        "index": 148,
+        "node": "116:400"
+      },
+      {
+        "index": 149,
+        "node": "116:401"
+      },
+      {
+        "index": 150,
+        "node": "116:402"
+      },
+      {
+        "index": 151,
+        "node": "116:403"
+      },
+      {
+        "index": 152,
+        "node": "116:411"
+      },
+      {
+        "index": 153,
+        "node": "116:412"
+      },
+      {
+        "index": 154,
+        "node": "116:413"
+      },
+      {
+        "index": 155,
+        "node": "116:414"
+      },
+      {
+        "index": 156,
+        "node": "116:415"
+      },
+      {
+        "index": 157,
+        "node": "116:416"
+      },
+      {
+        "index": 158,
+        "node": "116:417"
+      },
+      {
+        "index": 159,
+        "node": "116:418"
+      },
+      {
+        "index": 160,
+        "node": "116:419"
+      },
+      {
+        "index": 161,
+        "node": "116:420"
+      },
+      {
+        "index": 162,
+        "node": "116:421"
+      },
+      {
+        "index": 163,
+        "node": "116:422"
+      },
+      {
+        "index": 164,
+        "node": "116:423"
+      },
+      {
+        "index": 165,
+        "node": "116:424"
+      },
+      {
+        "index": 166,
+        "node": "116:425"
+      },
+      {
+        "index": 167,
+        "node": "116:426"
+      },
+      {
+        "index": 168,
+        "node": "116:427"
+      },
+      {
+        "index": 169,
+        "node": "116:428"
+      },
+      {
+        "index": 170,
+        "node": "116:429"
+      },
+      {
+        "index": 171,
+        "node": "116:430"
+      },
+      {
+        "index": 172,
+        "node": "116:431"
+      },
+      {
+        "index": 173,
+        "node": "116:432"
+      },
+      {
+        "index": 174,
+        "node": "116:433"
+      },
+      {
+        "index": 175,
+        "node": "116:434"
+      }
+    ]
+  },
+  "geography": {
+    "sourceUserMap": "1:2",
+    "preserved200VectorClone": "8:40",
+    "naturalEarth": "114:3",
+    "naturalEarthComparison": "115:2",
+    "userComparison": "115:6"
+  }
+}

@@ -1,0 +1,1913 @@
+{
+  "version": "1.0-design-worked-example",
+  "round": 8,
+  "phase": "scoring",
+  "first": 2,
+  "players": [
+    {
+      "id": "p0",
+      "name": "Meridian & Co.",
+      "cash": 50,
+      "debt": 0,
+      "prestige": 5,
+      "reputation": 3,
+      "investigation": 0,
+      "logistics": 2,
+      "contacts": 1,
+      "storage": 6,
+      "actions": 0,
+      "inventory": {
+        "medical": 0,
+        "communications": 0,
+        "vehicles": 1,
+        "arms": 0
+      },
+      "relationships": {
+        "BR": 1
+      },
+      "delivered": 3,
+      "coalitions": 1,
+      "office": true,
+      "objective": "legitimate",
+      "deliveries": [
+        {
+          "iso": "IN",
+          "good": "communications",
+          "ownCargo": 0,
+          "logistics": 1,
+          "cashPaid": 0,
+          "consortium": true,
+          "legal": true
+        },
+        {
+          "iso": "DK",
+          "good": "medical",
+          "ownCargo": 1,
+          "logistics": 1,
+          "cashPaid": 1,
+          "consortium": false,
+          "legal": true
+        },
+        {
+          "iso": "DK",
+          "good": "medical",
+          "ownCargo": 1,
+          "logistics": 1,
+          "cashPaid": 1,
+          "consortium": false,
+          "legal": true
+        }
+      ],
+      "contactCards": [
+        "contact-stamp"
+      ],
+      "reservedLogistics": 0,
+      "reservedCash": 0,
+      "reservedInventory": {
+        "medical": 0,
+        "communications": 0,
+        "vehicles": 0,
+        "arms": 0
+      }
+    },
+    {
+      "id": "p1",
+      "name": "Northstar Union",
+      "cash": 43,
+      "debt": 0,
+      "prestige": 3,
+      "reputation": 3,
+      "investigation": 0,
+      "logistics": 2,
+      "contacts": 1,
+      "storage": 6,
+      "actions": 0,
+      "inventory": {
+        "medical": 1,
+        "communications": 1,
+        "vehicles": 0,
+        "arms": 0
+      },
+      "relationships": {
+        "DE": 1
+      },
+      "delivered": 2,
+      "coalitions": 1,
+      "office": true,
+      "objective": "consortium",
+      "deliveries": [
+        {
+          "iso": "IN",
+          "good": "communications",
+          "ownCargo": 1,
+          "logistics": 0,
+          "cashPaid": 0,
+          "consortium": true,
+          "legal": true
+        },
+        {
+          "iso": "GB",
+          "good": "communications",
+          "ownCargo": 1,
+          "logistics": 1,
+          "cashPaid": 1,
+          "consortium": false,
+          "legal": true
+        }
+      ],
+      "contactCards": [
+        "contact-call"
+      ],
+      "reservedLogistics": 1,
+      "reservedCash": 0,
+      "reservedInventory": {
+        "medical": 0,
+        "communications": 1,
+        "vehicles": 0,
+        "arms": 0
+      }
+    },
+    {
+      "id": "p2",
+      "name": "Vesper Exchange",
+      "cash": 47,
+      "debt": 0,
+      "prestige": 2,
+      "reputation": 3,
+      "investigation": 0,
+      "logistics": 2,
+      "contacts": 1,
+      "storage": 6,
+      "actions": 0,
+      "inventory": {
+        "medical": 1,
+        "communications": 0,
+        "vehicles": 1,
+        "arms": 0
+      },
+      "relationships": {},
+      "delivered": 2,
+      "coalitions": 1,
+      "office": true,
+      "objective": "tonnage",
+      "deliveries": [
+        {
+          "iso": "US",
+          "good": "vehicles",
+          "ownCargo": 1,
+          "logistics": 1,
+          "cashPaid": 1,
+          "consortium": false,
+          "legal": true
+        },
+        {
+          "iso": "IN",
+          "good": "communications",
+          "ownCargo": 0,
+          "logistics": 0,
+          "cashPaid": 1,
+          "consortium": true,
+          "legal": true
+        }
+      ],
+      "contactCards": [
+        "contact-reroll"
+      ],
+      "reservedLogistics": 0,
+      "reservedCash": 0,
+      "reservedInventory": {
+        "medical": 0,
+        "communications": 0,
+        "vehicles": 0,
+        "arms": 0
+      }
+    },
+    {
+      "id": "p3",
+      "name": "Atlas Cooperative",
+      "cash": 48,
+      "debt": 0,
+      "prestige": 3,
+      "reputation": 3,
+      "investigation": 0,
+      "logistics": 1,
+      "contacts": 3,
+      "storage": 6,
+      "actions": 0,
+      "inventory": {
+        "medical": 0,
+        "communications": 0,
+        "vehicles": 0,
+        "arms": 0
+      },
+      "relationships": {},
+      "delivered": 2,
+      "coalitions": 1,
+      "office": true,
+      "objective": "broker",
+      "deliveries": [
+        {
+          "iso": "IN",
+          "good": "communications",
+          "ownCargo": 1,
+          "logistics": 0,
+          "cashPaid": 0,
+          "consortium": true,
+          "legal": true
+        },
+        {
+          "iso": "IT",
+          "good": "medical",
+          "ownCargo": 1,
+          "logistics": 1,
+          "cashPaid": 1,
+          "consortium": false,
+          "legal": true
+        }
+      ],
+      "contactCards": [
+        "contact-capacity",
+        "contact-record",
+        "contact-paragraph"
+      ],
+      "reservedLogistics": 1,
+      "reservedCash": 0,
+      "reservedInventory": {
+        "medical": 1,
+        "communications": 0,
+        "vehicles": 0,
+        "arms": 0
+      }
+    },
+    {
+      "id": "p4",
+      "name": "Redwood Trading",
+      "cash": 42,
+      "debt": 0,
+      "prestige": 2,
+      "reputation": 3,
+      "investigation": 0,
+      "logistics": 1,
+      "contacts": 1,
+      "storage": 8,
+      "actions": 0,
+      "inventory": {
+        "medical": 1,
+        "communications": 0,
+        "vehicles": 1,
+        "arms": 0
+      },
+      "relationships": {
+        "IT": 1
+      },
+      "delivered": 2,
+      "coalitions": 1,
+      "office": true,
+      "objective": "mixed",
+      "deliveries": [
+        {
+          "iso": "IN",
+          "good": "communications",
+          "ownCargo": 0,
+          "logistics": 0,
+          "cashPaid": 1,
+          "consortium": true,
+          "legal": true
+        },
+        {
+          "iso": "DE",
+          "good": "vehicles",
+          "ownCargo": 1,
+          "logistics": 1,
+          "cashPaid": 1,
+          "consortium": false,
+          "legal": true
+        }
+      ],
+      "contactCards": [
+        "contact-paid"
+      ],
+      "reservedLogistics": 1,
+      "reservedCash": 0,
+      "reservedInventory": {
+        "medical": 0,
+        "communications": 0,
+        "vehicles": 1,
+        "arms": 0
+      }
+    }
+  ],
+  "countries": [
+    {
+      "iso": "DK",
+      "name": "Danmark",
+      "region": "Europa",
+      "role": "prime minister",
+      "leaders": [
+        "Astrid Vester",
+        "Liv Holm"
+      ],
+      "stability": 6,
+      "demand": 3,
+      "stance": "open"
+    },
+    {
+      "iso": "GB",
+      "name": "Storbritannien",
+      "region": "Europa",
+      "role": "prime minister",
+      "leaders": [
+        "Eleanor Vale",
+        "Julian Bennett"
+      ],
+      "stability": 6,
+      "demand": 4,
+      "stance": "neutral"
+    },
+    {
+      "iso": "FR",
+      "name": "Frankrig",
+      "region": "Europa",
+      "role": "president",
+      "leaders": [
+        "Camille Delorme",
+        "Élodie Marchand"
+      ],
+      "stability": 6,
+      "demand": 5,
+      "stance": "guarded"
+    },
+    {
+      "iso": "DE",
+      "name": "Tyskland",
+      "region": "Europa",
+      "role": "chancellor",
+      "leaders": [
+        "Mara Feld",
+        "Jonas Reuter"
+      ],
+      "stability": 6,
+      "demand": 3,
+      "stance": "open"
+    },
+    {
+      "iso": "PL",
+      "name": "Polen",
+      "region": "Europa",
+      "role": "president",
+      "leaders": [
+        "Irena Wilk",
+        "Piotr Lesiak"
+      ],
+      "stability": 6,
+      "demand": 4,
+      "stance": "neutral"
+    },
+    {
+      "iso": "ES",
+      "name": "Spanien",
+      "region": "Europa",
+      "role": "prime minister",
+      "leaders": [
+        "Inés Ladera",
+        "Mateo Arenas"
+      ],
+      "stability": 6,
+      "demand": 5,
+      "stance": "guarded"
+    },
+    {
+      "iso": "IT",
+      "name": "Italien",
+      "region": "Europa",
+      "role": "prime minister",
+      "leaders": [
+        "Luca Bellori",
+        "Giulia Rinaldi"
+      ],
+      "stability": 6,
+      "demand": 3,
+      "stance": "open"
+    },
+    {
+      "iso": "TR",
+      "name": "Tyrkiet",
+      "region": "Europa",
+      "role": "president",
+      "leaders": [
+        "Deniz Arven",
+        "Selin Yaman"
+      ],
+      "stability": 6,
+      "demand": 4,
+      "stance": "neutral"
+    },
+    {
+      "iso": "EG",
+      "name": "Egypten",
+      "region": "Afrika",
+      "role": "president",
+      "leaders": [
+        "Nadia Elwan",
+        "Samir Farid"
+      ],
+      "stability": 6,
+      "demand": 5,
+      "stance": "guarded"
+    },
+    {
+      "iso": "NG",
+      "name": "Nigeria",
+      "region": "Afrika",
+      "role": "president",
+      "leaders": [
+        "Ada Okorie",
+        "Chidi Nwosu"
+      ],
+      "stability": 5,
+      "demand": 3,
+      "stance": "open"
+    },
+    {
+      "iso": "IN",
+      "name": "Indien",
+      "region": "Asien",
+      "role": "prime minister",
+      "leaders": [
+        "Kavya Sen",
+        "Arjun Mehta"
+      ],
+      "stability": 6,
+      "demand": 4,
+      "stance": "neutral"
+    },
+    {
+      "iso": "BR",
+      "name": "Brasilien",
+      "region": "Amerika",
+      "role": "president",
+      "leaders": [
+        "Clara Monteiro",
+        "Rafael Duarte"
+      ],
+      "stability": 6,
+      "demand": 5,
+      "stance": "guarded"
+    },
+    {
+      "iso": "US",
+      "name": "USA",
+      "region": "Amerika",
+      "role": "president",
+      "leaders": [
+        "Morgan Hale",
+        "Adrian Brooks"
+      ],
+      "stability": 5,
+      "demand": 3,
+      "stance": "open"
+    },
+    {
+      "iso": "JP",
+      "name": "Japan",
+      "region": "Asien",
+      "role": "prime minister",
+      "leaders": [
+        "Hana Mizuno",
+        "Ren Takeda"
+      ],
+      "stability": 6,
+      "demand": 4,
+      "stance": "neutral"
+    },
+    {
+      "iso": "ZA",
+      "name": "Sydafrika",
+      "region": "Afrika",
+      "role": "president",
+      "leaders": [
+        "Lindiwe Maseko",
+        "Themba Dlamini"
+      ],
+      "stability": 6,
+      "demand": 5,
+      "stance": "guarded"
+    }
+  ],
+  "stock": {
+    "medical": 9,
+    "communications": 11,
+    "vehicles": 9,
+    "arms": 11
+  },
+  "prices": {
+    "medical": 1,
+    "communications": 1,
+    "vehicles": 1,
+    "arms": 1
+  },
+  "reserve": {
+    "medical": 0,
+    "communications": 0,
+    "vehicles": 0,
+    "arms": 1
+  },
+  "blackMarket": null,
+  "contracts": [
+    {
+      "id": "r1-contract-01",
+      "card": "contract-01",
+      "iso": "DK",
+      "good": "medical",
+      "quantity": 1,
+      "proposer": "p0",
+      "offer": 7,
+      "ceiling": 8,
+      "prestige": 2,
+      "deadline": 3,
+      "status": "delivered",
+      "mode": "standard",
+      "insured": false,
+      "escrow": 1,
+      "grace": false,
+      "pledges": [
+        {
+          "player": "p0",
+          "cargo": 1,
+          "logistics": 1,
+          "cash": 0,
+          "revenue": 100,
+          "liability": 100,
+          "cashPaid": 1
+        }
+      ],
+      "arrival": 2
+    },
+    {
+      "id": "r1-contract-02",
+      "card": "contract-02",
+      "iso": "GB",
+      "good": "communications",
+      "quantity": 1,
+      "proposer": "p1",
+      "offer": 8,
+      "ceiling": 8,
+      "prestige": 2,
+      "deadline": 4,
+      "status": "delivered",
+      "mode": "standard",
+      "insured": false,
+      "escrow": 1,
+      "grace": true,
+      "pledges": [
+        {
+          "player": "p1",
+          "cargo": 1,
+          "logistics": 1,
+          "cash": 0,
+          "revenue": 100,
+          "liability": 100,
+          "cashPaid": 1
+        }
+      ],
+      "arrival": 3
+    },
+    {
+      "id": "r1-contract-24",
+      "card": "contract-24",
+      "iso": "US",
+      "good": "vehicles",
+      "quantity": 1,
+      "proposer": "p2",
+      "offer": 9,
+      "ceiling": 10,
+      "prestige": 2,
+      "deadline": 3,
+      "status": "delivered",
+      "mode": "standard",
+      "insured": false,
+      "escrow": 1,
+      "grace": false,
+      "pledges": [
+        {
+          "player": "p2",
+          "cargo": 1,
+          "logistics": 1,
+          "cash": 0,
+          "revenue": 100,
+          "liability": 100,
+          "cashPaid": 1
+        }
+      ],
+      "arrival": 2
+    },
+    {
+      "id": "r1-contract-11",
+      "card": "contract-11",
+      "iso": "IN",
+      "good": "communications",
+      "quantity": 2,
+      "proposer": "p3",
+      "offer": 11,
+      "ceiling": 11,
+      "prestige": 3,
+      "deadline": 3,
+      "status": "delivered",
+      "mode": "standard",
+      "insured": true,
+      "escrow": 1,
+      "grace": false,
+      "pledges": [
+        {
+          "player": "p3",
+          "cargo": 1,
+          "logistics": 0,
+          "cash": 0,
+          "revenue": 35,
+          "liability": 25,
+          "cashPaid": 0
+        },
+        {
+          "player": "p1",
+          "cargo": 1,
+          "logistics": 0,
+          "cash": 0,
+          "revenue": 25,
+          "liability": 25,
+          "cashPaid": 0
+        },
+        {
+          "player": "p0",
+          "cargo": 0,
+          "logistics": 1,
+          "cash": 0,
+          "revenue": 20,
+          "liability": 20,
+          "cashPaid": 0
+        },
+        {
+          "player": "p4",
+          "cargo": 0,
+          "logistics": 0,
+          "cash": 0,
+          "revenue": 10,
+          "liability": 15,
+          "cashPaid": 1
+        },
+        {
+          "player": "p2",
+          "cargo": 0,
+          "logistics": 0,
+          "cash": 0,
+          "revenue": 10,
+          "liability": 15,
+          "cashPaid": 1
+        }
+      ],
+      "arrival": 2
+    },
+    {
+      "id": "r2-contract-07",
+      "card": "contract-07",
+      "iso": "IT",
+      "good": "medical",
+      "quantity": 1,
+      "proposer": "p3",
+      "offer": 8,
+      "ceiling": 9,
+      "prestige": 2,
+      "deadline": 4,
+      "status": "delivered",
+      "mode": "standard",
+      "insured": false,
+      "escrow": 1,
+      "grace": false,
+      "pledges": [
+        {
+          "player": "p3",
+          "cargo": 1,
+          "logistics": 1,
+          "cash": 0,
+          "revenue": 100,
+          "liability": 100,
+          "cashPaid": 1
+        }
+      ],
+      "arrival": 3
+    },
+    {
+      "id": "r2-contract-22",
+      "card": "contract-22",
+      "iso": "DE",
+      "good": "vehicles",
+      "quantity": 1,
+      "proposer": "p4",
+      "offer": 8,
+      "ceiling": 10,
+      "prestige": 2,
+      "deadline": 4,
+      "status": "delivered",
+      "mode": "standard",
+      "insured": false,
+      "escrow": 1,
+      "grace": false,
+      "pledges": [
+        {
+          "player": "p4",
+          "cargo": 1,
+          "logistics": 1,
+          "cash": 0,
+          "revenue": 100,
+          "liability": 100,
+          "cashPaid": 1
+        }
+      ],
+      "arrival": 3
+    },
+    {
+      "id": "r5-contract-01",
+      "card": "contract-01",
+      "iso": "DK",
+      "good": "medical",
+      "quantity": 1,
+      "proposer": "p0",
+      "offer": 7,
+      "ceiling": 8,
+      "prestige": 2,
+      "deadline": 8,
+      "status": "delivered",
+      "mode": "standard",
+      "insured": false,
+      "escrow": 1,
+      "grace": true,
+      "pledges": [
+        {
+          "player": "p0",
+          "cargo": 1,
+          "logistics": 1,
+          "cash": 0,
+          "revenue": 100,
+          "liability": 100,
+          "cashPaid": 1
+        }
+      ],
+      "arrival": 7
+    }
+  ],
+  "log": [
+    {
+      "seq": 0,
+      "round": 1,
+      "phase": "world",
+      "kind": "world",
+      "text": "Stille diplomati / Danmark 3 → 5"
+    },
+    {
+      "seq": 1,
+      "round": 1,
+      "phase": "income",
+      "kind": "income",
+      "text": "2 M pr. hus"
+    },
+    {
+      "seq": 2,
+      "round": 1,
+      "phase": "negotiation",
+      "kind": "award",
+      "text": "r1-contract-01 / 7 M"
+    },
+    {
+      "seq": 3,
+      "round": 1,
+      "phase": "negotiation",
+      "kind": "award",
+      "text": "r1-contract-02 / 8 M"
+    },
+    {
+      "seq": 4,
+      "round": 1,
+      "phase": "negotiation",
+      "kind": "award",
+      "text": "r1-contract-24 / 9 M"
+    },
+    {
+      "seq": 5,
+      "round": 1,
+      "phase": "negotiation",
+      "kind": "award",
+      "text": "r1-contract-11 / 11 M"
+    },
+    {
+      "seq": 6,
+      "round": 1,
+      "phase": "actions",
+      "kind": "dispatch",
+      "text": "Meridian & Co. / {'tender': 'r1-contract-01'}"
+    },
+    {
+      "seq": 7,
+      "round": 1,
+      "phase": "actions",
+      "kind": "dispatch",
+      "text": "Northstar Union / {'tender': 'r1-contract-02'}"
+    },
+    {
+      "seq": 8,
+      "round": 1,
+      "phase": "actions",
+      "kind": "dispatch",
+      "text": "Vesper Exchange / {'tender': 'r1-contract-24'}"
+    },
+    {
+      "seq": 9,
+      "round": 1,
+      "phase": "actions",
+      "kind": "dispatch",
+      "text": "Atlas Cooperative / {'tender': 'r1-contract-11'}"
+    },
+    {
+      "seq": 10,
+      "round": 1,
+      "phase": "actions",
+      "kind": "buy",
+      "text": "Redwood Trading / {'good': 'vehicles'}"
+    },
+    {
+      "seq": 11,
+      "round": 1,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 12,
+      "round": 1,
+      "phase": "actions",
+      "kind": "buy",
+      "text": "Northstar Union / {'good': 'medical'}"
+    },
+    {
+      "seq": 13,
+      "round": 1,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 14,
+      "round": 1,
+      "phase": "actions",
+      "kind": "network",
+      "text": "Atlas Cooperative / {'field': 'contacts'}"
+    },
+    {
+      "seq": 15,
+      "round": 1,
+      "phase": "actions",
+      "kind": "influence",
+      "text": "Redwood Trading / {'iso': 'IT'}"
+    },
+    {
+      "seq": 16,
+      "round": 1,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 17,
+      "round": 2,
+      "phase": "world",
+      "kind": "world",
+      "text": "Åbne havne"
+    },
+    {
+      "seq": 18,
+      "round": 2,
+      "phase": "income",
+      "kind": "income",
+      "text": "2 M pr. hus"
+    },
+    {
+      "seq": 19,
+      "round": 2,
+      "phase": "negotiation",
+      "kind": "award",
+      "text": "r2-contract-07 / 8 M"
+    },
+    {
+      "seq": 20,
+      "round": 2,
+      "phase": "negotiation",
+      "kind": "award",
+      "text": "r2-contract-22 / 8 M"
+    },
+    {
+      "seq": 21,
+      "round": 2,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 22,
+      "round": 2,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 23,
+      "round": 2,
+      "phase": "actions",
+      "kind": "dispatch",
+      "text": "Atlas Cooperative / {'tender': 'r2-contract-07'}"
+    },
+    {
+      "seq": 24,
+      "round": 2,
+      "phase": "actions",
+      "kind": "dispatch",
+      "text": "Redwood Trading / {'tender': 'r2-contract-22'}"
+    },
+    {
+      "seq": 25,
+      "round": 2,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 26,
+      "round": 2,
+      "phase": "actions",
+      "kind": "network",
+      "text": "Northstar Union / {'field': 'logistics'}"
+    },
+    {
+      "seq": 27,
+      "round": 2,
+      "phase": "actions",
+      "kind": "network",
+      "text": "Vesper Exchange / {'field': 'logistics'}"
+    },
+    {
+      "seq": 28,
+      "round": 2,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 29,
+      "round": 2,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 30,
+      "round": 2,
+      "phase": "actions",
+      "kind": "buy",
+      "text": "Meridian & Co. / {'good': 'vehicles'}"
+    },
+    {
+      "seq": 31,
+      "round": 2,
+      "phase": "actions",
+      "kind": "buy",
+      "text": "Northstar Union / {'good': 'communications'}"
+    },
+    {
+      "seq": 32,
+      "round": 2,
+      "phase": "actions",
+      "kind": "buy",
+      "text": "Vesper Exchange / {'good': 'medical'}"
+    },
+    {
+      "seq": 33,
+      "round": 2,
+      "phase": "actions",
+      "kind": "influence",
+      "text": "Meridian & Co. / {'iso': 'BR'}"
+    },
+    {
+      "seq": 34,
+      "round": 2,
+      "phase": "delivery",
+      "kind": "delay",
+      "text": "r1-contract-02"
+    },
+    {
+      "seq": 35,
+      "round": 2,
+      "phase": "delivery",
+      "kind": "delivery",
+      "text": "r1-contract-24"
+    },
+    {
+      "seq": 36,
+      "round": 2,
+      "phase": "delivery",
+      "kind": "delivery",
+      "text": "r1-contract-11"
+    },
+    {
+      "seq": 37,
+      "round": 2,
+      "phase": "delivery",
+      "kind": "delivery",
+      "text": "r1-contract-01"
+    },
+    {
+      "seq": 38,
+      "round": 3,
+      "phase": "world",
+      "kind": "world",
+      "text": "Offentlig kontrol / ingen rammes"
+    },
+    {
+      "seq": 39,
+      "round": 3,
+      "phase": "income",
+      "kind": "income",
+      "text": "2 M pr. hus"
+    },
+    {
+      "seq": 40,
+      "round": 3,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 41,
+      "round": 3,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 42,
+      "round": 3,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 43,
+      "round": 3,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 44,
+      "round": 3,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 45,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 46,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 47,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 48,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 49,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 50,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 51,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 52,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 53,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 54,
+      "round": 3,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 55,
+      "round": 3,
+      "phase": "delivery",
+      "kind": "delivery",
+      "text": "r2-contract-07"
+    },
+    {
+      "seq": 56,
+      "round": 3,
+      "phase": "delivery",
+      "kind": "delivery",
+      "text": "r2-contract-22"
+    },
+    {
+      "seq": 57,
+      "round": 3,
+      "phase": "delivery",
+      "kind": "delivery",
+      "text": "r1-contract-02"
+    },
+    {
+      "seq": 58,
+      "round": 4,
+      "phase": "income",
+      "kind": "income",
+      "text": "2 M pr. hus"
+    },
+    {
+      "seq": 59,
+      "round": 4,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 60,
+      "round": 4,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 61,
+      "round": 4,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 62,
+      "round": 4,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 63,
+      "round": 4,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 64,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 65,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 66,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 67,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 68,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 69,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 70,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 71,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 72,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 73,
+      "round": 4,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 74,
+      "round": 5,
+      "phase": "income",
+      "kind": "income",
+      "text": "2 M pr. hus"
+    },
+    {
+      "seq": 75,
+      "round": 5,
+      "phase": "negotiation",
+      "kind": "award",
+      "text": "r5-contract-01 / 7 M"
+    },
+    {
+      "seq": 76,
+      "round": 5,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 77,
+      "round": 5,
+      "phase": "actions",
+      "kind": "dispatch",
+      "text": "Meridian & Co. / {'tender': 'r5-contract-01'}"
+    },
+    {
+      "seq": 78,
+      "round": 5,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 79,
+      "round": 5,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 80,
+      "round": 5,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 81,
+      "round": 5,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 82,
+      "round": 5,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 83,
+      "round": 5,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 84,
+      "round": 5,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 85,
+      "round": 5,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 86,
+      "round": 5,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 87,
+      "round": 5,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 88,
+      "round": 5,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 89,
+      "round": 5,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 90,
+      "round": 6,
+      "phase": "income",
+      "kind": "income",
+      "text": "2 M pr. hus"
+    },
+    {
+      "seq": 91,
+      "round": 6,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 92,
+      "round": 6,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 93,
+      "round": 6,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 94,
+      "round": 6,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 95,
+      "round": 6,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 96,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 97,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 98,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 99,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 100,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 101,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 102,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 103,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 104,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 105,
+      "round": 6,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 106,
+      "round": 6,
+      "phase": "delivery",
+      "kind": "delay",
+      "text": "r5-contract-01"
+    },
+    {
+      "seq": 107,
+      "round": 7,
+      "phase": "income",
+      "kind": "income",
+      "text": "2 M pr. hus"
+    },
+    {
+      "seq": 108,
+      "round": 7,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 109,
+      "round": 7,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 110,
+      "round": 7,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 111,
+      "round": 7,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 112,
+      "round": 7,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 113,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 114,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 115,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 116,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 117,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 118,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 119,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 120,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 121,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 122,
+      "round": 7,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 123,
+      "round": 7,
+      "phase": "delivery",
+      "kind": "delivery",
+      "text": "r5-contract-01"
+    },
+    {
+      "seq": 124,
+      "round": 8,
+      "phase": "income",
+      "kind": "income",
+      "text": "2 M pr. hus"
+    },
+    {
+      "seq": 125,
+      "round": 8,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 126,
+      "round": 8,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 127,
+      "round": 8,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 128,
+      "round": 8,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 129,
+      "round": 8,
+      "phase": "actions",
+      "kind": "office",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 130,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 131,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 132,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 133,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 134,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    },
+    {
+      "seq": 135,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Vesper Exchange / {}"
+    },
+    {
+      "seq": 136,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Atlas Cooperative / {}"
+    },
+    {
+      "seq": 137,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Redwood Trading / {}"
+    },
+    {
+      "seq": 138,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Meridian & Co. / {}"
+    },
+    {
+      "seq": 139,
+      "round": 8,
+      "phase": "actions",
+      "kind": "pass",
+      "text": "Northstar Union / {}"
+    }
+  ],
+  "events": [
+    "event-quiet-diplomacy",
+    "event-open-ports",
+    "event-public-scrutiny"
+  ],
+  "incidents": [
+    "incident-clear",
+    "incident-form"
+  ],
+  "organizations": [
+    "org-booking",
+    "org-insurance",
+    "org-audit"
+  ],
+  "active": 1,
+  "openTenders": [
+    {
+      "id": "r3-contract-04",
+      "card": "contract-04",
+      "iso": "DE",
+      "country": "Tyskland",
+      "good": "medical",
+      "quantity": 2,
+      "ceiling": 14,
+      "deadline": 5,
+      "relationship": 0,
+      "prestige": 3
+    },
+    {
+      "id": "r3-contract-05",
+      "card": "contract-05",
+      "iso": "PL",
+      "country": "Polen",
+      "good": "communications",
+      "quantity": 2,
+      "ceiling": 9,
+      "deadline": 5,
+      "relationship": 0,
+      "prestige": 3
+    },
+    {
+      "id": "r3-contract-06",
+      "card": "contract-06",
+      "iso": "ES",
+      "country": "Spanien",
+      "good": "vehicles",
+      "quantity": 1,
+      "ceiling": 10,
+      "deadline": 5,
+      "relationship": 1,
+      "prestige": 2
+    },
+    {
+      "id": "r3-contract-08",
+      "card": "contract-08",
+      "iso": "TR",
+      "country": "Tyrkiet",
+      "good": "communications",
+      "quantity": 1,
+      "ceiling": 7,
+      "deadline": 5,
+      "relationship": 0,
+      "prestige": 2
+    },
+    {
+      "id": "r3-contract-10",
+      "card": "contract-10",
+      "iso": "NG",
+      "country": "Nigeria",
+      "good": "medical",
+      "quantity": 2,
+      "ceiling": 14,
+      "deadline": 5,
+      "relationship": 0,
+      "prestige": 3
+    },
+    {
+      "id": "r3-contract-13",
+      "card": "contract-13",
+      "iso": "US",
+      "country": "USA",
+      "good": "medical",
+      "quantity": 1,
+      "ceiling": 10,
+      "deadline": 5,
+      "relationship": 0,
+      "prestige": 2
+    },
+    {
+      "id": "r3-contract-23",
+      "card": "contract-23",
+      "iso": "IT",
+      "country": "Italien",
+      "good": "vehicles",
+      "quantity": 2,
+      "ceiling": 14,
+      "deadline": 5,
+      "relationship": 0,
+      "prestige": 3
+    }
+  ],
+  "finished": true,
+  "rankings": [
+    {
+      "player": "p0",
+      "name": "Meridian & Co.",
+      "cash": 50,
+      "debt": 0,
+      "cargo": 1,
+      "wealth": 17,
+      "prestige": 5,
+      "relations": 0,
+      "objective": "legitimate",
+      "goalPoints": 4,
+      "investigation": 0,
+      "score": 26
+    },
+    {
+      "player": "p3",
+      "name": "Atlas Cooperative",
+      "cash": 48,
+      "debt": 0,
+      "cargo": 0,
+      "wealth": 16,
+      "prestige": 3,
+      "relations": 0,
+      "objective": "broker",
+      "goalPoints": 0,
+      "investigation": 0,
+      "score": 19
+    },
+    {
+      "player": "p1",
+      "name": "Northstar Union",
+      "cash": 43,
+      "debt": 0,
+      "cargo": 2,
+      "wealth": 15,
+      "prestige": 3,
+      "relations": 0,
+      "objective": "consortium",
+      "goalPoints": 0,
+      "investigation": 0,
+      "score": 18
+    },
+    {
+      "player": "p2",
+      "name": "Vesper Exchange",
+      "cash": 47,
+      "debt": 0,
+      "cargo": 2,
+      "wealth": 16,
+      "prestige": 2,
+      "relations": 0,
+      "objective": "tonnage",
+      "goalPoints": 0,
+      "investigation": 0,
+      "score": 18
+    },
+    {
+      "player": "p4",
+      "name": "Redwood Trading",
+      "cash": 42,
+      "debt": 0,
+      "cargo": 2,
+      "wealth": 14,
+      "prestige": 2,
+      "relations": 0,
+      "objective": "mixed",
+      "goalPoints": 0,
+      "investigation": 0,
+      "score": 16
+    }
+  ]
+}
