@@ -147,7 +147,8 @@
   },
   "symbols": {
     "file": "dogs-of-war-symbols.svg",
-    "source": "Original 12-symbol SVG set authored for this file"
+    "source": "Original 12-symbol SVG set authored for this file",
+    "status": "Legacy, superseded in active UI/family markers"
   },
   "stitch": {
     "sourcePage": "3:2",
@@ -390,5 +391,51 @@
       "width": 1122,
       "height": 1402
     }
-  ]
+  ],
+  "activeIcons": {
+    "file": "phosphor-symbols.svg",
+    "source": "https://github.com/phosphor-icons/core",
+    "license": "MIT",
+    "notice": "LICENSE-Phosphor.txt",
+    "style": "Duotone",
+    "count": 22,
+    "upstreamBlobShas": {
+      "globe-hemisphere-west": "6fd1f04330266aec2441a464f41a22fea2ef3b81",
+      "user-rectangle": "f5fec64dce6cf4688dcaae1f1b3826797e387b96",
+      "buildings": "6f94d2f79f116eea543f77555caaa0537ae744fd",
+      "package": "6e813d2bd32832c5796f964f3b5867519db8d2d6",
+      "boat": "134d7e30da520351f05ed9b25d8f67bcdb025fa3",
+      "handshake": "bd4383866a9497f0dbf06f2f65e8cf910b65b123",
+      "scroll": "5736cf93bd690c6954ce866c15aeb04fbd11d075",
+      "newspaper": "ed1843824600d918785c71b3768f636721283a8d",
+      "fire": "fac20c0bae6a1e0a3e6d2f3d598a0746bdfdf2e5",
+      "detective": "63e8d0a70b3f1e35c36168bceff059dcb0f37448",
+      "target": "4d78f9175bd5a3406a776d702430c52f4aa89806",
+      "seal-check": "3f4c4bb3c8debbb0b8f2f1476a68247fd675ef46",
+      "first-aid-kit": "cff546a993dda822426a33b82e05b5fd4ce69e39",
+      "radio": "1691fcb17918450400d76089d7671e3ffed7fa25",
+      "truck": "b5dcff4a305f4b7d38919226d690814ab70b29e6",
+      "arrow-right": "4eaf0cc3c2976d693c46d26c5cd5b155e9c2d609",
+      "gear-six": "030bc0bbb9a631eea83a8c1ea86bbe92a657149c",
+      "floppy-disk": "1cc908e02bdd9e8e9613b60ea8bce464b068995a",
+      "book-open": "e25810b87cf4c021810b1de3ac7a800806df1f1c",
+      "x": "d3d654c50430dfaac76c5eee16dafab44bf4b148",
+      "magnifying-glass": "10a6dc90e7f9acf45e50a8e3c60b570cf4113d6e",
+      "coins": "887b172a7d76f1b6b160035aa9c89cca6d1b954c"
+    }
+  },
+  "materials": {
+    "method": "Built-in OpenAI imagegen",
+    "files": [
+      "visual-review/felt-material.png",
+      "visual-review/paper-material.png"
+    ],
+    "figmaSwatches": [
+      "45:2",
+      "45:3"
+    ],
+    "promptFile": "visual-review/material-prompts.json",
+    "purpose": "Restrained material grain; not UI screenshots",
+    "count": 2
+  }
 }
