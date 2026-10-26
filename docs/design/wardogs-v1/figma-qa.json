@@ -1,0 +1,37 @@
+[
+  {
+    "page": "89:2",
+    "issues": [],
+    "contrastIssues": [],
+    "components": 5,
+    "instances": 210
+  },
+  {
+    "page": "89:3",
+    "issues": [],
+    "contrastIssues": [],
+    "components": 156,
+    "instances": 355
+  },
+  {
+    "page": "89:4",
+    "issues": [],
+    "contrastIssues": [],
+    "components": 67,
+    "instances": 83
+  },
+  {
+    "page": "89:5",
+    "issues": [],
+    "contrastIssues": [],
+    "components": 0,
+    "instances": 1500
+  },
+  {
+    "page": "114:2",
+    "issues": [],
+    "contrastIssues": [],
+    "components": 0,
+    "instances": 0
+  }
+]

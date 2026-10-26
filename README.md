@@ -1,60 +1,61 @@
-# Merchants of War — experimental tabletop build
+# WARDOGS · Forretning som sædvanlig
 
-**Working browser game; not a commercial release candidate. Working title, trademark clearance pending.**
+Spiltestudgave 1.0 for 2–5 mennesker. Den nye udgave er implementeret i dette private repository på baggrund af den eksisterende PR #2 og det færdiggjorte Figma-design. Den er ikke udgivet eller menneskeligt balancetestet.
 
-A tactile negotiation game for 2–5 fictional trading houses, using real countries, abstract cargo and fictional leadership. No operational illicit-trade or unrest instructions. Every current core mechanic has a physical token/card/die analogue.
+## Spil lokalt
 
-## Run locally
-
-Node 24+, npm 11+. No paid services required.
+Brug Node 24 LTS og npm. Ingen betalt tjeneste er nødvendig.
 
 ```sh
 npm ci
 npm run dev
-# second terminal: authoritative online server, optional
+# I et andet terminalvindue, hvis I vil spille online:
 npm run server
 ```
 
-Open http://localhost:5173. Choose Solo or Local hot-seat, a house, 2–5 players and seed. The table is playable through all eight rounds. `Auto move` advances one legal local command for QA/demo. It is disabled online. Use the phase prompt to continue shared phases; submit bids in Negotiation and Transport awarded contracts in Player Actions.
+Åbn http://127.0.0.1:5173. Vælg **Tag plads**, 2–5 mennesker, et af fire scenarier og forskellige firmaer. Samme skærm bruger private mapper ved spillerskift. Online opretter værten et bord og deler invitationslinket; hver deltager skal bruge sin egen browserfane. Alle valgte pladser skal være besat før start.
 
-Online: enter any local table → Settings → Online lobby. Use the same 3–32 character room code in three browser tabs/windows. The first connection is host; every connected house commands only its own seat. Reconnect uses an opaque credential in session storage. Default server accepts localhost/127.0.0.1 port5173 origins. This is an undeployed development server. Configure DATABASE_URL for the included PostgreSQL adapter; actual restart recovery is not yet verified.
+Forhandlingsuret er vejledende. Det forsegler aldrig bud automatisk. Værten styrer det fælles onlineur; lokale genindlæsninger starter det lokale hjælpeur forfra. Selve spiltilstanden, kortene og de underskrevne aftaler gendannes fra gemningen.
+
+Læs [den fulde danske spillebog](docs/design/wardogs-v1/RULEBOOK-DA.md). Åbn spillebog, kortarkiv, marked, aftaler og journal fra bordet. Et kort kan altid åbnes større. Bud bruger én af rundens tre handlinger. Kun den aftalte ekspeditør kan bruge sin tur på afsendelsen.
+
+## Design og regler
+
+[Figma · færdigt v1-bord](https://www.figma.com/design/xt8J8b4flEVpe1tAX36I6w/Dogs-of-War?node-id=98-23) · [klikbar gennemgang](https://www.figma.com/design/xt8J8b4flEVpe1tAX36I6w/Dogs-of-War?node-id=111-7273)
+
+- [Design-to-code-handoff med node-id'er](docs/design/wardogs-v1/HANDOFF.md)
+- [Implementering, sikkerhed, verifikation og kendte grænser](docs/design/wardogs-v1/IMPLEMENTATION.md)
+- [Kortkatalog: 180 hovedkort, 8 rundekort, 4 scenarier](docs/design/wardogs-v1/CARD-CATALOG.md)
+- [Nye regler i forhold til v0.1](docs/design/wardogs-v1/MIGRATION.md)
+- [Materialer, licenser og trykforberedelse](docs/design/wardogs-v1/PRODUCTION.md)
+
+Reglerne i denne udgave er nyskrevne til spiltest. De er ikke tidligere historisk godkendte regler. `packages/game-core/src/v1/catalogue.json` er det fælles datagrundlag; spillebogen beskriver den menneskelige procedure. Ældre GDD'er og dokumenter om v0.1 er historik. Tidligere simulationer af v0.1 siger intet om balancen i v1.
+
+Den eksisterende udgave er bevaret på **/legacy.html** med sin oprindelige motor, botpolitik og gemninger. V1 importerer ikke v0.1-gemninger. [Historisk README](docs/design/wardogs-v1/legacy-v0.1.md).
+
+## Verifikation
 
 ```sh
 npm run typecheck
 npm run lint
 npm test
+npm run format:check
 npm run build
+npx playwright install chromium
 npm run e2e
-npm run simulate -- 10000
-node --import tsx tools/verify-online.ts
+npm audit --audit-level=moderate
 ```
 
-Playwright uses system Chromium locally, or its installed browser when CI=true. See [release evidence](docs/production/release-checklist.md), [rules](docs/game-design/rulebook.md), [GDD](docs/game-design/GDD-v1.md), [research](docs/research/matrix.md), and [threat model](docs/architecture/threat-model.md).
+Playwright bruger sin installerede Chromium. Sæt `CHROMIUM_PATH`, hvis der skal bruges en eksisterende Chrome-installation. CI bruger Node 24 og installerer Chromium. De nye testresultater ligger i `docs/design/wardogs-v1/`.
 
-## Editable design
+## Online og gemninger
 
-[Figma source](https://www.figma.com/design/jdcFObTuyqXIPMH2ZDf6z4). Eleven named pages; source-linked variables, 12 card families with front/back/print variants, original vector icons and a semantic desktop table. Secondary screens are editable specifications, not fully polished per-screen responsive/state designs. See `docs/production/figma-ledger.json` for actual returned IDs.
+Serveren er autoritativ. V1 bruger WebSocket-ruten **/v1**; den gamle udgave bruger **/**. Indstil `VITE_GAME_SERVER` til en fuld ws/wss-URL med /v1, hvis klient og server kører forskellige steder. Begræns `ALLOWED_ORIGINS` til de konkrete klientadresser.
 
-## Important release limitations
+Uden `DATABASE_URL` findes bordene kun i serverens hukommelse og tabes ved genstart. Med PostgreSQL bruger v1 sin egen tabel `game_rooms_v1`; gemningen afventes før kvittering, og fejl ruller valget tilbage. Virkelig PostgreSQL-genstart er endnu ikke afprøvet i dette miljø.
 
-- **Balance screening fails.** Both 10,000-game results are retained. Rotating negotiation order improves two-player seat skew but does not resolve faction/seat confounding or dominant-policy concerns. No human playtests have occurred.
-- Leader succession works; unique country-compatible personality decks, private tenders, leader draft, all proposed deck effects and art are not fully authored.
-- Three-seat online play works locally; room admission needs production accounts/invites, expiry, distributed workers, host-disconnect policy and verified PostgreSQL recovery. No public deployment.
-- Danish core labels exist; narrative/validation strings are not completely localized. Some compact card captions remain small. No WCAG-AA or screen-reader certification is claimed.
-- Current Figma and print assets are editable playtest materials. Factory quotes, printer dielines, physical setup testing and 300dpi/CMYK preflight remain open.
-- This repository is private. Commercial rights, trademark and content review remain release gates. Do not publish source or deploy publicly without approval.
+En hemmelig nøgle i fanens session storage genfinder samme plads. Mister man denne nøgle, er der ingen automatisk konto-gendannelse eller værtsoverdragelse. Online er til private aftalte grupper; der er endnu ingen produktionskonti, moderation eller fordeling over flere serverprocesser.
 
-## Structure
+Lokale gemninger er i IndexedDB. Eksport fra spilmenuen omfatter hele det lokale spil, også skjulte kort. Den åbne onlinejournal omfatter kun offentlige hændelser. Gemninger valideres ved fuld genafspilning af kommandoerne og et kataloghash.
 
-`apps/web`: React/Vite tabletop, accessible alternative controls, local IndexedDB saves.
-`apps/server`: authoritative WebSocket commands, filtered views, token-based seat identity, rate/origin/payload validation, optional PostgreSQL.
-`packages/game-core`: pure seeded engine, strict command schemas, invariants, canonical replay/save verification.
-`packages/bots`: rule-constrained heuristic policy, no LLM.
-`packages/ui`, `packages/shared`, `packages/assets`: icons, tokens, localization, geography.
-`tools`: simulation, online verification, print and Figma source generators.
-
-Source is provided in this private repository for the user's project. Third-party font licenses are retained; Natural Earth is public domain. No open-source license grant is implied for original project content.
-
-## Standalone browser artifact
-
-`node tools/export-standalone.mjs` after `npm run build` writes `/workspace/Merchants-of-War-play.html`: one HTML file with the engine, React, geography, fonts and supply illustrations embedded. The self-contained HTML is served locally for Chromium verification. Direct `file://` launch is blocked by the managed browser policy and is not verified. It needs no public deployment for local/solo play. Browser file-origin save behavior and online connections differ from localhost; use `npm run dev` for full local server behavior.
+Titlen er foreløbig. Ingen køb, publicering, deployment eller merging er foretaget.

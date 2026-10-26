@@ -1,0 +1,254 @@
+[
+  {
+    "file": "card-agreement.png",
+    "sha256": "7a80d5094de78cbc4104adfd37535c22a6ba633dfab11488db22f7491ad3f697",
+    "bytes": 2560592,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "card-contact.png",
+    "sha256": "c7fd111a9f0b954d6e50f534377cf652657a0d56539c188101268cd467526171",
+    "bytes": 2114351,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "card-contract.png",
+    "sha256": "715bf2f521312fe022fc2115a59532ff5bc324695987b19d8e688a897c1496d8",
+    "bytes": 2964550,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "card-investigation.png",
+    "sha256": "d25cdf51c9c4376d41f2189abdbbab2f26ec996905e829e9a843c628216f50af",
+    "bytes": 2818358,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "card-logistics.png",
+    "sha256": "1f3ec1e1689ee98936c2b6414553be0dcecf619a7b29d168569d786cb608ab7d",
+    "bytes": 3098409,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "card-objective.png",
+    "sha256": "70db3423fe12c9e4cdb90921683edc842693f7c9f583b8c5e2f8b9a47490c39e",
+    "bytes": 2503790,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "card-organization.png",
+    "sha256": "1190b49768307272e9eaf7a3fe59d6a81ed7a8e273fef94eadbff14c1b5f5c25",
+    "bytes": 3030742,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "card-supply.png",
+    "sha256": "5670bfb02ee6ea7e6169fec1ea066a0e0bfc248f33acd3dede053c41d0498598",
+    "bytes": 2937510,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "card-unrest.png",
+    "sha256": "86007742c946fe3eef55c34f20e1031a067f7fbfde35875f8ccdc6ee706133ea",
+    "bytes": 2844034,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "card-world-event.png",
+    "sha256": "7bf84ab113bbbf0cd16f1873d2e0c1deb08b7e6e8b9228047cb0d82b0e102f74",
+    "bytes": 3145210,
+    "kind": "AI-generated family scene"
+  },
+  {
+    "file": "felt-material.png",
+    "sha256": "3f7190d5e1bc1deb806ea374149747dc6119b54bad0d10d563773d9ec8c3f009",
+    "bytes": 3629086,
+    "kind": "AI-generated material texture"
+  },
+  {
+    "file": "paper-material.png",
+    "sha256": "9d25b561ddfc6ac0eab1520b4e35445522e4a21f70c095f85f81b68ebc16be6c",
+    "bytes": 2979783,
+    "kind": "AI-generated material texture"
+  },
+  {
+    "file": "primary-BR-v2.png",
+    "sha256": "b0d9551f375ad8c08981f87052388abf0eb640c8364020308f3d3082e45df1df",
+    "bytes": 2670719,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-DE-v2.png",
+    "sha256": "1b2c950d779d9e55cf5806dd20d38eb8e393ca73a13f15076407c28ae0525306",
+    "bytes": 2501535,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-DK-v2.png",
+    "sha256": "aac1bcaf86dfa1a2ad30863d31dae32b8761e6fb479f535bbf75ce76f7436b1f",
+    "bytes": 2151943,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-EG-v2.png",
+    "sha256": "eb8639fb7f53f4154a8b54cbf367a042e89acc97c281289499d3e3f1b571ce47",
+    "bytes": 2436237,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-ES-v2.png",
+    "sha256": "2e66dcbc8c24e4d12e4f9d1235a57a50a6ee63626354e3d6eb62d4b86b3d4383",
+    "bytes": 2436921,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-FR-v2.png",
+    "sha256": "b9eb1f99bf8d2fbedff6b39cb89a79e3e372fb14589c53141e62cfb82f709fad",
+    "bytes": 2388901,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-GB-v2.png",
+    "sha256": "3762c2465f3706416703eedef7a2267d8ec6676c1406fa4e2389371503532c4c",
+    "bytes": 2608509,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-IN-v2.png",
+    "sha256": "6e3058f7e39e4c790426886342552c1bde4ea4523b744793c735252baa6f582b",
+    "bytes": 2703565,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-IT-v2.png",
+    "sha256": "5ac74d794cb46954e7c721dce596935458de66824d212f06d7a61b441870dd6d",
+    "bytes": 2240791,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-JP-v2.png",
+    "sha256": "0f59b300aedebd549da740dd4f0d9b4d87401051b83e38c4525a3e46b07f5952",
+    "bytes": 2280092,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-NG-v2.png",
+    "sha256": "6f252ef0ab81b65079faca1e30e3251f8d59e82fef97ae17397f028e39f894a3",
+    "bytes": 2236895,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-PL-v2.png",
+    "sha256": "8d7f3906d1b86bb8f2226ff48b2fca30e18e48866190a4c8ec5254c3ba845380",
+    "bytes": 2725353,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-TR-v2.png",
+    "sha256": "df6d451f1f0b38147199f96909334fcfd6c5488c3f1a1cb99245a532588157b6",
+    "bytes": 2206377,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-US-v2.png",
+    "sha256": "feae084a6b1832a3f4aa53dd2c75347f03da19e2b4824d6c0e4e6662a0620c66",
+    "bytes": 2637764,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "primary-ZA-v2.png",
+    "sha256": "6488be8556da1c5a2149246865f24768cf32802b5b71ff1c79913cb7853e8266",
+    "bytes": 2416495,
+    "kind": "AI-generated primary portrait"
+  },
+  {
+    "file": "successor-BR.png",
+    "sha256": "fcc493c8a768497da5f813d44c52b1a0e84e76f8428e531a46b19f1ed425b93d",
+    "bytes": 968947,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-DE.png",
+    "sha256": "a35217f4fe9f3512302e0cd73e3c15b5401b421fef767d09cf2c7122dccd50c0",
+    "bytes": 847360,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-DK.png",
+    "sha256": "27bcbc27dd889dffb6263ba71c651bcf18b02f055cefed09c35f04b7834851a3",
+    "bytes": 849353,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-EG.png",
+    "sha256": "14b15cd9f5b8ccb1ef6906b4b23d8026bfac3e3bfb97e68b8d9fc1efe786b8ee",
+    "bytes": 922223,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-ES.png",
+    "sha256": "dd4131cfd8b5414adb10c730bd2aa8e60c590874fcde8804c5d3371adf9e0b99",
+    "bytes": 860352,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-FR.png",
+    "sha256": "326d6edc4c5a1a18fa50cd9d29fab446d9203f1d1f898957d84022fcb57271ac",
+    "bytes": 786416,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-GB.png",
+    "sha256": "f6e570dac18ecb290950c5847eb41d4a6f4798f69de912306d5bf1b95e7a6826",
+    "bytes": 1057298,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-IN.png",
+    "sha256": "5a7f342a226218f32acbd01d1e639679a4478fb71ff563b4ab2f5f3f79f1e1cf",
+    "bytes": 990901,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-IT.png",
+    "sha256": "4fd04d3ee2405987eebcdd8b90c38f9641d24b4fa09d0f22a4816ddb873a4f06",
+    "bytes": 909367,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-JP.png",
+    "sha256": "a5f51f0971f7600b1520f4590f1960d9126c1a23c15cdf7f54d15fcf3b960be2",
+    "bytes": 858378,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-NG.png",
+    "sha256": "eca910cc7d793553a6a23d56d9e6b4b858119b98329baf1da654efc9709c1aa4",
+    "bytes": 976048,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-PL.png",
+    "sha256": "83937d22d52e097ba02a707a86cbd2210a60f0a848484b5deb5d9e15d52c8abe",
+    "bytes": 765015,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-TR.png",
+    "sha256": "1c359e770be47b5a8204b357b840f59adc19f7fc5d1c5bf6f3ff7e5f3bce6218",
+    "bytes": 936038,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-US.png",
+    "sha256": "62180af73254e50ea1ac5b0afed6c0707e3bb16238c8fb76cd31156deb28c9e2",
+    "bytes": 809844,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  },
+  {
+    "file": "successor-ZA.png",
+    "sha256": "e9224a6545e14c407c3bcadd8e73a217464f90b3ba0db6fad9ae96c25a9a2b3a",
+    "bytes": 836475,
+    "kind": "AI-generated successor portrait, lossless atlas extraction"
+  }
+]
