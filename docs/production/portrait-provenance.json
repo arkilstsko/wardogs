@@ -1,0 +1,38 @@
+{
+  "generatedOn": "2026-10-26",
+  "sources": [
+    {
+      "file": "apps/web/public/art/portraits/nordic-channel.png",
+      "sourceFile": "exec-e67b9ce5-c9f9-4954-9a60-1052ca87a0ea.png",
+      "sha256": "f912f07dedb6b8e4cbbad5ec59cc921e32465e2a76fe0dd24ced84ffa7c5c0a2",
+      "status": "generated; visually inspected; owner and legal review pending"
+    },
+    {
+      "file": "apps/web/public/art/portraits/continental.png",
+      "sourceFile": "exec-e96152b7-31bf-45b7-98ee-37746998a56a.png",
+      "sha256": "6eae18e97efd81386d828286f0017fc69a74dfd36bf2012df23ad178ddfed685",
+      "status": "generated; visually inspected; owner and legal review pending"
+    },
+    {
+      "file": "apps/web/public/art/portraits/mediterranean.png",
+      "sourceFile": "exec-c2d9391b-747d-4a4e-879f-2c1b85754e65.png",
+      "sha256": "e7b897dba2a7472d192fc4ee57b7cbe01ba68f747f137d0e5d13d909d00eb468",
+      "status": "generated; visually inspected; owner and legal review pending"
+    },
+    {
+      "file": "apps/web/public/art/portraits/global-south.png",
+      "sourceFile": "exec-2407a579-eb34-4cdf-9776-98a6a3d364de.png",
+      "sha256": "ecf5659948980c1848f2559d42f1153b5a46f53b469d898770825a578367ab6f",
+      "status": "generated; visually inspected; owner and legal review pending"
+    },
+    {
+      "file": "apps/web/public/art/portraits/pacific-cape.png",
+      "sourceFile": "exec-8a6c33bd-0607-4f4f-83f9-3a889f01a791.png",
+      "sha256": "56973a390bea4dde4765da1d6a2b2217b0e031b8e9b47790f230fd9bb9686696",
+      "status": "generated; visually inspected; owner and legal review pending"
+    }
+  ],
+  "rights": "Generated for this project using the session image-generation tool. Applicable service terms require review. No exclusive copyright or likeness clearance claimed. No real politician likeness requested.",
+  "method": "Five original3\u00d73 illustration sheets; each leader has a separate cell. CSS crops; source pixels unchanged. UI and type remain editable.",
+  "artDirection": "Painterly editorial intelligence dossiers; fictional civilian heads of government; individual clothing, pose, age and expression; muted parchment, brass, blue and amber; no brands, flags or operational content."
+}

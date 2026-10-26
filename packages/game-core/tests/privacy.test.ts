@@ -1,0 +1,9 @@
+import {describe,it,expect} from 'vitest';
+import {createGame,execute,viewFor,canonical,type Game} from '../src';
+function draftFixture(){let s=createGame(88,3,false);s.phase='negotiation';const t=s.tenders[0];t.good='medical';t.quantity=1;t.payout=7;const pledges=[{player:'p0',quantity:1,logistics:1,revenue:50,liability:50},{player:'p1',quantity:0,logistics:0,revenue:50,liability:50}];s=execute(s,{id:'private-draft',player:'p0',type:'propose',tender:t.id,offer:7,pledges});return s;}
+describe('PR2 A01: private negotiation history',()=>{
+ for(const phase of ['world','income','negotiation','actions','delivery','scoring'] as Game['phase'][])for(const status of ['draft','withdrawn'] as const)it(`${status} terms stay participant-only in ${phase}`,()=>{const s=draftFixture();s.phase=phase;s.agreements[0].status=status;const before=canonical(s);expect(viewFor(s,'p2').agreements).toEqual([]);expect(viewFor(s,'p0').agreements[0].offer).toBe(7);expect(viewFor(s,'p1').agreements[0].pledges).toHaveLength(2);expect(canonical(s)).toBe(before);});
+ it('final scoring does not implicitly reveal an unsigned private negotiation',()=>{const s=draftFixture();s.finished=true;s.phase='scoring';expect(viewFor(s,'p2').agreements).toEqual([]);});
+ it('signed public agreements remain inspectable',()=>{const s=draftFixture();s.agreements[0].status='signed';s.phase='actions';expect(viewFor(s,'p2').agreements[0].offer).toBe(7);});
+ it('projecting a real expired draft after phase transition preserves privacy',()=>{let s=draftFixture();for(const p of s.players)s=execute(s,{id:`ready-${p.id}`,player:p.id,type:'ready'});s=execute(s,{id:'award',player:'p0',type:'advance'});expect(s.agreements[0].status).toBe('withdrawn');expect(viewFor(s,'p2').agreements).toEqual([]);expect(viewFor(s,'p1').agreements).toHaveLength(1);});
+});

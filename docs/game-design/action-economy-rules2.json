@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "rounds": 8,
+  "actionsPerRound": 3,
+  "phases": [
+    "world",
+    "income",
+    "negotiation",
+    "actions",
+    "delivery",
+    "scoring"
+  ],
+  "rules": {
+    "acquire": {
+      "phase": "actions",
+      "cost": "market price",
+      "target": "good",
+      "cap": "storage 6; Redwood 8",
+      "visibility": "public"
+    },
+    "sell": {
+      "phase": "actions",
+      "cost": "one unreserved supply",
+      "target": "good",
+      "cap": "buyback at price minus 1, minimum 0",
+      "visibility": "public"
+    },
+    "bid": {
+      "phase": "negotiation",
+      "cost": "one action and 1 escrow",
+      "target": "open tender",
+      "cap": "one per house per tender; full resources reserved",
+      "visibility": "sealed until award"
+    },
+    "influence": {
+      "phase": "actions",
+      "cost": "1 action;2 money, reduced to1 when contacts>=2",
+      "target": "country",
+      "cap": "relationship 3",
+      "visibility": "public",
+      "resolution": "relationship+1(cap3),stability+1,legitimacy+1,pressure-1; tracks clamp0..6"
+    },
+    "network": {
+      "phase": "actions",
+      "cost": "2 money",
+      "target": "self",
+      "cap": "3 contacts / 3 logistics",
+      "visibility": "public"
+    },
+    "transport": {
+      "phase": "actions",
+      "cost": "one action; consumes reserved cargo",
+      "target": "awarded contract",
+      "cap": "once per contract",
+      "visibility": "public",
+      "resolution": "consume all cargo; integer revenue allocation and shared prestige by largest remainders; gray/black investigation; black/low-order seeded disruption; apply actual current leader policy"
+    },
+    "audit": {
+      "phase": "actions",
+      "cost": "1 money",
+      "target": "self",
+      "cap": "reduce investigation by 2; minimum 0",
+      "visibility": "public"
+    },
+    "unrest": {
+      "phase": "actions",
+      "cost": "3 money and +2 investigation; -1 reputation",
+      "target": "country",
+      "cap": "stability minus 2; demand plus 1; sanctions at stability 1",
+      "visibility": "public",
+      "resolution": "pressure+2,order-2,legitimacy-1,scrutiny+1,exposure+1; one shared crisis tender/country/round; sanctions at stability<=1 or exposure>=5; succession at stability0 or legitimacy0"
+    },
+    "consortium": {
+      "phase": "negotiation",
+      "cost": "proposer action and 1 escrow on final acceptance",
+      "target": "open tender",
+      "cap": "2..5 explicit signatures; each participant cargo+logistics>0; revenue and liability each100%; exact cargo and enough logistics; draft limit10",
+      "visibility": "participants; signed public"
+    },
+    "refinance": {
+      "phase": "actions",
+      "cost": "one action",
+      "target": "self",
+      "cap": "borrow 3 with debt capped at 9, or repay 3",
+      "visibility": "public"
+    },
+    "pass": {
+      "phase": "actions",
+      "cost": "one action",
+      "target": "self",
+      "cap": "no effect",
+      "visibility": "public"
+    },
+    "stabilize": {
+      "phase": "actions",
+      "cost": "1 action and2 money",
+      "target": "country with pressure>0,order<6,legitimacy<6,exposure>0 or stability<6",
+      "cap": "political tracks0..6",
+      "visibility": "public",
+      "resolution": "pressure-2,order+1,legitimacy+1,scrutiny-1,exposure-1,stability+1,reputation+1; sanctions clear when stability>=3 and exposure<5"
+    }
+  },
+  "interrupts": "No interrupt cards currently implemented; commands atomic.",
+  "catalogStatus": "Proposed metadata; not all proposed cards authored as executable effects.",
+  "rulesVersion": 2,
+  "status": "Candidate; balance screening and human playtests do not pass",
+  "legacy": "Absent rulesVersion preserves rules1. See action-economy.json and rulebook.md for legacy behavior."
+}

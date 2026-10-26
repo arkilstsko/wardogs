@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="redwood-title redwood-desc">
+<title id="redwood-title">Redwood Trading company emblem</title>
+<desc id="redwood-desc">A redwood canopy shelters a modest warehouse and its central cargo doorway.</desc>
+<g transform="scale(.375)"><rect x="1" y="1" width="62" height="62" rx="12" fill="#11171B"/>
+<g fill="none" stroke="#C5A56A" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"><path d="m21 8-8 12h5l-9 12h8l-8 12h24l-8-12h8l-9-12h5L21 8Z" fill="#C5A56A" stroke="none"/><path d="M21 36v17" stroke="#F4EBDD"/><path d="m32 32 12-8 12 8v21H32V32Z" stroke="#F4EBDD"/><path d="M40 53V41h8v12M35 35h18M12 54h44" stroke-width="3"/></g></g>
+</svg>

@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-26T05:02:35.727Z",
+  "passiveConsortiumParticipant": {
+    "pledge": {
+      "player": "p1",
+      "quantity": 0,
+      "logistics": 0,
+      "revenue": 1,
+      "liability": 0
+    },
+    "actionsBefore": 3,
+    "actionsAfter": 3,
+    "prestigeGained": 2,
+    "deliveriesGained": 1,
+    "coalitionsGained": 1,
+    "scoreGained": 2
+  },
+  "privateDraftVisibility": {
+    "duringNegotiation": 0,
+    "afterNegotiation": 1,
+    "revealedTerms": [
+      {
+        "id": "audit-8",
+        "tender": "r1-t0",
+        "proposer": "p0",
+        "offer": 7,
+        "pledges": [
+          {
+            "player": "p0",
+            "quantity": 1,
+            "logistics": 1,
+            "revenue": 99,
+            "liability": 100
+          },
+          {
+            "player": "p1",
+            "quantity": 0,
+            "logistics": 0,
+            "revenue": 1,
+            "liability": 0
+          }
+        ],
+        "accepted": [
+          "p0"
+        ],
+        "status": "withdrawn"
+      }
+    ]
+  },
+  "outsiderBeforeSigning": 0,
+  "objectivePairs": [
+    {
+      "firm": 0,
+      "objective": "legitimate",
+      "publicFirmRevealsObjective": true
+    },
+    {
+      "firm": 1,
+      "objective": "diplomat",
+      "publicFirmRevealsObjective": true
+    },
+    {
+      "firm": 2,
+      "objective": "consortium",
+      "publicFirmRevealsObjective": true
+    },
+    {
+      "firm": 3,
+      "objective": "legitimate",
+      "publicFirmRevealsObjective": true
+    },
+    {
+      "firm": 4,
+      "objective": "diplomat",
+      "publicFirmRevealsObjective": true
+    }
+  ],
+  "rejectedCommandPreservesState": true
+}

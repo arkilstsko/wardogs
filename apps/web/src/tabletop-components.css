@@ -1,0 +1,199 @@
+/* Shared tabletop component tokens. Existing table styles are being reconciled separately. */
+:root {
+ --surface-interactive: var(--panel);
+ --card-border: var(--brass);
+ --card-back: var(--charcoal);
+ --focus-ring: var(--brassHover);
+ --text-primary: var(--parchment);
+ --text-secondary: var(--muted);
+ --paper-ink: #292b24;
+ --shadow-card: 0 8px 18px #0005;
+ --motion-hover: 130ms;
+ --motion-select: 190ms;
+ --motion-move: 280ms;
+ --motion-reveal: 380ms;
+ --motion-event: 560ms;
+}
+.mat-house-heading { display:flex; align-items:center; gap:12px; }
+.mat-house-heading h2 { margin-bottom:8px; }
+.portrait.illustrated-portrait {
+ width:160px; height:auto; aspect-ratio:374/467; min-height:200px;
+ background-size:300% 300%; background-repeat:no-repeat;
+ border:1px solid var(--card-border); border-radius:6px;
+ position:relative; overflow:hidden; box-shadow:var(--shadow-card);
+}
+.illustrated-portrait>span {
+ position:absolute; bottom:0; left:0; right:0; padding:8px 4px;
+ background:var(--card-back); color:var(--text-primary); font-size:12px; letter-spacing:1px; text-align:center;
+}
+.leader-grid>button { padding:12px; gap:10px; }
+.leader-grid .portrait.gallery-portrait { width:100%; min-height:0; height:auto; margin:0; }
+.leader-grid .gallery-portrait>span { font-size:12px; }
+.leader-grid strong { font-family:Barlow, sans-serif; font-size:22px; }
+.leader-grid small,.leader-grid>button>span { font-size:14px; }
+.equipment-inspector { display:grid; grid-template-columns:252px minmax(0,1fr); gap:32px; align-items:start; }
+.inspection-card { width:252px; aspect-ratio:63/88; perspective:1000px; }
+.inspection-card-inner { width:100%; height:100%; position:relative; transform-style:preserve-3d; transition:transform var(--motion-reveal) ease; }
+.inspection-card.is-flipped .inspection-card-inner { transform:rotateY(180deg); }
+.inspection-front,.inspection-back { position:absolute; inset:0; border:1px solid var(--card-border); border-radius:10px; padding:16px; backface-visibility:hidden; box-shadow:var(--shadow-card); overflow:hidden; }
+.inspection-front { background:var(--paper); color:var(--paper-ink); }
+.inspection-front .eyebrow { color:var(--paper-ink); font-size:12px; letter-spacing:.3px; }
+.inspection-front .supply-art { height:130px; margin:12px -16px; border-radius:0; }
+.political-equipment .supply-art.illustrated { background-image:url('/art/equipment-triptych.png'); }
+.inspection-front h3 { font:700 25px/1.1 Barlow,sans-serif; margin-bottom:10px; }
+.inspection-front p { color:var(--paper-ink); font-size:14px; }
+.inspection-seal { display:flex; align-items:center; gap:12px; border-block:1px solid var(--card-border); padding:8px 0; }
+.inspection-seal span { font-size:12px; letter-spacing:1px; }
+.inspection-back { transform:rotateY(180deg); background:var(--card-back); color:var(--text-primary); display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; }
+.inspection-back h3 { font:700 30px Barlow,sans-serif; margin:24px 0 12px; }
+.inspection-rules h3 { font:700 28px Barlow,sans-serif; }
+.inspection-rules p,.inspection-rules dt,.inspection-rules dd { font-size:14px; line-height:1.6; }
+.inspection-rules dt { font-weight:700; color:var(--brassHover); margin-top:16px; }
+.inspection-rules dd { margin:4px 0 0; }
+.inspection-rules .modal-actions { flex-wrap:wrap; }
+.drop-invalid { outline:2px dashed var(--unrest); }
+@media(max-width:650px) {
+ .equipment-inspector { grid-template-columns:1fr; }
+ .inspection-card { margin:auto; }
+ .country-dossier { grid-template-columns:1fr; }
+ .portrait.illustrated-portrait { width:160px; margin:auto; }
+ .country-dossier p { font-size:14px; }
+}
+@media(prefers-reduced-motion:reduce) { :root { --motion-hover:0ms; --motion-select:0ms; --motion-move:0ms; --motion-reveal:0ms; --motion-event:0ms; } }
+/* Physical table arrangement: opponents across the far edge; atlas and tender rack inside the table. */
+@media(min-width:1000px) {
+ .game-shell { min-height:768px; height:100dvh; background:var(--walnut); }
+ .table-layout { display:grid; grid-template-columns:minmax(600px,1fr) 340px; grid-template-rows:112px minmax(0,1fr); gap:0; min-height:0; }
+ .houses { grid-column:1/-1; display:flex; gap:12px; padding:8px 16px; border-right:0; border-bottom:1px solid var(--brass); overflow-x:auto; overflow-y:hidden; background:var(--ink); }
+ .houses>.section-label,.houses>.world-event { display:none; }
+ .houses>.house { flex:1 0 156px; max-width:240px; height:96px; min-width:156px; margin:0; padding:8px 12px; border-radius:10px 10px 6px 6px; }
+ .house-heading { gap:8px; }
+ .house-heading>img { width:32px; height:32px; }
+ .house-heading strong { font-size:14px; }
+ .house-heading small { font-size:12px; letter-spacing:0; margin-top:2px; }
+ .house-resources { margin:6px 0; }
+ .action-pips { padding-top:5px; }
+ .action-pips small { font-size:12px; letter-spacing:0; }
+ .house.acting:before { top:auto; left:12px; right:12px; bottom:-4px; width:auto; height:3px; }
+ .houses>.dashed-button { flex:0 0 136px; align-self:center; margin:0; min-height:52px; font-size:14px; }
+ .houses>.text-button { align-self:center; max-width:104px; margin:0; font-size:14px; }
+ .world-board { margin:12px 0 12px 16px; border:8px solid var(--walnut); border-radius:10px; padding:16px; background:var(--parchment); color:var(--paper-ink); box-shadow:inset 0 0 0 1px var(--brass),0 5px 12px #0005; }
+ .world-board:after { opacity:.2; }
+ .board-top h1 { color:var(--ink); font-size:32px; }
+ .world-board .eyebrow { color:var(--walnut); font-size:12px; }
+ .board-sub { color:var(--walnut); font-size:14px; }
+ .map-key { color:var(--ink); background:var(--paper); border-color:var(--walnut); font-size:14px; }
+ .world-board .deck-row { left:20px; top:94px; gap:12px; }
+ .deck { background:var(--walnut); color:var(--parchment); border-color:var(--brass); width:56px; height:78px; box-shadow:3px 4px 0 var(--ink); }
+ .deck span { font-size:10px; letter-spacing:0; }
+ .deck small { display:none; }
+ .world-board .board-legend { display:none; }
+ .map-wrapper { flex:1; min-height:0; margin:0 -8px; }
+ .world-map { height:100%; max-height:100%; min-height:0; }
+ .land { fill:#677164; fill-opacity:.74; stroke:var(--walnut); stroke-opacity:.45; stroke-width:.7; }
+ .country-target text { fill:var(--ink); stroke:var(--parchment); font-size:12px; }
+
+ .country-target circle:not(.target-hit) { fill:var(--brass); stroke:var(--ink); }
+ .trade-route { stroke:var(--walnut); opacity:.4; }
+ .ocean-label,.map-coordinate { fill:var(--walnut); }
+ .board-bottom { margin:0 0 12px; color:var(--ink); }
+ .selected-country button { color:var(--ink); font-size:16px; }
+ .selected-country small,.stability>span { color:var(--walnut); font-size:12px; }
+ .selected-country .portrait { width:42px; min-height:0; height:52px; border-radius:4px; }
+ .selected-country .portrait>span { display:none; }
+ .stability .on { background:var(--walnut); }
+ .phase-prompt { background:var(--charcoal); border-color:var(--brass); padding:12px; min-height:64px; }
+ .phase-prompt p { color:var(--parchment); font-size:14px; }
+ .phase-prompt strong { font-size:14px; }
+ .market-sidebar { min-height:0; padding:12px; background:var(--walnut); border:0; }
+ .market-sidebar>.section-label,.market-panel>.section-label { color:var(--parchment); font-size:12px; }
+ .tender-scroll { max-height:none; flex:1; min-height:100px; padding:2px 4px 8px; }
+ .tender { border-color:var(--brass); box-shadow:2px 4px 0 #11171b66; border-radius:6px; }
+ .tender>strong { font-size:20px; }
+ .tender .cargo-require { font-size:14px; }
+ .tender-foot { font-size:12px; }
+ .tender-top>span:first-child { font-size:14px; }
+ .tender .tag { font-size:12px; }
+ .market-panel { border-top:1px solid var(--brass); padding-top:12px; }
+ .market-row { background:var(--charcoal); border-radius:6px; margin-bottom:4px; padding:8px; font-size:14px; }
+ .market-row small { font-size:12px; }
+ .player-mat { height:220px; min-height:220px; grid-template-columns:280px minmax(280px,1fr) 330px; padding:16px 20px; gap:20px; background:var(--charcoal); border-top:2px solid var(--brass); }
+ .hand { height:164px; min-height:0; align-items:center; padding:2px 10px 8px; }
+ .supply-card { width:108px; height:151px; padding:8px; box-shadow:var(--shadow-card); }
+ .supply-card strong { font-size:16px; }
+ .supply-art.illustrated { flex:1; }
+ .supply-card .stamp,.supply-card .card-line { display:none; }
+ .supply-card .card-kicker { font-size:10px; }
+ .quick-actions button { font-size:14px; }
+ .quick-actions small { font-size:12px; }
+ .minor-actions button { font-size:12px; }
+ .player-mat .section-label { font-size:12px; }
+ .hand-hint { display:none; }
+ .mat-secondary,.mat-secondary button,.player-stats>div>span { font-size:12px; }
+ .statusbar { background:var(--ink); }
+}
+@media(min-width:1600px) {
+ .table-layout { grid-template-columns:minmax(800px,1fr) 380px; grid-template-rows:124px minmax(0,1fr); }
+ .houses { justify-content:center; gap:24px; padding:12px 24px; }
+ .world-board { margin-left:24px; padding:20px; }
+ .world-board .deck-row { top:100px; left:24px; }
+ .player-mat { height:248px; min-height:248px; grid-template-columns:310px minmax(380px,1fr) 380px; }
+ .hand { height:190px; }
+ .supply-card { width:126px; height:176px; }
+ .supply-card strong { font-size:18px; }
+ .house-heading strong { font-size:16px; }
+ .house-resources>span { font-size:16px; }
+}
+.atlas-surface { position:relative; flex:1; min-height:150px; display:flex; }
+.atlas-surface .map-wrapper { width:100%; flex:1; margin:0; }
+.atlas-controls { position:absolute; top:6px; right:0; z-index:3; display:flex; gap:4px; }
+.atlas-controls button { min-height:32px; padding:6px 10px; font-size:12px; background:var(--paper); color:var(--ink); border-color:var(--walnut); }
+.atlas-controls button[aria-pressed=true] { background:var(--walnut); color:var(--paper); }
+.atlas-country-select { position:absolute; bottom:8px; right:0; max-width:220px; z-index:3; margin:0; gap:4px; font-size:12px; color:var(--walnut); }
+.atlas-country-select select { padding:6px 8px; min-height:36px; background:var(--paper); color:var(--ink); font-size:12px; border-color:var(--walnut); }
+.hand-controls { display:flex; justify-content:space-between; align-items:center; gap:8px; margin:-2px 0 8px; }
+.hand-controls button { min-height:28px; padding:4px 8px; font-size:12px; }
+.hand-controls>span { font-size:12px; color:var(--muted); }
+.hand-card-slot { flex-shrink:0; position:relative; transition:margin var(--motion-move),transform var(--motion-select); transform-origin:center bottom; }
+.fanned-hand .hand-card-slot:nth-child(3n+1) { rotate:-3deg; }
+.fanned-hand .hand-card-slot:nth-child(3n+2) { rotate:2deg; }
+.fanned-hand .hand-card-slot+.hand-card-slot { margin-left:-26px; }
+.hand-card-slot:hover,.hand-card-slot:focus-within { rotate:0deg; z-index:2; }
+.hand-card-slot:has(.selected) { z-index:1; }
+.stacked-hand .hand-card-slot { box-shadow:3px 3px 0 var(--parchment),6px 6px 0 var(--brass); border-radius:6px; }
+.stack-count { position:absolute; top:6px; right:6px; display:grid; place-items:center; width:26px; height:26px; border:1px solid var(--walnut); border-radius:50%; background:var(--ink); color:var(--paper); font-size:16px; font-weight:700; }
+.hand .supply-card { position:relative; }
+.hand .supply-card.dragging { opacity:.25; transform:none!important; }
+.drag-card-overlay { width:126px; height:176px; background:var(--paper); color:var(--ink); border:2px solid var(--brass); border-radius:10px; padding:10px; box-shadow:var(--shadow-card); rotate:4deg; display:flex; flex-direction:column; gap:10px; }
+.drag-card-overlay strong { font-family:Barlow,sans-serif; font-size:20px; }
+.drag-card-overlay .supply-art { flex:1; }
+@media(min-width:1000px) { .hand { height:148px; } .hand-controls>span { display:none; } }
+@media(min-width:1600px) { .hand { height:172px; } .hand-controls>span { display:block; } }
+@media(max-width:999px) { .atlas-controls { position:relative; flex-wrap:wrap; } .atlas-surface { flex-direction:column; min-height:300px; } .atlas-country-select { bottom:0; } }
+@media(min-width:1000px) {
+ .world-board .atlas-surface { position:absolute; inset:52px 20px 66px; min-height:0; display:block; z-index:0; }
+ .atlas-surface .map-wrapper { height:100%; width:100%; }
+ .atlas-surface .world-map { height:100%; width:100%; max-height:none; }
+ .atlas-controls { top:6px; right:0; }
+ .atlas-country-select { bottom:8px; right:0; }
+ .world-board .board-bottom { margin-top:auto; }
+ .world-board .board-top { pointer-events:none; }
+ .world-board .board-top button { pointer-events:auto; }
+ .board-top,.board-bottom,.phase-prompt { z-index:2; }
+ .world-board .deck-row { pointer-events:none; }
+ .world-board .deck-row button { pointer-events:auto; }
+}
+@media(min-width:1000px) { .board-top .map-key { display:none; } .atlas-country-select { bottom:52px; } }
+.action-reference dt { margin-top:16px; font-weight:700; color:var(--brassHover); }
+.action-reference dd { margin:4px 0 0; font-size:14px; line-height:1.6; }
+.drop-hint { display:block; padding:8px; margin-bottom:8px; background:var(--ink); color:var(--paper); border-radius:6px; font-size:14px; }
+/* Compact laptops keep the contract readable and avoid collisions between deck and dossier pieces. */
+@media(min-width:1000px) and (max-height:850px) {
+ .world-board .board-bottom,.world-board .board-sub,.world-board .atlas-country-select { display:none; }
+ .world-board .phase-prompt { margin-top:auto; }
+ .world-board .deck-row { top:78px; }
+ .world-board .atlas-surface { inset:42px 20px 72px; }
+ .market-panel .market-row { display:none; }
+ .market-panel { flex-shrink:0; }
+ .market-sidebar .tender-scroll { min-height:150px; }
+}

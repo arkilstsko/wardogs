@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26T06:55:42.054Z",
+  "rulesVersion": 2,
+  "environment": "Node24 in managed cloud container; not a representative laptop/browser",
+  "samples": 343,
+  "p50ReducerMs": 0.290143000000171,
+  "p95ReducerMs": 1.053809999999885,
+  "maxReducerMs": 2.414310000000114,
+  "serializedBytes": 59420,
+  "replayImportMeanMs": 109.10208439999994,
+  "limitations": [
+    "No FPS measurement",
+    "No screen-reader verification",
+    "No Safari/Firefox/Edge hardware measurements",
+    "IndexedDB wall-clock save latency not profiled; browser smoke test only"
+  ]
+}

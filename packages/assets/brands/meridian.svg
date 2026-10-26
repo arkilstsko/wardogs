@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="meridian-title meridian-desc">
+<title id="meridian-title">Meridian &amp; Co. company emblem</title>
+<desc id="meridian-desc">A compass diamond follows an offset trade route with three cargo waypoints.</desc>
+<rect x="1" y="1" width="62" height="62" rx="12" fill="#11171B"/>
+<g fill="none" stroke="#C5A56A" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 45V21h24"/><path d="m23 19 9-10 9 10-9 18-9-18Z" fill="#C5A56A" stroke="#C5A56A"/><path d="m32 14 0 15 5-10-5-5Z" fill="#11171B" stroke="none"/><path d="M26 45h19V30" stroke="#F4EBDD"/><circle cx="16" cy="45" r="3" fill="#F4EBDD" stroke="none"/><circle cx="26" cy="45" r="3" fill="#C5A56A" stroke="none"/><circle cx="45" cy="30" r="3" fill="#F4EBDD" stroke="none"/></g>
+</svg>

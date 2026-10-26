@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img" aria-labelledby="atlas-title atlas-desc">
+<title id="atlas-title">Atlas Cooperative company emblem</title>
+<desc id="atlas-desc">Two offset structural arches share a central keystone and linked foundations, representing a negotiated consortium.</desc>
+<g transform="scale(.375)"><rect x="1" y="1" width="62" height="62" rx="12" fill="#11171B"/>
+<g fill="none" stroke="#C5A56A" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 49V29a15 15 0 0 1 30 0v20"/><path d="M21 49V34a15 15 0 0 1 30 0v15" stroke="#F4EBDD"/><path d="m27 16 5-5 5 5-5 5-5-5Z" fill="#F4EBDD" stroke="none"/><path d="M10 50h16M38 50h16M26 40h12"/><path d="M28 40v10h8V40" stroke="#F4EBDD" stroke-width="3"/></g></g>
+</svg>

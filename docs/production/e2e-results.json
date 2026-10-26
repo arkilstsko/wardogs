@@ -3,7 +3,8 @@
     "argv": [
       "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
       "/workspace/wardogs/node_modules/.bin/playwright",
-      "test"
+      "test",
+      "--workers=1"
     ],
     "configFile": "/workspace/wardogs/playwright.config.ts",
     "rootDir": "/workspace/wardogs/tests/e2e",
@@ -94,10 +95,128 @@
     "updateSnapshots": "default",
     "updateSourceMethod": "patch",
     "version": "1.64.1",
-    "workers": 2,
+    "workers": 1,
     "webServer": null
   },
   "suites": [
+    {
+      "title": "cards.spec.ts",
+      "file": "cards.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "equipment inspection, flip, return and selection never commit cargo; fictional portraits load",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21835,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T07:05:07.448Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bcd05545df9e4f3c3981-5538f19a9ae4d6725699",
+          "file": "cards.spec.ts",
+          "line": 2,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "remediation.spec.ts",
+      "file": "remediation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "invalid scenario input reports an error without throwing an event-handler exception",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4564,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T07:05:31.210Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0d05ebcea0ae69581659-ad30ca817b4a1233a066",
+          "file": "remediation.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "online seat inspection preserves identity and remote updates preserve editor context",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17244,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-26T07:05:35.852Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0d05ebcea0ae69581659-b9b1ad14cb662b3d27b5",
+          "file": "remediation.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
     {
       "title": "table.spec.ts",
       "file": "table.spec.ts",
@@ -105,12 +224,12 @@
       "line": 0,
       "specs": [
         {
-          "title": "title, setup, phases, accessible country, save/load and complete eight-round local game",
+          "title": "title, setup, keyboard country, save/load restoration and complete eight-round autoplay game",
           "ok": true,
           "tags": [],
           "tests": [
             {
-              "timeout": 90000,
+              "timeout": 180000,
               "annotations": [],
               "expectedStatus": "passed",
               "projectId": "",
@@ -120,12 +239,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 28907,
+                  "duration": 39835,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-26T03:37:07.854Z",
+                  "startTime": "2026-10-26T07:05:53.195Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -133,13 +252,13 @@
               "status": "expected"
             }
           ],
-          "id": "544711e0cdb2ec46ff99-24ae5603a81e6927a8ce",
+          "id": "544711e0cdb2ec46ff99-2d73592c5c47f019d189",
           "file": "table.spec.ts",
           "line": 2,
           "column": 1
         },
         {
-          "title": "1920 and narrow viewports, tutorial keyboard, Danish settings and invalid move feedback",
+          "title": "1920 and narrow viewports, Danish heading and reduced-motion setting",
           "ok": true,
           "tags": [],
           "tests": [
@@ -154,12 +273,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4662,
+                  "duration": 6258,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-26T03:37:38.114Z",
+                  "startTime": "2026-10-26T07:06:33.107Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -167,9 +286,9 @@
               "status": "expected"
             }
           ],
-          "id": "544711e0cdb2ec46ff99-9786fa75311516960c20",
+          "id": "544711e0cdb2ec46ff99-23032fbbad62bd77fc40",
           "file": "table.spec.ts",
-          "line": 19,
+          "line": 22,
           "column": 1
         }
       ]
@@ -177,9 +296,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-26T03:37:03.036Z",
-    "duration": 40019.573,
-    "expected": 2,
+    "startTime": "2026-10-26T07:05:03.085Z",
+    "duration": 96644.486,
+    "expected": 5,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

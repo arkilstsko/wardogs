@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-26T05:04:10.256Z",
+  "room": "audit-1792991039125",
+  "players": 3,
+  "dialogBeforeOtherPlayerReady": 1,
+  "dialogAfterOtherPlayerReady": 0,
+  "onlineOpponentClickCreatesHotseatCurtain": true,
+  "errors": []
+}

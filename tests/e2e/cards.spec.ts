@@ -1,0 +1,30 @@
+import {test,expect} from '@playwright/test';
+test('equipment inspection, flip, return and selection never commit cargo; fictional portraits load',async({page})=>{
+ const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.setViewportSize({width:1440,height:900});await page.goto('/');
+ await page.getByRole('button',{name:'Take your seat'}).click();await page.getByLabel('Play mode').selectOption('local');await page.getByRole('button',{name:'Take your seat'}).click();
+ const hand=page.locator('.hand');const before=await hand.locator('.supply-card').count();
+ const source=(await hand.locator('.supply-card').first().boundingBox())!,target=page.locator('.tender-scroll .tender').first(),destination=(await target.boundingBox())!;
+ await page.mouse.move(source.x+source.width/2,source.y+source.height/2);await page.mouse.down();await page.mouse.move(source.x+source.width/2+12,source.y+source.height/2-12,{steps:3});await page.mouse.move(destination.x+destination.width/2,destination.y+destination.height/2,{steps:15});await expect(target).toHaveClass(/drop-invalid/);await page.mouse.up();
+ await expect(page.getByRole('alert')).toContainText('Cargo type does not match');expect(await hand.locator('.supply-card').count()).toBe(before);await page.getByRole('button',{name:'Dismiss error',exact:true}).click();
+ await page.getByRole('button',{name:'Stack by equipment',exact:true}).click();await expect(hand.locator('.supply-card')).toHaveCount(1);await expect(page.getByLabel('2 cards in stack')).toBeVisible();
+ await page.getByRole('button',{name:'Fan cards',exact:true}).click();await expect(hand.locator('.supply-card')).toHaveCount(before);
+ await hand.locator('.supply-card').first().focus();await page.keyboard.press('Enter');
+ await expect(page.getByRole('heading',{name:'Equipment card',exact:true})).toBeVisible();
+ await expect(page.getByText('Acquire / Player Actions',{exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'Flip card',exact:true}).click();await expect(page.locator('.inspection-card')).toHaveClass(/is-flipped/);
+ await page.getByRole('button',{name:'Flip card',exact:true}).click();
+ await page.screenshot({path:'docs/audits/evidence/current-equipment-1440.png'});
+ await page.getByRole('button',{name:'Return to hand',exact:true}).click();expect(await hand.locator('.supply-card').count()).toBe(before);
+ await hand.locator('.supply-card').first().click();await page.getByRole('button',{name:'Select for contract',exact:true}).click();await expect(hand.locator('.selected')).toHaveCount(1);expect(await hand.locator('.supply-card').count()).toBe(before);
+ await page.getByRole('button',{name:'Europe',exact:true}).click();await expect(page.getByRole('button',{name:'Europe',exact:true})).toHaveAttribute('aria-pressed','true');
+ await page.getByRole('button',{name:'Denmark, stability 3, demand 2'}).focus();await page.keyboard.press('Enter');
+ const portrait=page.getByRole('dialog').getByRole('img',{name:/Illustration of fictional leader/});await expect(portrait).toBeVisible();
+ const imageLoaded=await portrait.evaluate(async el=>{const url=getComputedStyle(el).backgroundImage.slice(5,-2);const img=new Image();img.src=url;await img.decode();return img.naturalWidth>1000;});expect(imageLoaded).toBe(true);
+ await expect(page.getByLabel('Political token tracks')).toBeVisible();await page.screenshot({path:'docs/audits/evidence/current-country-1440.png'});
+ await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'World',exact:true}).click();
+ await expect(page.locator('.toast[role=status]')).toBeHidden({timeout:6000});
+ for(const [width,height] of [[1440,900],[1920,1080],[1366,768]]){await page.setViewportSize({width,height});const rect=await page.locator('.player-mat').boundingBox();expect(rect!.y).toBeGreaterThan(0);expect(rect!.y+rect!.height).toBeLessThanOrEqual(height);await page.screenshot({path:`docs/audits/evidence/current-table-${width}.png`});}
+ expect(errors).toEqual([]);
+});
